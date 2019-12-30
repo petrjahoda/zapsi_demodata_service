@@ -747,3 +747,83 @@
 2019-12-30 11:14:52.054   CNC 3   INF   Offline -> 11 of 150
 2019-12-30 11:14:52.054   CNC 3   INF   Processing takes 474.855µs
 2019-12-30 11:14:52.054   CNC 3   INF   Sleeping for 9.999411337s
+2019-12-30 11:41:04.009   CNC 3   INF   Device started running
+2019-12-30 11:41:04.009   CNC 3   INF   Device directory exists
+2019-12-30 11:41:04.009   CNC 3   INF   Production -> 0 of 300
+2019-12-30 11:41:04.067   CNC 3   INF   Processing takes 57.695897ms
+2019-12-30 11:41:04.067   CNC 3   INF   Sleeping for 9.942182794s
+2019-12-30 11:41:14.010   CNC 3   INF   Device still active
+2019-12-30 11:41:14.010   CNC 3   INF   Production -> 1 of 300
+2019-12-30 11:41:14.084   CNC 3   INF   Processing takes 73.67408ms
+2019-12-30 11:41:14.084   CNC 3   INF   Sleeping for 9.926206274s
+2019-12-30 11:41:29.459   CNC 3   INF   Device started running
+2019-12-30 11:41:29.459   CNC 3   INF   Device directory exists
+2019-12-30 11:41:29.459   CNC 3   INF   Production -> 0 of 300
+2019-12-30 11:41:29.533   CNC 3   INF   Processing takes 73.911765ms
+2019-12-30 11:41:29.533   CNC 3   INF   Sleeping for 9.925895252s
+2019-12-30 11:41:39.460   CNC 3   INF   Device still active
+2019-12-30 11:41:39.460   CNC 3   INF   Production -> 1 of 300
+2019-12-30 11:41:39.562   CNC 3   INF   Processing takes 101.731491ms
+2019-12-30 11:41:39.562   CNC 3   INF   Sleeping for 9.898147826s
+2019-12-30 11:41:49.461   CNC 3   INF   Device still active
+2019-12-30 11:41:49.461   CNC 3   INF   Production -> 2 of 300
+2019-12-30 11:41:49.545   CNC 3   INF   Processing takes 83.780054ms
+2019-12-30 11:41:49.545   CNC 3   INF   Sleeping for 9.916110298s
+2019-12-30 11:41:59.461   CNC 3   INF   Device still active
+2019-12-30 11:41:59.462   CNC 3   INF   Production -> 3 of 300
+2019-12-30 11:41:59.570   CNC 3   INF   Processing takes 108.646182ms
+2019-12-30 11:41:59.571   CNC 3   INF   Sleeping for 9.891128913s
+2019-12-30 11:42:09.467   CNC 3   INF   Device still active
+2019-12-30 11:42:09.467   CNC 3   INF   Production -> 4 of 300
+2019-12-30 11:42:09.541   CNC 3   INF   Processing takes 74.552881ms
+2019-12-30 11:42:09.541   CNC 3   INF   Sleeping for 9.925348276s
+2019-12-30 11:42:19.467   CNC 3   INF   Device still active
+2019-12-30 11:42:19.468   CNC 3   INF   Production -> 5 of 300
+2019-12-30 11:42:19.544   CNC 3   INF   Processing takes 76.554708ms
+2019-12-30 11:42:19.544   CNC 3   INF   Sleeping for 9.92334062s
+2019-12-30 11:42:29.469   CNC 3   INF   Device still active
+2019-12-30 11:42:29.469   CNC 3   INF   Production -> 6 of 300
+2019-12-30 11:42:29.619   CNC 3   INF   Processing takes 149.845962ms
+2019-12-30 11:42:29.619   CNC 3   INF   Sleeping for 9.849706554s
+2019-12-30 11:42:39.471   CNC 3   INF   Device still active
+2019-12-30 11:42:39.471   CNC 3   INF   Production -> 7 of 300
+2019-12-30 11:42:39.531   CNC 3   INF   Processing takes 59.34943ms
+2019-12-30 11:42:39.531   CNC 3   INF   Sleeping for 9.940516132s
+2019-12-30 11:42:49.474   CNC 3   INF   Device still active
+2019-12-30 11:42:49.475   CNC 3   INF   Production -> 8 of 300
+2019-12-30 11:42:49.566   CNC 3   INF   Processing takes 92.652891ms
+2019-12-30 11:42:49.566   CNC 3   INF   Sleeping for 9.907232857s
+2019-12-30 11:42:59.476   CNC 3   INF   Device still active
+2019-12-30 11:42:59.476   CNC 3   INF   Production -> 9 of 300
+2019-12-30 11:43:00.069   CNC 3   INF   Processing takes 592.588228ms
+2019-12-30 11:43:00.069   CNC 3   INF   Sleeping for 9.40723314s
+2019-12-30 11:43:09.481   CNC 3   INF   Device still active
+2019-12-30 11:43:09.481   CNC 3   INF   Production -> 10 of 300
+2019-12-30 11:43:09.878   CNC 3   INF   Processing takes 396.086567ms
+2019-12-30 11:43:09.878   CNC 3   INF   Sleeping for 9.603295253s
+2019-12-30 11:43:19.487   CNC 3   INF   Device still active
+2019-12-30 11:43:19.487   CNC 3   INF   Production -> 11 of 300
+2019-12-30 11:43:19.701   CNC 3   INF   Processing takes 213.843096ms
+2019-12-30 11:43:19.701   CNC 3   INF   Sleeping for 9.785997766s
+2019-12-30 11:43:29.492   CNC 3   INF   Device still active
+2019-12-30 11:43:29.492   CNC 3   INF   Production -> 12 of 300
+2019-12-30 11:43:29.684   CNC 3   INF   Processing takes 191.984507ms
+2019-12-30 11:43:29.684   CNC 3   INF   Sleeping for 9.807829206s
+2019-12-30 11:43:39.492   CNC 3   INF   Device still active
+2019-12-30 11:43:39.493   CNC 3   INF   Production -> 13 of 300
+2019-12-30 11:43:39.774   CNC 3   INF   Processing takes 280.539564ms
+2019-12-30 11:43:39.774   CNC 3   INF   Sleeping for 9.718846546s
+2019-12-30 11:43:49.493   CNC 3   INF   Device still active
+2019-12-30 11:43:49.494   CNC 3   INF   Production -> 14 of 300
+2019-12-30 11:43:49.676   CNC 3   INF   Processing takes 182.774299ms
+2019-12-30 11:43:49.677   CNC 3   INF   Sleeping for 9.817089147s
+2019-12-30 11:43:59.495   CNC 3   INF   Device still active
+2019-12-30 11:43:59.496   CNC 3   INF   Production -> 15 of 300
+2019-12-30 11:43:59.575   CNC 3   INF   Processing takes 79.478469ms
+2019-12-30 11:43:59.576   CNC 3   INF   Sleeping for 9.920014399s
+2019-12-30 11:44:09.498   CNC 3   INF   Device still active
+2019-12-30 11:44:09.498   CNC 3   INF   Production -> 16 of 300
+2019-12-30 11:44:09.570   CNC 3   INF   Processing takes 71.975141ms
+2019-12-30 11:44:09.570   CNC 3   INF   Sleeping for 9.927924874s
+2019-12-30 11:44:19.502   CNC 3   INF   Device not active
+2019-12-30 11:44:19.502   CNC 3   INF   Device not active, stopped running

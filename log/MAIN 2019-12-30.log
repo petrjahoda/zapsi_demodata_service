@@ -1417,3 +1417,86 @@
 2019-12-30 11:14:51.584   MAIN   INF   Program running
 2019-12-30 11:14:52.160   MAIN   INF   Active devices: 20, running devices: 20
 2019-12-30 11:14:52.160   MAIN   INF   Sleeping for 9.423286949s
+2019-12-30 11:41:03.559   MAIN   INF   Program version 2019.4.3.30 started
+2019-12-30 11:41:03.559   MAIN   INF   Program running
+2019-12-30 11:41:04.009   MAIN   INF   Active devices: 20, running devices: 0
+2019-12-30 11:41:04.009   MAIN   INF   Sleeping for 9.550430417s
+2019-12-30 11:41:13.562   MAIN   INF   Program running
+2019-12-30 11:41:14.150   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:41:14.150   MAIN   INF   Sleeping for 9.412152903s
+2019-12-30 11:41:28.961   MAIN   INF   Program version 2019.4.3.30 started
+2019-12-30 11:41:28.962   MAIN   INF   Program running
+2019-12-30 11:41:29.458   MAIN   INF   Active devices: 20, running devices: 0
+2019-12-30 11:41:29.459   MAIN   INF   Sleeping for 9.502915125s
+2019-12-30 11:41:38.966   MAIN   INF   Program running
+2019-12-30 11:41:39.553   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:41:39.553   MAIN   INF   Sleeping for 9.41308841s
+2019-12-30 11:41:48.968   MAIN   INF   Program running
+2019-12-30 11:41:49.657   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:41:49.657   MAIN   INF   Sleeping for 9.310802595s
+2019-12-30 11:41:58.971   MAIN   INF   Program running
+2019-12-30 11:42:00.153   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:42:00.153   MAIN   INF   Sleeping for 8.817390825s
+2019-12-30 11:42:08.975   MAIN   INF   Program running
+2019-12-30 11:42:09.444   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:42:09.444   MAIN   INF   Sleeping for 9.530394321s
+2019-12-30 11:42:18.981   MAIN   INF   Program running
+2019-12-30 11:42:19.444   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:42:19.444   MAIN   INF   Sleeping for 9.536088888s
+2019-12-30 11:42:28.985   MAIN   INF   Program running
+2019-12-30 11:42:29.854   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:42:29.854   MAIN   INF   Sleeping for 9.130847555s
+2019-12-30 11:42:38.988   MAIN   INF   Program running
+2019-12-30 11:42:39.459   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:42:39.459   MAIN   INF   Sleeping for 9.528976577s
+2019-12-30 11:42:48.992   MAIN   INF   Program running
+2019-12-30 11:42:49.614   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:42:49.614   MAIN   INF   Sleeping for 9.377904447s
+2019-12-30 11:42:58.997   MAIN   INF   Program running
+2019-12-30 11:43:01.324   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:43:01.324   MAIN   INF   Sleeping for 7.673207111s
+2019-12-30 11:43:09.001   MAIN   INF   Program running
+2019-12-30 11:43:10.510   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:43:10.510   MAIN   INF   Sleeping for 8.490935538s
+2019-12-30 11:43:19.006   MAIN   INF   Program running
+2019-12-30 11:43:20.173   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:43:20.173   MAIN   INF   Sleeping for 8.832155251s
+2019-12-30 11:43:29.009   MAIN   INF   Program running
+2019-12-30 11:43:30.165   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:43:30.165   MAIN   INF   Sleeping for 8.843416813s
+2019-12-30 11:43:39.013   MAIN   INF   Program running
+2019-12-30 11:43:40.306   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:43:40.306   MAIN   INF   Sleeping for 8.706140227s
+2019-12-30 11:43:49.017   MAIN   INF   Program running
+2019-12-30 11:43:50.148   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:43:50.149   MAIN   INF   Sleeping for 8.86788621s
+2019-12-30 11:43:59.019   MAIN   INF   Program running
+2019-12-30 11:43:59.772   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:43:59.772   MAIN   INF   Sleeping for 9.246768197s
+2019-12-30 11:44:09.022   MAIN   INF   Program running
+2019-12-30 11:44:09.520   MAIN   INF   Active devices: 20, running devices: 20
+2019-12-30 11:44:09.520   MAIN   INF   Sleeping for 9.50147406s
+2019-12-30 11:44:19.024   MAIN   INF   Program running
+2019-12-30 11:44:19.027   MAIN   WRN   Database zapsi4 does not exist
+2019-12-30 11:44:19.029   MAIN   ERR   Problem opening postgres database: pq: the database system is shutting down
+2019-12-30 11:44:19.032   MAIN   ERR   Problem opening postgres database: pq: the database system is shutting down
+2019-12-30 11:44:19.034   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2019-12-30 11:44:19.036   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2019-12-30 11:44:19.036   MAIN   INF   Active devices: 0, running devices: 20
+2019-12-30 11:44:19.036   MAIN   INF   Sleeping for 9.987677259s
+2019-12-30 11:44:29.026   MAIN   INF   Program running
+2019-12-30 11:44:29.027   MAIN   WRN   Database zapsi4 does not exist
+2019-12-30 11:44:29.027   MAIN   ERR   Problem opening postgres database: dial tcp 127.0.0.1:5432: connect: connection refused
+2019-12-30 11:44:29.028   MAIN   ERR   Problem opening postgres database: dial tcp 127.0.0.1:5432: connect: connection refused
+2019-12-30 11:44:29.029   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2019-12-30 11:44:29.029   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2019-12-30 11:44:29.030   MAIN   INF   Active devices: 0, running devices: 0
+2019-12-30 11:44:29.030   MAIN   INF   Sleeping for 9.996004317s
+2019-12-30 11:44:39.028   MAIN   INF   Program running
+2019-12-30 11:44:39.032   MAIN   WRN   Database zapsi4 does not exist
+2019-12-30 11:44:39.033   MAIN   ERR   Problem opening postgres database: dial tcp 127.0.0.1:5432: connect: connection refused
+2019-12-30 11:44:39.034   MAIN   ERR   Problem opening postgres database: dial tcp 127.0.0.1:5432: connect: connection refused
+2019-12-30 11:44:39.035   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2019-12-30 11:44:39.035   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2019-12-30 11:44:39.036   MAIN   INF   Active devices: 0, running devices: 0
+2019-12-30 11:44:39.036   MAIN   INF   Sleeping for 9.992420913s

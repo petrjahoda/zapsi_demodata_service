@@ -85,7 +85,6 @@ func (device Device) GenerateProductionData() {
 	recordToInsert := DeviceAnalogRecord{DateTime: timeToInsert, Data: float32(randomNumber), DevicePortId: analogPort.ID, Interval: float32(10)}
 	db.NewRecord(recordToInsert)
 	db.Create(&recordToInsert)
-
 	analogPort.ActualData = strconv.Itoa(randomNumber)
 	analogPort.ActualDataDateTime = timeToInsert
 	db.Save(&analogPort)
