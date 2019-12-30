@@ -1,0 +1,749 @@
+2019-12-30 08:58:50.550   CNC 16   INF   Device created
+2019-12-30 09:01:29.231   CNC 16   INF   Device created
+2019-12-30 09:03:14.923   CNC 16   INF   Device created
+2019-12-30 09:05:44.354   CNC 16   INF   Device created
+2019-12-30 09:07:13.053   CNC 16   INF   Device created
+2019-12-30 09:08:30.533   CNC 16   INF   Device created
+2019-12-30 09:08:47.450   CNC 16   INF   Device created
+2019-12-30 09:11:46.555   CNC 16   INF   Workplace created
+2019-12-30 09:11:46.576   CNC 16   INF   Production workplace port created
+2019-12-30 09:11:46.581   CNC 16   INF   Amperafe workplace port created
+2019-12-30 09:11:46.762   CNC 16   INF   Device created
+2019-12-30 09:11:46.765   CNC 16   INF   Digital port created
+2019-12-30 09:11:46.770   CNC 16   INF   Analog port created
+2019-12-30 09:21:45.541   CNC 16   INF   Device started running
+2019-12-30 09:21:45.542   CNC 16   WRN   Device directory not exist, creating
+2019-12-30 09:21:45.542   CNC 16   INF   Device directory created
+2019-12-30 09:21:45.542   CNC 16   INF   Production -> 0 of 300
+2019-12-30 09:21:45.620   CNC 16   INF   Processing takes 77.822782ms
+2019-12-30 09:21:45.620   CNC 16   INF   Sleeping for 9.922053922s
+2019-12-30 09:25:13.260   CNC 16   INF   Device started running
+2019-12-30 09:25:13.261   CNC 16   INF   Device directory exists
+2019-12-30 09:25:13.261   CNC 16   INF   Downtime -> 0 of 150
+2019-12-30 09:25:13.333   CNC 16   INF   Processing takes 72.254177ms
+2019-12-30 09:25:13.333   CNC 16   INF   Sleeping for 9.927632257s
+2019-12-30 09:25:23.261   CNC 16   INF   Device still active
+2019-12-30 09:25:23.262   CNC 16   INF   Downtime -> 1 of 150
+2019-12-30 09:25:23.340   CNC 16   INF   Processing takes 78.422219ms
+2019-12-30 09:25:23.340   CNC 16   INF   Sleeping for 9.921439784s
+2019-12-30 09:25:33.262   CNC 16   INF   Device still active
+2019-12-30 09:25:33.262   CNC 16   INF   Downtime -> 2 of 150
+2019-12-30 09:25:33.351   CNC 16   INF   Processing takes 89.039821ms
+2019-12-30 09:25:33.351   CNC 16   INF   Sleeping for 9.910836717s
+2019-12-30 09:26:12.802   CNC 16   INF   Device started running
+2019-12-30 09:26:12.803   CNC 16   INF   Device directory exists
+2019-12-30 09:26:12.803   CNC 16   INF   Offline -> 0 of 150
+2019-12-30 09:26:12.803   CNC 16   INF   Processing takes 92.779µs
+2019-12-30 09:26:12.803   CNC 16   INF   Sleeping for 9.999825838s
+2019-12-30 09:26:22.804   CNC 16   INF   Device still active
+2019-12-30 09:26:22.804   CNC 16   INF   Offline -> 1 of 150
+2019-12-30 09:26:22.804   CNC 16   INF   Processing takes 127.565µs
+2019-12-30 09:26:22.804   CNC 16   INF   Sleeping for 9.99974096s
+2019-12-30 09:26:32.804   CNC 16   INF   Device still active
+2019-12-30 09:26:32.804   CNC 16   INF   Offline -> 2 of 150
+2019-12-30 09:26:32.804   CNC 16   INF   Processing takes 88.649µs
+2019-12-30 09:26:32.805   CNC 16   INF   Sleeping for 9.999822614s
+2019-12-30 09:26:42.805   CNC 16   INF   Device still active
+2019-12-30 09:26:42.806   CNC 16   INF   Offline -> 3 of 150
+2019-12-30 09:26:42.806   CNC 16   INF   Processing takes 377.006µs
+2019-12-30 09:26:42.807   CNC 16   INF   Sleeping for 9.999080826s
+2019-12-30 09:26:52.806   CNC 16   INF   Device still active
+2019-12-30 09:26:52.806   CNC 16   INF   Offline -> 4 of 150
+2019-12-30 09:26:52.807   CNC 16   INF   Processing takes 335.57µs
+2019-12-30 09:26:52.807   CNC 16   INF   Sleeping for 9.999321718s
+2019-12-30 09:27:02.807   CNC 16   INF   Device still active
+2019-12-30 09:27:02.807   CNC 16   INF   Offline -> 5 of 150
+2019-12-30 09:27:02.808   CNC 16   INF   Processing takes 321.584µs
+2019-12-30 09:27:02.808   CNC 16   INF   Sleeping for 9.999504503s
+2019-12-30 09:27:12.809   CNC 16   INF   Device still active
+2019-12-30 09:27:12.809   CNC 16   INF   Offline -> 6 of 150
+2019-12-30 09:27:12.809   CNC 16   INF   Processing takes 447.098µs
+2019-12-30 09:27:12.810   CNC 16   INF   Sleeping for 9.999434936s
+2019-12-30 09:27:22.813   CNC 16   INF   Device still active
+2019-12-30 09:27:22.813   CNC 16   INF   Offline -> 7 of 150
+2019-12-30 09:27:22.813   CNC 16   INF   Processing takes 194.68µs
+2019-12-30 09:27:22.813   CNC 16   INF   Sleeping for 9.999593782s
+2019-12-30 09:27:32.813   CNC 16   INF   Device still active
+2019-12-30 09:27:32.814   CNC 16   INF   Offline -> 8 of 150
+2019-12-30 09:27:32.814   CNC 16   INF   Processing takes 117.088µs
+2019-12-30 09:27:32.814   CNC 16   INF   Sleeping for 9.999734201s
+2019-12-30 09:27:42.815   CNC 16   INF   Device still active
+2019-12-30 09:27:42.816   CNC 16   INF   Offline -> 9 of 150
+2019-12-30 09:27:42.816   CNC 16   INF   Processing takes 825.107µs
+2019-12-30 09:27:42.817   CNC 16   INF   Sleeping for 9.998999159s
+2019-12-30 09:27:52.820   CNC 16   INF   Device still active
+2019-12-30 09:27:52.821   CNC 16   INF   Offline -> 10 of 150
+2019-12-30 09:27:52.823   CNC 16   INF   Processing takes 305.36µs
+2019-12-30 09:27:52.823   CNC 16   INF   Sleeping for 9.99776612s
+2019-12-30 09:28:02.826   CNC 16   INF   Device still active
+2019-12-30 09:28:02.827   CNC 16   INF   Offline -> 11 of 150
+2019-12-30 09:28:02.827   CNC 16   INF   Processing takes 910.227µs
+2019-12-30 09:28:02.827   CNC 16   INF   Sleeping for 9.998902826s
+2019-12-30 09:28:12.828   CNC 16   INF   Device still active
+2019-12-30 09:28:12.828   CNC 16   INF   Offline -> 12 of 150
+2019-12-30 09:28:12.828   CNC 16   INF   Processing takes 106.048µs
+2019-12-30 09:28:12.828   CNC 16   INF   Sleeping for 9.999613047s
+2019-12-30 09:28:22.829   CNC 16   INF   Device still active
+2019-12-30 09:28:22.829   CNC 16   INF   Offline -> 13 of 150
+2019-12-30 09:28:22.830   CNC 16   INF   Processing takes 313.249µs
+2019-12-30 09:28:22.830   CNC 16   INF   Sleeping for 9.999163406s
+2019-12-30 09:28:32.832   CNC 16   INF   Device still active
+2019-12-30 09:28:32.832   CNC 16   INF   Offline -> 14 of 150
+2019-12-30 09:28:32.833   CNC 16   INF   Processing takes 254.959µs
+2019-12-30 09:28:32.833   CNC 16   INF   Sleeping for 9.999262883s
+2019-12-30 09:28:42.833   CNC 16   INF   Device still active
+2019-12-30 09:28:42.834   CNC 16   INF   Offline -> 15 of 150
+2019-12-30 09:28:42.834   CNC 16   INF   Processing takes 214.844µs
+2019-12-30 09:28:42.834   CNC 16   INF   Sleeping for 9.999669233s
+2019-12-30 09:28:52.834   CNC 16   INF   Device still active
+2019-12-30 09:28:52.834   CNC 16   INF   Offline -> 16 of 150
+2019-12-30 09:28:52.834   CNC 16   INF   Processing takes 129.739µs
+2019-12-30 09:28:52.834   CNC 16   INF   Sleeping for 9.999655276s
+2019-12-30 09:29:02.834   CNC 16   INF   Device still active
+2019-12-30 09:29:02.835   CNC 16   INF   Offline -> 17 of 150
+2019-12-30 09:29:02.835   CNC 16   INF   Processing takes 303.933µs
+2019-12-30 09:29:02.835   CNC 16   INF   Sleeping for 9.999336807s
+2019-12-30 09:29:12.836   CNC 16   INF   Device still active
+2019-12-30 09:29:12.836   CNC 16   INF   Offline -> 18 of 150
+2019-12-30 09:29:12.836   CNC 16   INF   Processing takes 104.385µs
+2019-12-30 09:29:12.836   CNC 16   INF   Sleeping for 9.999797639s
+2019-12-30 09:29:22.837   CNC 16   INF   Device still active
+2019-12-30 09:29:22.837   CNC 16   INF   Offline -> 19 of 150
+2019-12-30 09:29:22.837   CNC 16   INF   Processing takes 127.862µs
+2019-12-30 09:29:22.837   CNC 16   INF   Sleeping for 9.999765671s
+2019-12-30 09:29:32.838   CNC 16   INF   Device still active
+2019-12-30 09:29:32.839   CNC 16   INF   Offline -> 20 of 150
+2019-12-30 09:29:32.839   CNC 16   INF   Processing takes 550.035µs
+2019-12-30 09:29:32.839   CNC 16   INF   Sleeping for 9.999247388s
+2019-12-30 09:29:42.840   CNC 16   INF   Device still active
+2019-12-30 09:29:42.840   CNC 16   INF   Offline -> 21 of 150
+2019-12-30 09:29:42.840   CNC 16   INF   Processing takes 289.165µs
+2019-12-30 09:29:42.840   CNC 16   INF   Sleeping for 9.999573483s
+2019-12-30 09:29:52.840   CNC 16   INF   Device still active
+2019-12-30 09:29:52.841   CNC 16   INF   Offline -> 22 of 150
+2019-12-30 09:29:52.841   CNC 16   INF   Processing takes 168.383µs
+2019-12-30 09:29:52.841   CNC 16   INF   Sleeping for 9.999708473s
+2019-12-30 09:30:02.841   CNC 16   INF   Device still active
+2019-12-30 09:30:02.841   CNC 16   INF   Offline -> 23 of 150
+2019-12-30 09:30:02.841   CNC 16   INF   Processing takes 223.335µs
+2019-12-30 09:30:02.843   CNC 16   INF   Sleeping for 9.998852675s
+2019-12-30 09:30:12.844   CNC 16   INF   Device still active
+2019-12-30 09:30:12.844   CNC 16   INF   Offline -> 24 of 150
+2019-12-30 09:30:12.844   CNC 16   INF   Processing takes 120.317µs
+2019-12-30 09:30:12.844   CNC 16   INF   Sleeping for 9.999781514s
+2019-12-30 09:30:22.844   CNC 16   INF   Device still active
+2019-12-30 09:30:22.844   CNC 16   INF   Offline -> 25 of 150
+2019-12-30 09:30:22.848   CNC 16   INF   Processing takes 93.091µs
+2019-12-30 09:30:22.848   CNC 16   INF   Sleeping for 9.996551567s
+2019-12-30 09:30:32.849   CNC 16   INF   Device still active
+2019-12-30 09:30:32.849   CNC 16   INF   Offline -> 26 of 150
+2019-12-30 09:30:32.849   CNC 16   INF   Processing takes 99.436µs
+2019-12-30 09:30:32.849   CNC 16   INF   Sleeping for 9.999808193s
+2019-12-30 09:30:42.849   CNC 16   INF   Device still active
+2019-12-30 09:30:42.850   CNC 16   INF   Offline -> 27 of 150
+2019-12-30 09:30:42.850   CNC 16   INF   Processing takes 509.443µs
+2019-12-30 09:30:42.850   CNC 16   INF   Sleeping for 9.999399125s
+2019-12-30 09:30:52.849   CNC 16   INF   Device still active
+2019-12-30 09:30:52.849   CNC 16   INF   Offline -> 28 of 150
+2019-12-30 09:30:52.850   CNC 16   INF   Processing takes 107.912µs
+2019-12-30 09:30:52.850   CNC 16   INF   Sleeping for 9.999810249s
+2019-12-30 09:31:02.850   CNC 16   INF   Device still active
+2019-12-30 09:31:02.850   CNC 16   INF   Offline -> 29 of 150
+2019-12-30 09:31:02.850   CNC 16   INF   Processing takes 159.678µs
+2019-12-30 09:31:02.850   CNC 16   INF   Sleeping for 9.999711766s
+2019-12-30 09:31:12.853   CNC 16   INF   Device still active
+2019-12-30 09:31:12.854   CNC 16   INF   Offline -> 30 of 150
+2019-12-30 09:31:12.854   CNC 16   INF   Processing takes 167.684µs
+2019-12-30 09:31:12.854   CNC 16   INF   Sleeping for 9.999730389s
+2019-12-30 09:31:22.854   CNC 16   INF   Device still active
+2019-12-30 09:31:22.854   CNC 16   INF   Offline -> 31 of 150
+2019-12-30 09:31:22.855   CNC 16   INF   Processing takes 371.223µs
+2019-12-30 09:31:22.855   CNC 16   INF   Sleeping for 9.999527308s
+2019-12-30 09:31:32.856   CNC 16   INF   Device still active
+2019-12-30 09:31:32.857   CNC 16   INF   Offline -> 32 of 150
+2019-12-30 09:31:32.858   CNC 16   INF   Processing takes 1.064914ms
+2019-12-30 09:31:32.858   CNC 16   INF   Sleeping for 9.99876638s
+2019-12-30 09:31:42.857   CNC 16   INF   Device still active
+2019-12-30 09:31:42.857   CNC 16   INF   Offline -> 33 of 150
+2019-12-30 09:31:42.857   CNC 16   INF   Processing takes 231.938µs
+2019-12-30 09:31:42.857   CNC 16   INF   Sleeping for 9.999618344s
+2019-12-30 09:31:52.859   CNC 16   INF   Device still active
+2019-12-30 09:31:52.859   CNC 16   INF   Offline -> 34 of 150
+2019-12-30 09:31:52.860   CNC 16   INF   Processing takes 289.687µs
+2019-12-30 09:31:52.860   CNC 16   INF   Sleeping for 9.999445812s
+2019-12-30 09:32:02.863   CNC 16   INF   Device still active
+2019-12-30 09:32:02.863   CNC 16   INF   Offline -> 35 of 150
+2019-12-30 09:32:02.863   CNC 16   INF   Processing takes 341.017µs
+2019-12-30 09:32:02.863   CNC 16   INF   Sleeping for 9.999477981s
+2019-12-30 09:32:12.865   CNC 16   INF   Device still active
+2019-12-30 09:32:12.865   CNC 16   INF   Offline -> 36 of 150
+2019-12-30 09:32:12.866   CNC 16   INF   Processing takes 337.109µs
+2019-12-30 09:32:12.866   CNC 16   INF   Sleeping for 9.999480268s
+2019-12-30 09:32:22.866   CNC 16   INF   Device still active
+2019-12-30 09:32:22.867   CNC 16   INF   Offline -> 37 of 150
+2019-12-30 09:32:22.867   CNC 16   INF   Processing takes 290.611µs
+2019-12-30 09:32:22.867   CNC 16   INF   Sleeping for 9.999493757s
+2019-12-30 09:32:32.871   CNC 16   INF   Device still active
+2019-12-30 09:32:32.871   CNC 16   INF   Offline -> 38 of 150
+2019-12-30 09:32:32.871   CNC 16   INF   Processing takes 243.058µs
+2019-12-30 09:32:32.871   CNC 16   INF   Sleeping for 9.999439869s
+2019-12-30 09:32:42.871   CNC 16   INF   Device still active
+2019-12-30 09:32:42.872   CNC 16   INF   Offline -> 39 of 150
+2019-12-30 09:32:42.872   CNC 16   INF   Processing takes 429.76µs
+2019-12-30 09:32:42.873   CNC 16   INF   Sleeping for 9.999225019s
+2019-12-30 09:32:52.875   CNC 16   INF   Device still active
+2019-12-30 09:32:52.875   CNC 16   INF   Offline -> 40 of 150
+2019-12-30 09:32:52.875   CNC 16   INF   Processing takes 223.277µs
+2019-12-30 09:32:52.876   CNC 16   INF   Sleeping for 9.999661427s
+2019-12-30 09:33:02.879   CNC 16   INF   Device still active
+2019-12-30 09:33:02.879   CNC 16   INF   Offline -> 41 of 150
+2019-12-30 09:33:02.880   CNC 16   INF   Processing takes 179.551µs
+2019-12-30 09:33:02.880   CNC 16   INF   Sleeping for 9.999234734s
+2019-12-30 09:33:12.880   CNC 16   INF   Device still active
+2019-12-30 09:33:12.880   CNC 16   INF   Offline -> 42 of 150
+2019-12-30 09:33:12.880   CNC 16   INF   Processing takes 166.524µs
+2019-12-30 09:33:12.880   CNC 16   INF   Sleeping for 9.999673179s
+2019-12-30 09:33:22.880   CNC 16   INF   Device still active
+2019-12-30 09:33:22.880   CNC 16   INF   Offline -> 43 of 150
+2019-12-30 09:33:22.881   CNC 16   INF   Processing takes 314.885µs
+2019-12-30 09:33:22.881   CNC 16   INF   Sleeping for 9.999009988s
+2019-12-30 09:33:32.881   CNC 16   INF   Device still active
+2019-12-30 09:33:32.882   CNC 16   INF   Offline -> 44 of 150
+2019-12-30 09:33:32.882   CNC 16   INF   Processing takes 738.872µs
+2019-12-30 09:33:32.882   CNC 16   INF   Sleeping for 9.999152815s
+2019-12-30 09:33:42.885   CNC 16   INF   Device still active
+2019-12-30 09:33:42.885   CNC 16   INF   Offline -> 45 of 150
+2019-12-30 09:33:42.885   CNC 16   INF   Processing takes 279.618µs
+2019-12-30 09:33:42.885   CNC 16   INF   Sleeping for 9.999430304s
+2019-12-30 09:33:52.888   CNC 16   INF   Device still active
+2019-12-30 09:33:52.889   CNC 16   INF   Offline -> 46 of 150
+2019-12-30 09:33:52.890   CNC 16   INF   Processing takes 680.905µs
+2019-12-30 09:33:52.890   CNC 16   INF   Sleeping for 9.998449061s
+2019-12-30 09:34:02.890   CNC 16   INF   Device still active
+2019-12-30 09:34:02.891   CNC 16   INF   Offline -> 47 of 150
+2019-12-30 09:34:02.891   CNC 16   INF   Processing takes 187.113µs
+2019-12-30 09:34:02.891   CNC 16   INF   Sleeping for 9.999708672s
+2019-12-30 09:34:12.894   CNC 16   INF   Device still active
+2019-12-30 09:34:12.894   CNC 16   INF   Offline -> 48 of 150
+2019-12-30 09:34:12.894   CNC 16   INF   Processing takes 129.574µs
+2019-12-30 09:34:12.894   CNC 16   INF   Sleeping for 9.999745141s
+2019-12-30 09:34:22.897   CNC 16   INF   Device still active
+2019-12-30 09:34:22.897   CNC 16   INF   Offline -> 49 of 150
+2019-12-30 09:34:22.898   CNC 16   INF   Processing takes 99.36µs
+2019-12-30 09:34:22.898   CNC 16   INF   Sleeping for 9.999786811s
+2019-12-30 09:34:33.296   CNC 16   INF   Device still active
+2019-12-30 09:34:33.296   CNC 16   INF   Offline -> 50 of 150
+2019-12-30 09:34:33.296   CNC 16   INF   Processing takes 84.778µs
+2019-12-30 09:34:33.296   CNC 16   INF   Sleeping for 9.999803343s
+2019-12-30 09:34:43.298   CNC 16   INF   Device still active
+2019-12-30 09:34:43.298   CNC 16   INF   Offline -> 51 of 150
+2019-12-30 09:34:43.298   CNC 16   INF   Processing takes 317.577µs
+2019-12-30 09:34:43.298   CNC 16   INF   Sleeping for 9.999373553s
+2019-12-30 09:34:53.302   CNC 16   INF   Device still active
+2019-12-30 09:34:53.302   CNC 16   INF   Offline -> 52 of 150
+2019-12-30 09:34:53.302   CNC 16   INF   Processing takes 187.316µs
+2019-12-30 09:34:53.303   CNC 16   INF   Sleeping for 9.999729188s
+2019-12-30 09:35:03.304   CNC 16   INF   Device still active
+2019-12-30 09:35:03.305   CNC 16   INF   Offline -> 53 of 150
+2019-12-30 09:35:03.305   CNC 16   INF   Processing takes 531.825µs
+2019-12-30 09:35:03.305   CNC 16   INF   Sleeping for 9.999284917s
+2019-12-30 09:35:13.310   CNC 16   INF   Device still active
+2019-12-30 09:35:13.311   CNC 16   INF   Offline -> 54 of 150
+2019-12-30 09:35:13.311   CNC 16   INF   Processing takes 765.48µs
+2019-12-30 09:35:13.311   CNC 16   INF   Sleeping for 9.99906752s
+2019-12-30 09:35:23.314   CNC 16   INF   Device still active
+2019-12-30 09:35:23.314   CNC 16   INF   Offline -> 55 of 150
+2019-12-30 09:35:23.314   CNC 16   INF   Processing takes 266.828µs
+2019-12-30 09:35:23.315   CNC 16   INF   Sleeping for 9.999280051s
+2019-12-30 09:35:33.317   CNC 16   INF   Device still active
+2019-12-30 09:35:33.317   CNC 16   INF   Offline -> 56 of 150
+2019-12-30 09:35:33.317   CNC 16   INF   Processing takes 120.007µs
+2019-12-30 09:35:33.317   CNC 16   INF   Sleeping for 9.999787488s
+2019-12-30 09:35:43.319   CNC 16   INF   Device still active
+2019-12-30 09:35:43.319   CNC 16   INF   Offline -> 57 of 150
+2019-12-30 09:35:43.319   CNC 16   INF   Processing takes 347.585µs
+2019-12-30 09:35:43.320   CNC 16   INF   Sleeping for 9.99935649s
+2019-12-30 09:35:53.322   CNC 16   INF   Device still active
+2019-12-30 09:35:53.322   CNC 16   INF   Offline -> 58 of 150
+2019-12-30 09:35:53.323   CNC 16   INF   Processing takes 361.936µs
+2019-12-30 09:35:53.323   CNC 16   INF   Sleeping for 9.999173801s
+2019-12-30 09:36:03.326   CNC 16   INF   Device still active
+2019-12-30 09:36:03.326   CNC 16   INF   Offline -> 59 of 150
+2019-12-30 09:36:03.327   CNC 16   INF   Processing takes 514.587µs
+2019-12-30 09:36:03.328   CNC 16   INF   Sleeping for 9.998361801s
+2019-12-30 09:36:13.326   CNC 16   INF   Device still active
+2019-12-30 09:36:13.327   CNC 16   INF   Offline -> 60 of 150
+2019-12-30 09:36:13.327   CNC 16   INF   Processing takes 472.793µs
+2019-12-30 09:36:13.327   CNC 16   INF   Sleeping for 9.999293541s
+2019-12-30 09:36:23.332   CNC 16   INF   Device still active
+2019-12-30 09:36:23.332   CNC 16   INF   Offline -> 61 of 150
+2019-12-30 09:36:23.332   CNC 16   INF   Processing takes 295.446µs
+2019-12-30 09:36:23.332   CNC 16   INF   Sleeping for 9.999472736s
+2019-12-30 09:36:33.337   CNC 16   INF   Device still active
+2019-12-30 09:36:33.338   CNC 16   INF   Offline -> 62 of 150
+2019-12-30 09:36:33.338   CNC 16   INF   Processing takes 403.299µs
+2019-12-30 09:36:33.338   CNC 16   INF   Sleeping for 9.999178811s
+2019-12-30 09:36:43.340   CNC 16   INF   Device still active
+2019-12-30 09:36:43.340   CNC 16   INF   Offline -> 63 of 150
+2019-12-30 09:36:43.341   CNC 16   INF   Processing takes 458.868µs
+2019-12-30 09:36:43.341   CNC 16   INF   Sleeping for 9.999314289s
+2019-12-30 09:36:53.346   CNC 16   INF   Device still active
+2019-12-30 09:36:53.346   CNC 16   INF   Offline -> 64 of 150
+2019-12-30 09:36:53.346   CNC 16   INF   Processing takes 368.175µs
+2019-12-30 09:36:53.347   CNC 16   INF   Sleeping for 9.999378597s
+2019-12-30 09:37:03.346   CNC 16   INF   Device still active
+2019-12-30 09:37:03.347   CNC 16   INF   Offline -> 65 of 150
+2019-12-30 09:37:03.347   CNC 16   INF   Processing takes 346.529µs
+2019-12-30 09:37:03.347   CNC 16   INF   Sleeping for 9.999571256s
+2019-12-30 09:37:13.350   CNC 16   INF   Device still active
+2019-12-30 09:37:13.350   CNC 16   INF   Offline -> 66 of 150
+2019-12-30 09:37:13.351   CNC 16   INF   Processing takes 617.129µs
+2019-12-30 09:37:13.352   CNC 16   INF   Sleeping for 9.999115413s
+2019-12-30 09:37:23.351   CNC 16   INF   Device still active
+2019-12-30 09:37:23.352   CNC 16   INF   Offline -> 67 of 150
+2019-12-30 09:37:23.352   CNC 16   INF   Processing takes 293.045µs
+2019-12-30 09:37:23.352   CNC 16   INF   Sleeping for 9.999550399s
+2019-12-30 09:38:59.951   CNC 16   INF   Device started running
+2019-12-30 09:38:59.951   CNC 16   INF   Device directory exists
+2019-12-30 09:38:59.951   CNC 16   INF   Offline -> 0 of 150
+2019-12-30 09:38:59.951   CNC 16   INF   Processing takes 164.503µs
+2019-12-30 09:38:59.952   CNC 16   INF   Sleeping for 9.999741254s
+2019-12-30 09:39:09.953   CNC 16   INF   Device still active
+2019-12-30 09:39:09.953   CNC 16   INF   Offline -> 1 of 150
+2019-12-30 09:39:09.954   CNC 16   INF   Processing takes 130.826µs
+2019-12-30 09:39:09.954   CNC 16   INF   Sleeping for 9.999607802s
+2019-12-30 09:39:19.958   CNC 16   INF   Device still active
+2019-12-30 09:39:19.958   CNC 16   INF   Offline -> 2 of 150
+2019-12-30 09:39:19.959   CNC 16   INF   Processing takes 717.872µs
+2019-12-30 09:39:19.959   CNC 16   INF   Sleeping for 9.999106553s
+2019-12-30 09:39:29.963   CNC 16   INF   Device still active
+2019-12-30 09:39:29.964   CNC 16   INF   Offline -> 3 of 150
+2019-12-30 09:39:29.965   CNC 16   INF   Processing takes 1.111211ms
+2019-12-30 09:39:29.965   CNC 16   INF   Sleeping for 9.998489238s
+2019-12-30 09:39:39.967   CNC 16   INF   Device still active
+2019-12-30 09:39:39.967   CNC 16   INF   Offline -> 4 of 150
+2019-12-30 09:39:39.967   CNC 16   INF   Processing takes 243.146µs
+2019-12-30 09:39:39.967   CNC 16   INF   Sleeping for 9.99963601s
+2019-12-30 09:39:49.967   CNC 16   INF   Device still active
+2019-12-30 09:39:49.968   CNC 16   INF   Offline -> 5 of 150
+2019-12-30 09:39:49.968   CNC 16   INF   Processing takes 310.138µs
+2019-12-30 09:39:49.969   CNC 16   INF   Sleeping for 9.999231546s
+2019-12-30 09:39:59.968   CNC 16   INF   Device still active
+2019-12-30 09:39:59.968   CNC 16   INF   Offline -> 6 of 150
+2019-12-30 09:39:59.968   CNC 16   INF   Processing takes 87.373µs
+2019-12-30 09:39:59.968   CNC 16   INF   Sleeping for 9.999769694s
+2019-12-30 09:40:09.969   CNC 16   INF   Device still active
+2019-12-30 09:40:09.969   CNC 16   INF   Offline -> 7 of 150
+2019-12-30 09:40:09.969   CNC 16   INF   Processing takes 345.689µs
+2019-12-30 09:40:09.969   CNC 16   INF   Sleeping for 9.999528078s
+2019-12-30 09:40:19.975   CNC 16   INF   Device still active
+2019-12-30 09:40:19.976   CNC 16   INF   Offline -> 8 of 150
+2019-12-30 09:40:19.976   CNC 16   INF   Processing takes 318.827µs
+2019-12-30 09:40:19.976   CNC 16   INF   Sleeping for 9.998966192s
+2019-12-30 09:40:29.977   CNC 16   INF   Device still active
+2019-12-30 09:40:29.977   CNC 16   INF   Offline -> 9 of 150
+2019-12-30 09:40:29.977   CNC 16   INF   Processing takes 311.367µs
+2019-12-30 09:40:29.977   CNC 16   INF   Sleeping for 9.999527133s
+2019-12-30 09:40:39.980   CNC 16   INF   Device still active
+2019-12-30 09:40:39.980   CNC 16   INF   Offline -> 10 of 150
+2019-12-30 09:40:39.982   CNC 16   INF   Processing takes 586.704µs
+2019-12-30 09:40:39.982   CNC 16   INF   Sleeping for 9.998205998s
+2019-12-30 09:40:49.985   CNC 16   INF   Device still active
+2019-12-30 09:40:49.986   CNC 16   INF   Offline -> 11 of 150
+2019-12-30 09:40:49.986   CNC 16   INF   Processing takes 779.441µs
+2019-12-30 09:40:49.986   CNC 16   INF   Sleeping for 9.998976695s
+2019-12-30 09:40:59.987   CNC 16   INF   Device still active
+2019-12-30 09:40:59.987   CNC 16   INF   Offline -> 12 of 150
+2019-12-30 09:40:59.987   CNC 16   INF   Processing takes 222.935µs
+2019-12-30 09:40:59.987   CNC 16   INF   Sleeping for 9.999672062s
+2019-12-30 09:41:09.990   CNC 16   INF   Device still active
+2019-12-30 09:41:09.991   CNC 16   INF   Offline -> 13 of 150
+2019-12-30 09:41:09.991   CNC 16   INF   Processing takes 134.125µs
+2019-12-30 09:41:09.991   CNC 16   INF   Sleeping for 9.999734165s
+2019-12-30 09:41:19.992   CNC 16   INF   Device still active
+2019-12-30 09:41:19.992   CNC 16   INF   Offline -> 14 of 150
+2019-12-30 09:41:19.992   CNC 16   INF   Processing takes 76.852µs
+2019-12-30 09:41:19.992   CNC 16   INF   Sleeping for 9.999822183s
+2019-12-30 09:41:29.992   CNC 16   INF   Device still active
+2019-12-30 09:41:29.992   CNC 16   INF   Offline -> 15 of 150
+2019-12-30 09:41:29.992   CNC 16   INF   Processing takes 108.282µs
+2019-12-30 09:41:29.992   CNC 16   INF   Sleeping for 9.999801058s
+2019-12-30 09:41:39.993   CNC 16   INF   Device still active
+2019-12-30 09:41:39.993   CNC 16   INF   Offline -> 16 of 150
+2019-12-30 09:41:39.993   CNC 16   INF   Processing takes 376.933µs
+2019-12-30 09:41:39.993   CNC 16   INF   Sleeping for 9.999487114s
+2019-12-30 09:41:49.993   CNC 16   INF   Device still active
+2019-12-30 09:41:49.994   CNC 16   INF   Offline -> 17 of 150
+2019-12-30 09:41:49.995   CNC 16   INF   Processing takes 94.086µs
+2019-12-30 09:41:49.995   CNC 16   INF   Sleeping for 9.998815209s
+2019-12-30 09:41:59.997   CNC 16   INF   Device still active
+2019-12-30 09:41:59.997   CNC 16   INF   Offline -> 18 of 150
+2019-12-30 09:41:59.997   CNC 16   INF   Processing takes 146.37µs
+2019-12-30 09:41:59.997   CNC 16   INF   Sleeping for 9.9997288s
+2019-12-30 09:42:09.997   CNC 16   INF   Device still active
+2019-12-30 09:42:09.997   CNC 16   INF   Offline -> 19 of 150
+2019-12-30 09:42:09.997   CNC 16   INF   Processing takes 167.479µs
+2019-12-30 09:42:09.997   CNC 16   INF   Sleeping for 9.999751517s
+2019-12-30 09:42:20.000   CNC 16   INF   Device still active
+2019-12-30 09:42:20.000   CNC 16   INF   Offline -> 20 of 150
+2019-12-30 09:42:20.000   CNC 16   INF   Processing takes 88.773µs
+2019-12-30 09:42:20.000   CNC 16   INF   Sleeping for 9.999854682s
+2019-12-30 09:42:30.003   CNC 16   INF   Device still active
+2019-12-30 09:42:30.003   CNC 16   INF   Offline -> 21 of 150
+2019-12-30 09:42:30.003   CNC 16   INF   Processing takes 360.576µs
+2019-12-30 09:42:30.003   CNC 16   INF   Sleeping for 9.999372779s
+2019-12-30 09:42:40.003   CNC 16   INF   Device still active
+2019-12-30 09:42:40.003   CNC 16   INF   Offline -> 22 of 150
+2019-12-30 09:42:40.004   CNC 16   INF   Processing takes 542.84µs
+2019-12-30 09:42:40.005   CNC 16   INF   Sleeping for 9.998728794s
+2019-12-30 09:42:50.005   CNC 16   INF   Device still active
+2019-12-30 09:42:50.006   CNC 16   INF   Offline -> 23 of 150
+2019-12-30 09:42:50.007   CNC 16   INF   Processing takes 1.710449ms
+2019-12-30 09:42:50.007   CNC 16   INF   Sleeping for 9.997662571s
+2019-12-30 09:43:00.006   CNC 16   INF   Device still active
+2019-12-30 09:43:00.006   CNC 16   INF   Offline -> 24 of 150
+2019-12-30 09:43:00.006   CNC 16   INF   Processing takes 120.348µs
+2019-12-30 09:43:00.006   CNC 16   INF   Sleeping for 9.99971273s
+2019-12-30 09:43:10.011   CNC 16   INF   Device still active
+2019-12-30 09:43:10.012   CNC 16   INF   Offline -> 25 of 150
+2019-12-30 09:43:10.012   CNC 16   INF   Processing takes 469.817µs
+2019-12-30 09:43:10.012   CNC 16   INF   Sleeping for 9.999315961s
+2019-12-30 09:43:20.012   CNC 16   INF   Device still active
+2019-12-30 09:43:20.012   CNC 16   INF   Offline -> 26 of 150
+2019-12-30 09:43:20.012   CNC 16   INF   Processing takes 102.263µs
+2019-12-30 09:43:20.012   CNC 16   INF   Sleeping for 9.999707202s
+2019-12-30 09:43:30.015   CNC 16   INF   Device still active
+2019-12-30 09:43:30.015   CNC 16   INF   Offline -> 27 of 150
+2019-12-30 09:43:30.016   CNC 16   INF   Processing takes 178.079µs
+2019-12-30 09:43:30.016   CNC 16   INF   Sleeping for 9.99969526s
+2019-12-30 09:43:40.016   CNC 16   INF   Device still active
+2019-12-30 09:43:40.017   CNC 16   INF   Offline -> 28 of 150
+2019-12-30 09:43:40.018   CNC 16   INF   Processing takes 713.221µs
+2019-12-30 09:43:40.018   CNC 16   INF   Sleeping for 9.99880173s
+2019-12-30 09:43:50.017   CNC 16   INF   Device still active
+2019-12-30 09:43:50.017   CNC 16   INF   Offline -> 29 of 150
+2019-12-30 09:43:50.018   CNC 16   INF   Processing takes 76.71µs
+2019-12-30 09:43:50.018   CNC 16   INF   Sleeping for 9.999842511s
+2019-12-30 09:44:00.020   CNC 16   INF   Device still active
+2019-12-30 09:44:00.020   CNC 16   INF   Offline -> 30 of 150
+2019-12-30 09:44:00.020   CNC 16   INF   Processing takes 154.752µs
+2019-12-30 09:44:00.020   CNC 16   INF   Sleeping for 9.999647116s
+2019-12-30 09:44:10.020   CNC 16   INF   Device still active
+2019-12-30 09:44:10.020   CNC 16   INF   Offline -> 31 of 150
+2019-12-30 09:44:10.020   CNC 16   INF   Processing takes 83.152µs
+2019-12-30 09:44:10.020   CNC 16   INF   Sleeping for 9.999768352s
+2019-12-30 09:44:20.020   CNC 16   INF   Device still active
+2019-12-30 09:44:20.021   CNC 16   INF   Offline -> 32 of 150
+2019-12-30 09:44:20.021   CNC 16   INF   Processing takes 79.695µs
+2019-12-30 09:44:20.021   CNC 16   INF   Sleeping for 9.999835046s
+2019-12-30 09:44:30.021   CNC 16   INF   Device still active
+2019-12-30 09:44:30.021   CNC 16   INF   Offline -> 33 of 150
+2019-12-30 09:44:30.021   CNC 16   INF   Processing takes 102.782µs
+2019-12-30 09:44:30.021   CNC 16   INF   Sleeping for 9.999777916s
+2019-12-30 09:44:40.021   CNC 16   INF   Device still active
+2019-12-30 09:44:40.022   CNC 16   INF   Offline -> 34 of 150
+2019-12-30 09:44:40.022   CNC 16   INF   Processing takes 181.821µs
+2019-12-30 09:44:40.022   CNC 16   INF   Sleeping for 9.999631863s
+2019-12-30 09:44:50.022   CNC 16   INF   Device still active
+2019-12-30 09:44:50.022   CNC 16   INF   Offline -> 35 of 150
+2019-12-30 09:44:50.022   CNC 16   INF   Processing takes 69.57µs
+2019-12-30 09:44:50.022   CNC 16   INF   Sleeping for 9.999825447s
+2019-12-30 10:31:19.326   CNC 16   INF   Device started running
+2019-12-30 10:31:19.327   CNC 16   INF   Device directory exists
+2019-12-30 10:31:19.327   CNC 16   INF   Downtime -> 0 of 150
+2019-12-30 10:31:19.393   CNC 16   INF   Processing takes 66.063739ms
+2019-12-30 10:31:19.394   CNC 16   INF   Sleeping for 9.933801601s
+2019-12-30 10:31:29.331   CNC 16   INF   Device still active
+2019-12-30 10:31:29.332   CNC 16   INF   Downtime -> 1 of 150
+2019-12-30 10:31:29.414   CNC 16   INF   Processing takes 81.812367ms
+2019-12-30 10:31:29.414   CNC 16   INF   Sleeping for 9.91769635s
+2019-12-30 10:50:38.718   CNC 16   INF   Device started running
+2019-12-30 10:50:38.718   CNC 16   INF   Device directory exists
+2019-12-30 10:50:38.719   CNC 16   INF   Offline -> 0 of 150
+2019-12-30 10:50:38.719   CNC 16   INF   Processing takes 297.551µs
+2019-12-30 10:50:38.719   CNC 16   INF   Sleeping for 9.999622271s
+2019-12-30 10:50:48.721   CNC 16   INF   Device still active
+2019-12-30 10:50:48.722   CNC 16   INF   Offline -> 1 of 150
+2019-12-30 10:50:48.723   CNC 16   INF   Processing takes 1.361345ms
+2019-12-30 10:50:48.723   CNC 16   INF   Sleeping for 9.998055615s
+2019-12-30 10:50:58.723   CNC 16   INF   Device still active
+2019-12-30 10:50:58.723   CNC 16   INF   Offline -> 2 of 150
+2019-12-30 10:50:58.723   CNC 16   INF   Processing takes 329.776µs
+2019-12-30 10:50:58.724   CNC 16   INF   Sleeping for 9.999097226s
+2019-12-30 10:51:08.726   CNC 16   INF   Device still active
+2019-12-30 10:51:08.727   CNC 16   INF   Offline -> 3 of 150
+2019-12-30 10:51:08.727   CNC 16   INF   Processing takes 863.816µs
+2019-12-30 10:51:08.728   CNC 16   INF   Sleeping for 9.998694106s
+2019-12-30 10:51:18.728   CNC 16   INF   Device still active
+2019-12-30 10:51:18.729   CNC 16   INF   Offline -> 4 of 150
+2019-12-30 10:51:18.729   CNC 16   INF   Processing takes 626.573µs
+2019-12-30 10:51:18.730   CNC 16   INF   Sleeping for 9.998802875s
+2019-12-30 10:51:28.734   CNC 16   INF   Device still active
+2019-12-30 10:51:28.734   CNC 16   INF   Offline -> 5 of 150
+2019-12-30 10:51:28.734   CNC 16   INF   Processing takes 331.034µs
+2019-12-30 10:51:28.735   CNC 16   INF   Sleeping for 9.99945277s
+2019-12-30 10:51:38.735   CNC 16   INF   Device still active
+2019-12-30 10:51:38.736   CNC 16   INF   Offline -> 6 of 150
+2019-12-30 10:51:38.736   CNC 16   INF   Processing takes 929.53µs
+2019-12-30 10:51:38.736   CNC 16   INF   Sleeping for 9.99891177s
+2019-12-30 10:51:48.735   CNC 16   INF   Device still active
+2019-12-30 10:51:48.736   CNC 16   INF   Offline -> 7 of 150
+2019-12-30 10:51:48.737   CNC 16   INF   Processing takes 860.176µs
+2019-12-30 10:51:48.738   CNC 16   INF   Sleeping for 9.998478734s
+2019-12-30 10:51:58.737   CNC 16   INF   Device still active
+2019-12-30 10:51:58.739   CNC 16   INF   Offline -> 8 of 150
+2019-12-30 10:51:58.739   CNC 16   INF   Processing takes 1.481668ms
+2019-12-30 10:51:58.739   CNC 16   INF   Sleeping for 9.998255152s
+2019-12-30 10:52:08.740   CNC 16   INF   Device still active
+2019-12-30 10:52:08.740   CNC 16   INF   Offline -> 9 of 150
+2019-12-30 10:52:08.740   CNC 16   INF   Processing takes 177.731µs
+2019-12-30 10:52:08.741   CNC 16   INF   Sleeping for 9.999072506s
+2019-12-30 10:52:18.741   CNC 16   INF   Device still active
+2019-12-30 10:52:18.741   CNC 16   INF   Offline -> 10 of 150
+2019-12-30 10:52:18.742   CNC 16   INF   Processing takes 615.555µs
+2019-12-30 10:52:18.742   CNC 16   INF   Sleeping for 9.999151822s
+2019-12-30 10:52:28.744   CNC 16   INF   Device still active
+2019-12-30 10:52:28.744   CNC 16   INF   Offline -> 11 of 150
+2019-12-30 10:52:28.744   CNC 16   INF   Processing takes 369.47µs
+2019-12-30 10:52:28.744   CNC 16   INF   Sleeping for 9.999467717s
+2019-12-30 10:52:38.750   CNC 16   INF   Device still active
+2019-12-30 10:52:38.750   CNC 16   INF   Offline -> 12 of 150
+2019-12-30 10:52:38.751   CNC 16   INF   Processing takes 189.911µs
+2019-12-30 10:52:38.751   CNC 16   INF   Sleeping for 9.99947801s
+2019-12-30 10:52:48.751   CNC 16   INF   Device still active
+2019-12-30 10:52:48.752   CNC 16   INF   Offline -> 13 of 150
+2019-12-30 10:52:48.752   CNC 16   INF   Processing takes 422.673µs
+2019-12-30 10:52:48.752   CNC 16   INF   Sleeping for 9.999238038s
+2019-12-30 10:52:58.752   CNC 16   INF   Device still active
+2019-12-30 10:52:58.754   CNC 16   INF   Offline -> 14 of 150
+2019-12-30 10:52:58.754   CNC 16   INF   Processing takes 1.742605ms
+2019-12-30 10:52:58.754   CNC 16   INF   Sleeping for 9.997707483s
+2019-12-30 10:53:08.754   CNC 16   INF   Device still active
+2019-12-30 10:53:08.756   CNC 16   INF   Offline -> 15 of 150
+2019-12-30 10:53:08.756   CNC 16   INF   Processing takes 956.194µs
+2019-12-30 10:53:08.756   CNC 16   INF   Sleeping for 9.998822559s
+2019-12-30 10:53:18.759   CNC 16   INF   Device still active
+2019-12-30 10:53:18.759   CNC 16   INF   Offline -> 16 of 150
+2019-12-30 10:53:18.759   CNC 16   INF   Processing takes 200.445µs
+2019-12-30 10:53:18.759   CNC 16   INF   Sleeping for 9.999678924s
+2019-12-30 10:53:28.761   CNC 16   INF   Device still active
+2019-12-30 10:53:28.761   CNC 16   INF   Offline -> 17 of 150
+2019-12-30 10:53:28.761   CNC 16   INF   Processing takes 333.961µs
+2019-12-30 10:53:28.761   CNC 16   INF   Sleeping for 9.999474173s
+2019-12-30 10:53:38.763   CNC 16   INF   Device still active
+2019-12-30 10:53:38.763   CNC 16   INF   Offline -> 18 of 150
+2019-12-30 10:53:38.763   CNC 16   INF   Processing takes 248.98µs
+2019-12-30 10:53:38.764   CNC 16   INF   Sleeping for 9.999534178s
+2019-12-30 10:53:48.766   CNC 16   INF   Device still active
+2019-12-30 10:53:48.766   CNC 16   INF   Offline -> 19 of 150
+2019-12-30 10:53:48.766   CNC 16   INF   Processing takes 448.684µs
+2019-12-30 10:53:48.767   CNC 16   INF   Sleeping for 9.999352517s
+2019-12-30 10:53:58.768   CNC 16   INF   Device still active
+2019-12-30 10:53:58.768   CNC 16   INF   Offline -> 20 of 150
+2019-12-30 10:53:58.769   CNC 16   INF   Processing takes 278.322µs
+2019-12-30 10:53:58.769   CNC 16   INF   Sleeping for 9.999524273s
+2019-12-30 10:54:08.770   CNC 16   INF   Device still active
+2019-12-30 10:54:08.771   CNC 16   INF   Offline -> 21 of 150
+2019-12-30 10:54:08.771   CNC 16   INF   Processing takes 141.037µs
+2019-12-30 10:54:08.771   CNC 16   INF   Sleeping for 9.999565381s
+2019-12-30 10:54:18.771   CNC 16   INF   Device still active
+2019-12-30 10:54:18.771   CNC 16   INF   Offline -> 22 of 150
+2019-12-30 10:54:18.771   CNC 16   INF   Processing takes 241.543µs
+2019-12-30 10:54:18.772   CNC 16   INF   Sleeping for 9.999568622s
+2019-12-30 10:54:28.773   CNC 16   INF   Device still active
+2019-12-30 10:54:28.774   CNC 16   INF   Offline -> 23 of 150
+2019-12-30 10:54:28.775   CNC 16   INF   Processing takes 673.357µs
+2019-12-30 10:54:28.775   CNC 16   INF   Sleeping for 9.998850194s
+2019-12-30 10:54:38.774   CNC 16   INF   Device still active
+2019-12-30 10:54:38.774   CNC 16   INF   Offline -> 24 of 150
+2019-12-30 10:54:38.775   CNC 16   INF   Processing takes 146.915µs
+2019-12-30 10:54:38.775   CNC 16   INF   Sleeping for 9.999691978s
+2019-12-30 10:54:48.777   CNC 16   INF   Device still active
+2019-12-30 10:54:48.777   CNC 16   INF   Offline -> 25 of 150
+2019-12-30 10:54:48.778   CNC 16   INF   Processing takes 206.317µs
+2019-12-30 10:54:48.779   CNC 16   INF   Sleeping for 9.999290176s
+2019-12-30 10:54:58.779   CNC 16   INF   Device still active
+2019-12-30 10:54:58.779   CNC 16   INF   Offline -> 26 of 150
+2019-12-30 10:54:58.779   CNC 16   INF   Processing takes 150.23µs
+2019-12-30 10:54:58.779   CNC 16   INF   Sleeping for 9.999709812s
+2019-12-30 10:55:08.779   CNC 16   INF   Device still active
+2019-12-30 10:55:08.779   CNC 16   INF   Offline -> 27 of 150
+2019-12-30 10:55:08.780   CNC 16   INF   Processing takes 104.209µs
+2019-12-30 10:55:08.780   CNC 16   INF   Sleeping for 9.999774154s
+2019-12-30 10:55:18.782   CNC 16   INF   Device still active
+2019-12-30 10:55:18.782   CNC 16   INF   Offline -> 28 of 150
+2019-12-30 10:55:18.782   CNC 16   INF   Processing takes 268.92µs
+2019-12-30 10:55:18.782   CNC 16   INF   Sleeping for 9.999627842s
+2019-12-30 10:55:28.782   CNC 16   INF   Device still active
+2019-12-30 10:55:28.783   CNC 16   INF   Offline -> 29 of 150
+2019-12-30 10:55:28.783   CNC 16   INF   Processing takes 324.971µs
+2019-12-30 10:55:28.783   CNC 16   INF   Sleeping for 9.999228066s
+2019-12-30 10:55:42.170   CNC 16   INF   Device started running
+2019-12-30 10:55:42.170   CNC 16   INF   Device directory exists
+2019-12-30 10:55:42.171   CNC 16   INF   Downtime -> 0 of 150
+2019-12-30 10:55:42.276   CNC 16   INF   Processing takes 104.962169ms
+2019-12-30 10:55:42.276   CNC 16   INF   Sleeping for 9.894399274s
+2019-12-30 10:55:52.171   CNC 16   INF   Device still active
+2019-12-30 10:55:52.171   CNC 16   INF   Downtime -> 1 of 150
+2019-12-30 10:55:52.208   CNC 16   INF   Processing takes 36.823333ms
+2019-12-30 10:55:52.208   CNC 16   INF   Sleeping for 9.96300054s
+2019-12-30 10:56:02.171   CNC 16   INF   Device still active
+2019-12-30 10:56:02.171   CNC 16   INF   Downtime -> 2 of 150
+2019-12-30 10:56:02.223   CNC 16   INF   Processing takes 52.015856ms
+2019-12-30 10:56:02.224   CNC 16   INF   Sleeping for 9.947824334s
+2019-12-30 10:56:12.172   CNC 16   INF   Device still active
+2019-12-30 10:56:12.173   CNC 16   INF   Downtime -> 3 of 150
+2019-12-30 10:56:12.259   CNC 16   INF   Processing takes 86.48363ms
+2019-12-30 10:56:12.259   CNC 16   INF   Sleeping for 9.913396703s
+2019-12-30 10:56:22.176   CNC 16   INF   Device still active
+2019-12-30 10:56:22.177   CNC 16   INF   Downtime -> 4 of 150
+2019-12-30 10:56:22.224   CNC 16   INF   Processing takes 47.061549ms
+2019-12-30 10:56:22.224   CNC 16   INF   Sleeping for 9.952794789s
+2019-12-30 10:56:32.177   CNC 16   INF   Device still active
+2019-12-30 10:56:32.178   CNC 16   INF   Downtime -> 5 of 150
+2019-12-30 10:56:32.220   CNC 16   INF   Processing takes 42.939134ms
+2019-12-30 10:56:32.220   CNC 16   INF   Sleeping for 9.956930904s
+2019-12-30 10:56:42.181   CNC 16   INF   Device still active
+2019-12-30 10:56:42.181   CNC 16   INF   Downtime -> 6 of 150
+2019-12-30 10:56:42.225   CNC 16   INF   Processing takes 43.375814ms
+2019-12-30 10:56:42.225   CNC 16   INF   Sleeping for 9.955878039s
+2019-12-30 10:56:52.184   CNC 16   INF   Device still active
+2019-12-30 10:56:52.185   CNC 16   INF   Downtime -> 7 of 150
+2019-12-30 10:56:52.222   CNC 16   INF   Processing takes 38.399028ms
+2019-12-30 10:56:52.222   CNC 16   INF   Sleeping for 9.961465417s
+2019-12-30 10:57:02.186   CNC 16   INF   Device still active
+2019-12-30 10:57:02.187   CNC 16   INF   Downtime -> 8 of 150
+2019-12-30 10:57:02.286   CNC 16   INF   Processing takes 99.455894ms
+2019-12-30 10:57:02.286   CNC 16   INF   Sleeping for 9.900361739s
+2019-12-30 10:57:36.290   CNC 16   INF   Device started running
+2019-12-30 10:57:36.290   CNC 16   INF   Device directory exists
+2019-12-30 10:57:36.291   CNC 16   INF   Production -> 0 of 300
+2019-12-30 10:57:36.365   CNC 16   INF   Processing takes 74.655727ms
+2019-12-30 10:57:36.366   CNC 16   INF   Sleeping for 9.924798564s
+2019-12-30 10:58:10.041   CNC 16   INF   Device started running
+2019-12-30 10:58:10.041   CNC 16   INF   Device directory exists
+2019-12-30 10:58:10.041   CNC 16   INF   Production -> 0 of 300
+2019-12-30 10:58:10.127   CNC 16   INF   Processing takes 85.552305ms
+2019-12-30 10:58:10.127   CNC 16   INF   Sleeping for 9.914332544s
+2019-12-30 11:09:08.177   CNC 16   INF   Device started running
+2019-12-30 11:09:08.178   CNC 16   INF   Device directory exists
+2019-12-30 11:09:08.178   CNC 16   INF   Production -> 0 of 300
+2019-12-30 11:09:08.217   CNC 16   INF   Processing takes 39.146897ms
+2019-12-30 11:09:08.218   CNC 16   INF   Sleeping for 9.960734226s
+2019-12-30 11:09:18.182   CNC 16   INF   Device still active
+2019-12-30 11:09:18.183   CNC 16   INF   Production -> 1 of 300
+2019-12-30 11:09:18.263   CNC 16   INF   Processing takes 80.526766ms
+2019-12-30 11:09:18.263   CNC 16   INF   Sleeping for 9.919373962s
+2019-12-30 11:09:28.187   CNC 16   INF   Device still active
+2019-12-30 11:09:28.187   CNC 16   INF   Production -> 2 of 300
+2019-12-30 11:09:28.283   CNC 16   INF   Processing takes 96.052004ms
+2019-12-30 11:09:28.283   CNC 16   INF   Sleeping for 9.90383235s
+2019-12-30 11:09:38.191   CNC 16   INF   Device still active
+2019-12-30 11:09:38.193   CNC 16   INF   Production -> 3 of 300
+2019-12-30 11:09:38.267   CNC 16   INF   Processing takes 75.604303ms
+2019-12-30 11:09:38.267   CNC 16   INF   Sleeping for 9.924272122s
+2019-12-30 11:09:48.195   CNC 16   INF   Device still active
+2019-12-30 11:09:48.195   CNC 16   INF   Production -> 4 of 300
+2019-12-30 11:09:48.284   CNC 16   INF   Processing takes 89.136102ms
+2019-12-30 11:09:48.284   CNC 16   INF   Sleeping for 9.910777832s
+2019-12-30 11:09:58.200   CNC 16   INF   Device still active
+2019-12-30 11:09:58.201   CNC 16   INF   Production -> 5 of 300
+2019-12-30 11:09:58.263   CNC 16   INF   Processing takes 62.737847ms
+2019-12-30 11:09:58.263   CNC 16   INF   Sleeping for 9.937110793s
+2019-12-30 11:10:08.205   CNC 16   INF   Device still active
+2019-12-30 11:10:08.206   CNC 16   INF   Production -> 6 of 300
+2019-12-30 11:10:08.283   CNC 16   INF   Processing takes 76.912837ms
+2019-12-30 11:10:08.283   CNC 16   INF   Sleeping for 9.923002663s
+2019-12-30 11:10:18.207   CNC 16   INF   Device still active
+2019-12-30 11:10:18.209   CNC 16   INF   Production -> 7 of 300
+2019-12-30 11:10:18.306   CNC 16   INF   Processing takes 98.478662ms
+2019-12-30 11:10:18.306   CNC 16   INF   Sleeping for 9.901424424s
+2019-12-30 11:10:28.210   CNC 16   INF   Device still active
+2019-12-30 11:10:28.210   CNC 16   INF   Production -> 8 of 300
+2019-12-30 11:10:28.300   CNC 16   INF   Processing takes 89.839868ms
+2019-12-30 11:10:28.300   CNC 16   INF   Sleeping for 9.910041583s
+2019-12-30 11:10:38.210   CNC 16   INF   Device still active
+2019-12-30 11:10:38.210   CNC 16   INF   Production -> 9 of 300
+2019-12-30 11:10:38.340   CNC 16   INF   Processing takes 129.036997ms
+2019-12-30 11:10:38.340   CNC 16   INF   Sleeping for 9.870788836s
+2019-12-30 11:10:48.212   CNC 16   INF   Device still active
+2019-12-30 11:10:48.212   CNC 16   INF   Production -> 10 of 300
+2019-12-30 11:10:48.272   CNC 16   INF   Processing takes 59.698616ms
+2019-12-30 11:10:48.272   CNC 16   INF   Sleeping for 9.940175089s
+2019-12-30 11:10:58.213   CNC 16   INF   Device still active
+2019-12-30 11:10:58.214   CNC 16   INF   Production -> 11 of 300
+2019-12-30 11:10:58.281   CNC 16   INF   Processing takes 67.798011ms
+2019-12-30 11:10:58.281   CNC 16   INF   Sleeping for 9.932088689s
+2019-12-30 11:11:08.215   CNC 16   INF   Device still active
+2019-12-30 11:11:08.215   CNC 16   INF   Production -> 12 of 300
+2019-12-30 11:11:08.289   CNC 16   INF   Processing takes 73.583292ms
+2019-12-30 11:11:08.289   CNC 16   INF   Sleeping for 9.926327882s
+2019-12-30 11:11:18.218   CNC 16   INF   Device still active
+2019-12-30 11:11:18.218   CNC 16   INF   Production -> 13 of 300
+2019-12-30 11:11:18.300   CNC 16   INF   Processing takes 81.66035ms
+2019-12-30 11:11:18.300   CNC 16   INF   Sleeping for 9.918211477s
+2019-12-30 11:11:28.220   CNC 16   INF   Device still active
+2019-12-30 11:11:28.220   CNC 16   INF   Production -> 14 of 300
+2019-12-30 11:11:28.341   CNC 16   INF   Processing takes 120.805323ms
+2019-12-30 11:11:28.341   CNC 16   INF   Sleeping for 9.879088569s
+2019-12-30 11:11:38.221   CNC 16   INF   Device still active
+2019-12-30 11:11:38.221   CNC 16   INF   Production -> 15 of 300
+2019-12-30 11:11:38.301   CNC 16   INF   Processing takes 80.288131ms
+2019-12-30 11:11:38.301   CNC 16   INF   Sleeping for 9.919605653s
+2019-12-30 11:11:48.224   CNC 16   INF   Device still active
+2019-12-30 11:11:48.225   CNC 16   INF   Production -> 16 of 300
+2019-12-30 11:11:48.334   CNC 16   INF   Processing takes 109.139021ms
+2019-12-30 11:11:48.334   CNC 16   INF   Sleeping for 9.89075472s
+2019-12-30 11:11:58.226   CNC 16   INF   Device still active
+2019-12-30 11:11:58.227   CNC 16   INF   Production -> 17 of 300
+2019-12-30 11:11:58.299   CNC 16   INF   Processing takes 72.448597ms
+2019-12-30 11:11:58.299   CNC 16   INF   Sleeping for 9.927451523s
+2019-12-30 11:13:02.021   CNC 16   INF   Device started running
+2019-12-30 11:13:02.021   CNC 16   INF   Device directory exists
+2019-12-30 11:13:02.021   CNC 16   INF   Production -> 0 of 300
+2019-12-30 11:13:02.104   CNC 16   INF   Processing takes 83.400186ms
+2019-12-30 11:13:02.104   CNC 16   INF   Sleeping for 9.916476012s
+2019-12-30 11:13:12.022   CNC 16   INF   Device still active
+2019-12-30 11:13:12.022   CNC 16   INF   Production -> 1 of 300
+2019-12-30 11:13:12.113   CNC 16   INF   Processing takes 91.589667ms
+2019-12-30 11:13:12.113   CNC 16   INF   Sleeping for 9.908274115s
+2019-12-30 11:13:22.026   CNC 16   INF   Device still active
+2019-12-30 11:13:22.026   CNC 16   INF   Production -> 2 of 300
+2019-12-30 11:13:22.096   CNC 16   INF   Processing takes 69.903139ms
+2019-12-30 11:13:22.096   CNC 16   INF   Sleeping for 9.929985378s
+2019-12-30 11:13:32.028   CNC 16   INF   Device still active
+2019-12-30 11:13:32.028   CNC 16   INF   Production -> 3 of 300
+2019-12-30 11:13:32.106   CNC 16   INF   Processing takes 78.417585ms
+2019-12-30 11:13:32.106   CNC 16   INF   Sleeping for 9.921493037s
+2019-12-30 11:13:42.029   CNC 16   INF   Device still active
+2019-12-30 11:13:42.030   CNC 16   INF   Production -> 4 of 300
+2019-12-30 11:13:42.086   CNC 16   INF   Processing takes 56.903585ms
+2019-12-30 11:13:42.087   CNC 16   INF   Sleeping for 9.942938347s
+2019-12-30 11:13:52.033   CNC 16   INF   Device still active
+2019-12-30 11:13:52.033   CNC 16   INF   Production -> 5 of 300
+2019-12-30 11:13:52.132   CNC 16   INF   Processing takes 98.938102ms
+2019-12-30 11:13:52.132   CNC 16   INF   Sleeping for 9.900944538s
+2019-12-30 11:14:02.035   CNC 16   INF   Device still active
+2019-12-30 11:14:02.036   CNC 16   INF   Production -> 6 of 300
+2019-12-30 11:14:02.116   CNC 16   INF   Processing takes 80.191281ms
+2019-12-30 11:14:02.116   CNC 16   INF   Sleeping for 9.919681486s
+2019-12-30 11:14:12.038   CNC 16   INF   Device still active
+2019-12-30 11:14:12.039   CNC 16   INF   Production -> 7 of 300
+2019-12-30 11:14:12.087   CNC 16   INF   Processing takes 49.370045ms
+2019-12-30 11:14:12.087   CNC 16   INF   Sleeping for 9.950526886s
+2019-12-30 11:14:22.040   CNC 16   INF   Device still active
+2019-12-30 11:14:22.040   CNC 16   INF   Production -> 8 of 300
+2019-12-30 11:14:22.118   CNC 16   INF   Processing takes 78.088245ms
+2019-12-30 11:14:22.118   CNC 16   INF   Sleeping for 9.921793183s
+2019-12-30 11:14:32.044   CNC 16   INF   Device still active
+2019-12-30 11:14:32.044   CNC 16   INF   Production -> 9 of 300
+2019-12-30 11:14:32.108   CNC 16   INF   Processing takes 64.368976ms
+2019-12-30 11:14:32.109   CNC 16   INF   Sleeping for 9.935502862s
+2019-12-30 11:14:42.048   CNC 16   INF   Device still active
+2019-12-30 11:14:42.049   CNC 16   INF   Production -> 10 of 300
+2019-12-30 11:14:42.089   CNC 16   INF   Processing takes 40.056862ms
+2019-12-30 11:14:42.089   CNC 16   INF   Sleeping for 9.959824513s
+2019-12-30 11:14:52.053   CNC 16   INF   Device still active
+2019-12-30 11:14:52.054   CNC 16   INF   Production -> 11 of 300
+2019-12-30 11:14:52.153   CNC 16   INF   Processing takes 100.000637ms
+2019-12-30 11:14:52.154   CNC 16   INF   Sleeping for 9.899803793s

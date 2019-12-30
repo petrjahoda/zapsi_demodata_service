@@ -1,0 +1,750 @@
+2019-12-30 08:58:50.589   CNC 17   INF   Device created
+2019-12-30 09:01:29.273   CNC 17   INF   Device created
+2019-12-30 09:03:14.958   CNC 17   INF   Device created
+2019-12-30 09:05:44.404   CNC 17   INF   Device created
+2019-12-30 09:07:13.099   CNC 17   INF   Device created
+2019-12-30 09:08:30.576   CNC 17   INF   Device created
+2019-12-30 09:08:47.495   CNC 17   INF   Device created
+2019-12-30 09:11:46.604   CNC 17   INF   Workplace created
+2019-12-30 09:11:46.629   CNC 17   INF   Production workplace port created
+2019-12-30 09:11:46.631   CNC 17   INF   Amperafe workplace port created
+2019-12-30 09:11:46.823   CNC 17   INF   Device created
+2019-12-30 09:11:46.826   CNC 17   INF   Digital port created
+2019-12-30 09:11:46.833   CNC 17   INF   Analog port created
+2019-12-30 09:21:45.542   CNC 17   INF   Device started running
+2019-12-30 09:21:45.542   CNC 17   WRN   Device directory not exist, creating
+2019-12-30 09:21:45.542   CNC 17   INF   Device directory created
+2019-12-30 09:21:45.542   CNC 17   INF   Production -> 0 of 300
+2019-12-30 09:21:45.616   CNC 17   INF   Processing takes 73.454802ms
+2019-12-30 09:21:45.616   CNC 17   INF   Sleeping for 9.926421362s
+2019-12-30 09:25:13.260   CNC 17   INF   Device started running
+2019-12-30 09:25:13.260   CNC 17   INF   Device directory exists
+2019-12-30 09:25:13.260   CNC 17   INF   Production -> 0 of 300
+2019-12-30 09:25:13.360   CNC 17   INF   Processing takes 100.413769ms
+2019-12-30 09:25:13.360   CNC 17   INF   Sleeping for 9.899463069s
+2019-12-30 09:25:23.261   CNC 17   INF   Device still active
+2019-12-30 09:25:23.261   CNC 17   INF   Production -> 1 of 300
+2019-12-30 09:25:23.308   CNC 17   INF   Processing takes 46.758608ms
+2019-12-30 09:25:23.308   CNC 17   INF   Sleeping for 9.953108742s
+2019-12-30 09:25:33.261   CNC 17   INF   Device still active
+2019-12-30 09:25:33.261   CNC 17   INF   Production -> 2 of 300
+2019-12-30 09:25:33.348   CNC 17   INF   Processing takes 86.577945ms
+2019-12-30 09:25:33.348   CNC 17   INF   Sleeping for 9.913294458s
+2019-12-30 09:26:12.802   CNC 17   INF   Device started running
+2019-12-30 09:26:12.802   CNC 17   INF   Device directory exists
+2019-12-30 09:26:12.803   CNC 17   INF   Offline -> 0 of 150
+2019-12-30 09:26:12.803   CNC 17   INF   Processing takes 319.485µs
+2019-12-30 09:26:12.803   CNC 17   INF   Sleeping for 9.999562366s
+2019-12-30 09:26:22.803   CNC 17   INF   Device still active
+2019-12-30 09:26:22.803   CNC 17   INF   Offline -> 1 of 150
+2019-12-30 09:26:22.803   CNC 17   INF   Processing takes 112.706µs
+2019-12-30 09:26:22.803   CNC 17   INF   Sleeping for 9.999603993s
+2019-12-30 09:26:32.804   CNC 17   INF   Device still active
+2019-12-30 09:26:32.804   CNC 17   INF   Offline -> 2 of 150
+2019-12-30 09:26:32.804   CNC 17   INF   Processing takes 118.955µs
+2019-12-30 09:26:32.804   CNC 17   INF   Sleeping for 9.999431202s
+2019-12-30 09:26:42.805   CNC 17   INF   Device still active
+2019-12-30 09:26:42.806   CNC 17   INF   Offline -> 3 of 150
+2019-12-30 09:26:42.806   CNC 17   INF   Processing takes 706.467µs
+2019-12-30 09:26:42.807   CNC 17   INF   Sleeping for 9.998979615s
+2019-12-30 09:26:52.806   CNC 17   INF   Device still active
+2019-12-30 09:26:52.806   CNC 17   INF   Offline -> 4 of 150
+2019-12-30 09:26:52.807   CNC 17   INF   Processing takes 286.702µs
+2019-12-30 09:26:52.807   CNC 17   INF   Sleeping for 9.999436523s
+2019-12-30 09:27:02.807   CNC 17   INF   Device still active
+2019-12-30 09:27:02.807   CNC 17   INF   Offline -> 5 of 150
+2019-12-30 09:27:02.808   CNC 17   INF   Processing takes 347.183µs
+2019-12-30 09:27:02.808   CNC 17   INF   Sleeping for 9.999205621s
+2019-12-30 09:27:12.809   CNC 17   INF   Device still active
+2019-12-30 09:27:12.809   CNC 17   INF   Offline -> 6 of 150
+2019-12-30 09:27:12.810   CNC 17   INF   Processing takes 401.284µs
+2019-12-30 09:27:12.810   CNC 17   INF   Sleeping for 9.999396155s
+2019-12-30 09:27:22.813   CNC 17   INF   Device still active
+2019-12-30 09:27:22.813   CNC 17   INF   Offline -> 7 of 150
+2019-12-30 09:27:22.813   CNC 17   INF   Processing takes 230.61µs
+2019-12-30 09:27:22.813   CNC 17   INF   Sleeping for 9.99964791s
+2019-12-30 09:27:32.813   CNC 17   INF   Device still active
+2019-12-30 09:27:32.813   CNC 17   INF   Offline -> 8 of 150
+2019-12-30 09:27:32.814   CNC 17   INF   Processing takes 123.168µs
+2019-12-30 09:27:32.814   CNC 17   INF   Sleeping for 9.999780655s
+2019-12-30 09:27:42.817   CNC 17   INF   Device still active
+2019-12-30 09:27:42.817   CNC 17   INF   Offline -> 9 of 150
+2019-12-30 09:27:42.817   CNC 17   INF   Processing takes 274.181µs
+2019-12-30 09:27:42.819   CNC 17   INF   Sleeping for 9.998759317s
+2019-12-30 09:27:52.820   CNC 17   INF   Device still active
+2019-12-30 09:27:52.821   CNC 17   INF   Offline -> 10 of 150
+2019-12-30 09:27:52.822   CNC 17   INF   Processing takes 1.109622ms
+2019-12-30 09:27:52.823   CNC 17   INF   Sleeping for 9.997964377s
+2019-12-30 09:28:02.826   CNC 17   INF   Device still active
+2019-12-30 09:28:02.826   CNC 17   INF   Offline -> 11 of 150
+2019-12-30 09:28:02.827   CNC 17   INF   Processing takes 165.106µs
+2019-12-30 09:28:02.827   CNC 17   INF   Sleeping for 9.99933174s
+2019-12-30 09:28:12.828   CNC 17   INF   Device still active
+2019-12-30 09:28:12.828   CNC 17   INF   Offline -> 12 of 150
+2019-12-30 09:28:12.828   CNC 17   INF   Processing takes 596.545µs
+2019-12-30 09:28:12.829   CNC 17   INF   Sleeping for 9.999035704s
+2019-12-30 09:28:22.829   CNC 17   INF   Device still active
+2019-12-30 09:28:22.830   CNC 17   INF   Offline -> 13 of 150
+2019-12-30 09:28:22.830   CNC 17   INF   Processing takes 970.832µs
+2019-12-30 09:28:22.831   CNC 17   INF   Sleeping for 9.998642631s
+2019-12-30 09:28:32.832   CNC 17   INF   Device still active
+2019-12-30 09:28:32.832   CNC 17   INF   Offline -> 14 of 150
+2019-12-30 09:28:32.833   CNC 17   INF   Processing takes 244.396µs
+2019-12-30 09:28:32.833   CNC 17   INF   Sleeping for 9.999372973s
+2019-12-30 09:28:42.834   CNC 17   INF   Device still active
+2019-12-30 09:28:42.834   CNC 17   INF   Offline -> 15 of 150
+2019-12-30 09:28:42.834   CNC 17   INF   Processing takes 157.541µs
+2019-12-30 09:28:42.834   CNC 17   INF   Sleeping for 9.999678043s
+2019-12-30 09:28:52.834   CNC 17   INF   Device still active
+2019-12-30 09:28:52.834   CNC 17   INF   Offline -> 16 of 150
+2019-12-30 09:28:52.834   CNC 17   INF   Processing takes 152.469µs
+2019-12-30 09:28:52.834   CNC 17   INF   Sleeping for 9.999712991s
+2019-12-30 09:29:02.835   CNC 17   INF   Device still active
+2019-12-30 09:29:02.835   CNC 17   INF   Offline -> 17 of 150
+2019-12-30 09:29:02.835   CNC 17   INF   Processing takes 636.029µs
+2019-12-30 09:29:02.835   CNC 17   INF   Sleeping for 9.999261119s
+2019-12-30 09:29:12.839   CNC 17   INF   Device still active
+2019-12-30 09:29:12.839   CNC 17   INF   Offline -> 18 of 150
+2019-12-30 09:29:12.839   CNC 17   INF   Processing takes 111.944µs
+2019-12-30 09:29:12.840   CNC 17   INF   Sleeping for 9.999699933s
+2019-12-30 09:29:22.840   CNC 17   INF   Device still active
+2019-12-30 09:29:22.840   CNC 17   INF   Offline -> 19 of 150
+2019-12-30 09:29:22.840   CNC 17   INF   Processing takes 114.747µs
+2019-12-30 09:29:22.840   CNC 17   INF   Sleeping for 9.999773578s
+2019-12-30 09:29:32.841   CNC 17   INF   Device still active
+2019-12-30 09:29:32.841   CNC 17   INF   Offline -> 20 of 150
+2019-12-30 09:29:32.842   CNC 17   INF   Processing takes 200.401µs
+2019-12-30 09:29:32.842   CNC 17   INF   Sleeping for 9.9996144s
+2019-12-30 09:29:42.842   CNC 17   INF   Device still active
+2019-12-30 09:29:42.842   CNC 17   INF   Offline -> 21 of 150
+2019-12-30 09:29:42.842   CNC 17   INF   Processing takes 90.066µs
+2019-12-30 09:29:42.842   CNC 17   INF   Sleeping for 9.999815416s
+2019-12-30 09:29:52.842   CNC 17   INF   Device still active
+2019-12-30 09:29:52.842   CNC 17   INF   Offline -> 22 of 150
+2019-12-30 09:29:52.842   CNC 17   INF   Processing takes 103.395µs
+2019-12-30 09:29:52.842   CNC 17   INF   Sleeping for 9.999770386s
+2019-12-30 09:30:02.843   CNC 17   INF   Device still active
+2019-12-30 09:30:02.844   CNC 17   INF   Offline -> 23 of 150
+2019-12-30 09:30:02.844   CNC 17   INF   Processing takes 378.532µs
+2019-12-30 09:30:02.844   CNC 17   INF   Sleeping for 9.99941078s
+2019-12-30 09:30:12.848   CNC 17   INF   Device still active
+2019-12-30 09:30:12.848   CNC 17   INF   Offline -> 24 of 150
+2019-12-30 09:30:12.848   CNC 17   INF   Processing takes 77.072µs
+2019-12-30 09:30:12.848   CNC 17   INF   Sleeping for 9.999841393s
+2019-12-30 09:30:22.849   CNC 17   INF   Device still active
+2019-12-30 09:30:22.849   CNC 17   INF   Offline -> 25 of 150
+2019-12-30 09:30:22.849   CNC 17   INF   Processing takes 127.564µs
+2019-12-30 09:30:22.849   CNC 17   INF   Sleeping for 9.999783635s
+2019-12-30 09:30:32.849   CNC 17   INF   Device still active
+2019-12-30 09:30:32.849   CNC 17   INF   Offline -> 26 of 150
+2019-12-30 09:30:32.849   CNC 17   INF   Processing takes 91.844µs
+2019-12-30 09:30:32.849   CNC 17   INF   Sleeping for 9.999840805s
+2019-12-30 09:30:42.850   CNC 17   INF   Device still active
+2019-12-30 09:30:42.850   CNC 17   INF   Offline -> 27 of 150
+2019-12-30 09:30:42.850   CNC 17   INF   Processing takes 174.849µs
+2019-12-30 09:30:42.850   CNC 17   INF   Sleeping for 9.999688495s
+2019-12-30 09:30:52.854   CNC 17   INF   Device still active
+2019-12-30 09:30:52.854   CNC 17   INF   Offline -> 28 of 150
+2019-12-30 09:30:52.854   CNC 17   INF   Processing takes 145.672µs
+2019-12-30 09:30:52.854   CNC 17   INF   Sleeping for 9.999717483s
+2019-12-30 09:31:02.854   CNC 17   INF   Device still active
+2019-12-30 09:31:02.854   CNC 17   INF   Offline -> 29 of 150
+2019-12-30 09:31:02.854   CNC 17   INF   Processing takes 145.097µs
+2019-12-30 09:31:02.855   CNC 17   INF   Sleeping for 9.999714503s
+2019-12-30 09:31:12.855   CNC 17   INF   Device still active
+2019-12-30 09:31:12.855   CNC 17   INF   Offline -> 30 of 150
+2019-12-30 09:31:12.855   CNC 17   INF   Processing takes 100.318µs
+2019-12-30 09:31:12.856   CNC 17   INF   Sleeping for 9.999779258s
+2019-12-30 09:31:22.856   CNC 17   INF   Device still active
+2019-12-30 09:31:22.856   CNC 17   INF   Offline -> 31 of 150
+2019-12-30 09:31:22.856   CNC 17   INF   Processing takes 131.336µs
+2019-12-30 09:31:22.856   CNC 17   INF   Sleeping for 9.999694015s
+2019-12-30 09:31:32.856   CNC 17   INF   Device still active
+2019-12-30 09:31:32.856   CNC 17   INF   Offline -> 32 of 150
+2019-12-30 09:31:32.857   CNC 17   INF   Processing takes 733.174µs
+2019-12-30 09:31:32.858   CNC 17   INF   Sleeping for 9.999135021s
+2019-12-30 09:31:42.857   CNC 17   INF   Device still active
+2019-12-30 09:31:42.857   CNC 17   INF   Offline -> 33 of 150
+2019-12-30 09:31:42.857   CNC 17   INF   Processing takes 161.408µs
+2019-12-30 09:31:42.857   CNC 17   INF   Sleeping for 9.999691181s
+2019-12-30 09:31:52.859   CNC 17   INF   Device still active
+2019-12-30 09:31:52.860   CNC 17   INF   Offline -> 34 of 150
+2019-12-30 09:31:52.860   CNC 17   INF   Processing takes 148.153µs
+2019-12-30 09:31:52.860   CNC 17   INF   Sleeping for 9.999718769s
+2019-12-30 09:32:02.863   CNC 17   INF   Device still active
+2019-12-30 09:32:02.864   CNC 17   INF   Offline -> 35 of 150
+2019-12-30 09:32:02.864   CNC 17   INF   Processing takes 408.629µs
+2019-12-30 09:32:02.864   CNC 17   INF   Sleeping for 9.999371728s
+2019-12-30 09:32:12.866   CNC 17   INF   Device still active
+2019-12-30 09:32:12.866   CNC 17   INF   Offline -> 36 of 150
+2019-12-30 09:32:12.866   CNC 17   INF   Processing takes 139.907µs
+2019-12-30 09:32:12.866   CNC 17   INF   Sleeping for 9.999674455s
+2019-12-30 09:32:22.867   CNC 17   INF   Device still active
+2019-12-30 09:32:22.867   CNC 17   INF   Offline -> 37 of 150
+2019-12-30 09:32:22.868   CNC 17   INF   Processing takes 109.615µs
+2019-12-30 09:32:22.868   CNC 17   INF   Sleeping for 9.999542988s
+2019-12-30 09:32:32.871   CNC 17   INF   Device still active
+2019-12-30 09:32:32.871   CNC 17   INF   Offline -> 38 of 150
+2019-12-30 09:32:32.871   CNC 17   INF   Processing takes 383.32µs
+2019-12-30 09:32:32.871   CNC 17   INF   Sleeping for 9.999436645s
+2019-12-30 09:32:42.871   CNC 17   INF   Device still active
+2019-12-30 09:32:42.872   CNC 17   INF   Offline -> 39 of 150
+2019-12-30 09:32:42.872   CNC 17   INF   Processing takes 418.529µs
+2019-12-30 09:32:42.872   CNC 17   INF   Sleeping for 9.999223395s
+2019-12-30 09:32:52.875   CNC 17   INF   Device still active
+2019-12-30 09:32:52.876   CNC 17   INF   Offline -> 40 of 150
+2019-12-30 09:32:52.876   CNC 17   INF   Processing takes 588.715µs
+2019-12-30 09:32:52.876   CNC 17   INF   Sleeping for 9.999262656s
+2019-12-30 09:33:02.878   CNC 17   INF   Device still active
+2019-12-30 09:33:02.879   CNC 17   INF   Offline -> 41 of 150
+2019-12-30 09:33:02.879   CNC 17   INF   Processing takes 324.121µs
+2019-12-30 09:33:02.880   CNC 17   INF   Sleeping for 9.99911s
+2019-12-30 09:33:12.880   CNC 17   INF   Device still active
+2019-12-30 09:33:12.880   CNC 17   INF   Offline -> 42 of 150
+2019-12-30 09:33:12.880   CNC 17   INF   Processing takes 357.052µs
+2019-12-30 09:33:12.880   CNC 17   INF   Sleeping for 9.999421738s
+2019-12-30 09:33:22.880   CNC 17   INF   Device still active
+2019-12-30 09:33:22.880   CNC 17   INF   Offline -> 43 of 150
+2019-12-30 09:33:22.881   CNC 17   INF   Processing takes 235.932µs
+2019-12-30 09:33:22.881   CNC 17   INF   Sleeping for 9.999357719s
+2019-12-30 09:33:32.882   CNC 17   INF   Device still active
+2019-12-30 09:33:32.882   CNC 17   INF   Offline -> 44 of 150
+2019-12-30 09:33:32.882   CNC 17   INF   Processing takes 607.753µs
+2019-12-30 09:33:32.882   CNC 17   INF   Sleeping for 9.999257388s
+2019-12-30 09:33:42.884   CNC 17   INF   Device still active
+2019-12-30 09:33:42.884   CNC 17   INF   Offline -> 45 of 150
+2019-12-30 09:33:42.885   CNC 17   INF   Processing takes 334.758µs
+2019-12-30 09:33:42.885   CNC 17   INF   Sleeping for 9.999535495s
+2019-12-30 09:33:52.886   CNC 17   INF   Device still active
+2019-12-30 09:33:52.889   CNC 17   INF   Offline -> 46 of 150
+2019-12-30 09:33:52.889   CNC 17   INF   Processing takes 703.346µs
+2019-12-30 09:33:52.890   CNC 17   INF   Sleeping for 9.998958401s
+2019-12-30 09:34:02.889   CNC 17   INF   Device still active
+2019-12-30 09:34:02.889   CNC 17   INF   Offline -> 47 of 150
+2019-12-30 09:34:02.889   CNC 17   INF   Processing takes 178.629µs
+2019-12-30 09:34:02.889   CNC 17   INF   Sleeping for 9.999719506s
+2019-12-30 09:34:12.889   CNC 17   INF   Device still active
+2019-12-30 09:34:12.889   CNC 17   INF   Offline -> 48 of 150
+2019-12-30 09:34:12.890   CNC 17   INF   Processing takes 227.267µs
+2019-12-30 09:34:12.890   CNC 17   INF   Sleeping for 9.999616709s
+2019-12-30 09:34:22.890   CNC 17   INF   Device still active
+2019-12-30 09:34:22.890   CNC 17   INF   Offline -> 49 of 150
+2019-12-30 09:34:22.891   CNC 17   INF   Processing takes 307.711µs
+2019-12-30 09:34:22.891   CNC 17   INF   Sleeping for 9.999547959s
+2019-12-30 09:34:32.891   CNC 17   INF   Device still active
+2019-12-30 09:34:33.295   CNC 17   INF   Offline -> 50 of 150
+2019-12-30 09:34:33.296   CNC 17   INF   Processing takes 404.602225ms
+2019-12-30 09:34:33.296   CNC 17   INF   Sleeping for 9.595065506s
+2019-12-30 09:34:42.891   CNC 17   INF   Device still active
+2019-12-30 09:34:42.892   CNC 17   INF   Offline -> 51 of 150
+2019-12-30 09:34:42.892   CNC 17   INF   Processing takes 310.993µs
+2019-12-30 09:34:42.892   CNC 17   INF   Sleeping for 9.999505001s
+2019-12-30 09:34:52.895   CNC 17   INF   Device still active
+2019-12-30 09:34:52.896   CNC 17   INF   Offline -> 52 of 150
+2019-12-30 09:34:52.896   CNC 17   INF   Processing takes 372.323µs
+2019-12-30 09:34:52.897   CNC 17   INF   Sleeping for 9.999279143s
+2019-12-30 09:35:02.897   CNC 17   INF   Device still active
+2019-12-30 09:35:02.898   CNC 17   INF   Offline -> 53 of 150
+2019-12-30 09:35:02.898   CNC 17   INF   Processing takes 365.073µs
+2019-12-30 09:35:02.898   CNC 17   INF   Sleeping for 9.999388786s
+2019-12-30 09:35:12.898   CNC 17   INF   Device still active
+2019-12-30 09:35:12.898   CNC 17   INF   Offline -> 54 of 150
+2019-12-30 09:35:12.898   CNC 17   INF   Processing takes 86.371µs
+2019-12-30 09:35:12.898   CNC 17   INF   Sleeping for 9.999822378s
+2019-12-30 09:35:22.898   CNC 17   INF   Device still active
+2019-12-30 09:35:22.899   CNC 17   INF   Offline -> 55 of 150
+2019-12-30 09:35:22.900   CNC 17   INF   Processing takes 386.569µs
+2019-12-30 09:35:22.901   CNC 17   INF   Sleeping for 9.997550253s
+2019-12-30 09:35:32.903   CNC 17   INF   Device still active
+2019-12-30 09:35:32.904   CNC 17   INF   Offline -> 56 of 150
+2019-12-30 09:35:32.904   CNC 17   INF   Processing takes 314.467µs
+2019-12-30 09:35:32.904   CNC 17   INF   Sleeping for 9.999506058s
+2019-12-30 09:35:42.909   CNC 17   INF   Device still active
+2019-12-30 09:35:42.909   CNC 17   INF   Offline -> 57 of 150
+2019-12-30 09:35:42.909   CNC 17   INF   Processing takes 392.498µs
+2019-12-30 09:35:42.909   CNC 17   INF   Sleeping for 9.999529962s
+2019-12-30 09:35:52.910   CNC 17   INF   Device still active
+2019-12-30 09:35:52.911   CNC 17   INF   Offline -> 58 of 150
+2019-12-30 09:35:52.911   CNC 17   INF   Processing takes 353.646µs
+2019-12-30 09:35:52.911   CNC 17   INF   Sleeping for 9.999446245s
+2019-12-30 09:36:02.911   CNC 17   INF   Device still active
+2019-12-30 09:36:02.911   CNC 17   INF   Offline -> 59 of 150
+2019-12-30 09:36:02.911   CNC 17   INF   Processing takes 372.352µs
+2019-12-30 09:36:02.912   CNC 17   INF   Sleeping for 9.99949201s
+2019-12-30 09:36:12.911   CNC 17   INF   Device still active
+2019-12-30 09:36:12.911   CNC 17   INF   Offline -> 60 of 150
+2019-12-30 09:36:12.912   CNC 17   INF   Processing takes 372.241µs
+2019-12-30 09:36:12.912   CNC 17   INF   Sleeping for 9.999479521s
+2019-12-30 09:36:22.914   CNC 17   INF   Device still active
+2019-12-30 09:36:22.915   CNC 17   INF   Offline -> 61 of 150
+2019-12-30 09:36:22.915   CNC 17   INF   Processing takes 353.049µs
+2019-12-30 09:36:22.915   CNC 17   INF   Sleeping for 9.999483407s
+2019-12-30 09:36:32.915   CNC 17   INF   Device still active
+2019-12-30 09:36:32.915   CNC 17   INF   Offline -> 62 of 150
+2019-12-30 09:36:32.915   CNC 17   INF   Processing takes 366.444µs
+2019-12-30 09:36:32.916   CNC 17   INF   Sleeping for 9.999515429s
+2019-12-30 09:36:42.915   CNC 17   INF   Device still active
+2019-12-30 09:36:42.916   CNC 17   INF   Offline -> 63 of 150
+2019-12-30 09:36:42.916   CNC 17   INF   Processing takes 345.826µs
+2019-12-30 09:36:42.916   CNC 17   INF   Sleeping for 9.999559087s
+2019-12-30 09:36:52.916   CNC 17   INF   Device still active
+2019-12-30 09:36:52.916   CNC 17   INF   Offline -> 64 of 150
+2019-12-30 09:36:52.916   CNC 17   INF   Processing takes 379.357µs
+2019-12-30 09:36:52.917   CNC 17   INF   Sleeping for 9.999418455s
+2019-12-30 09:37:02.918   CNC 17   INF   Device still active
+2019-12-30 09:37:02.918   CNC 17   INF   Offline -> 65 of 150
+2019-12-30 09:37:02.919   CNC 17   INF   Processing takes 348.022µs
+2019-12-30 09:37:02.919   CNC 17   INF   Sleeping for 9.999433077s
+2019-12-30 09:37:12.919   CNC 17   INF   Device still active
+2019-12-30 09:37:12.919   CNC 17   INF   Offline -> 66 of 150
+2019-12-30 09:37:12.920   CNC 17   INF   Processing takes 360.386µs
+2019-12-30 09:37:12.920   CNC 17   INF   Sleeping for 9.999513292s
+2019-12-30 09:37:22.920   CNC 17   INF   Device still active
+2019-12-30 09:37:22.920   CNC 17   INF   Offline -> 67 of 150
+2019-12-30 09:37:22.921   CNC 17   INF   Processing takes 414.723µs
+2019-12-30 09:37:22.921   CNC 17   INF   Sleeping for 9.999431786s
+2019-12-30 09:38:59.951   CNC 17   INF   Device started running
+2019-12-30 09:38:59.952   CNC 17   INF   Device directory exists
+2019-12-30 09:38:59.952   CNC 17   INF   Offline -> 0 of 150
+2019-12-30 09:38:59.952   CNC 17   INF   Processing takes 454.691µs
+2019-12-30 09:38:59.953   CNC 17   INF   Sleeping for 9.999348554s
+2019-12-30 09:39:09.953   CNC 17   INF   Device still active
+2019-12-30 09:39:09.953   CNC 17   INF   Offline -> 1 of 150
+2019-12-30 09:39:09.954   CNC 17   INF   Processing takes 657.72µs
+2019-12-30 09:39:09.954   CNC 17   INF   Sleeping for 9.999024852s
+2019-12-30 09:39:19.958   CNC 17   INF   Device still active
+2019-12-30 09:39:19.959   CNC 17   INF   Offline -> 2 of 150
+2019-12-30 09:39:19.959   CNC 17   INF   Processing takes 417.37µs
+2019-12-30 09:39:19.959   CNC 17   INF   Sleeping for 9.999369148s
+2019-12-30 09:39:29.964   CNC 17   INF   Device still active
+2019-12-30 09:39:29.964   CNC 17   INF   Offline -> 3 of 150
+2019-12-30 09:39:29.965   CNC 17   INF   Processing takes 541.705µs
+2019-12-30 09:39:29.966   CNC 17   INF   Sleeping for 9.998652713s
+2019-12-30 09:39:39.965   CNC 17   INF   Device still active
+2019-12-30 09:39:39.965   CNC 17   INF   Offline -> 4 of 150
+2019-12-30 09:39:39.965   CNC 17   INF   Processing takes 187.475µs
+2019-12-30 09:39:39.965   CNC 17   INF   Sleeping for 9.999589244s
+2019-12-30 09:39:49.967   CNC 17   INF   Device still active
+2019-12-30 09:39:49.968   CNC 17   INF   Offline -> 5 of 150
+2019-12-30 09:39:49.968   CNC 17   INF   Processing takes 413.015µs
+2019-12-30 09:39:49.969   CNC 17   INF   Sleeping for 9.999099881s
+2019-12-30 09:39:59.970   CNC 17   INF   Device still active
+2019-12-30 09:39:59.970   CNC 17   INF   Offline -> 6 of 150
+2019-12-30 09:39:59.970   CNC 17   INF   Processing takes 546.884µs
+2019-12-30 09:39:59.971   CNC 17   INF   Sleeping for 9.999232824s
+2019-12-30 09:40:09.971   CNC 17   INF   Device still active
+2019-12-30 09:40:09.971   CNC 17   INF   Offline -> 7 of 150
+2019-12-30 09:40:09.971   CNC 17   INF   Processing takes 141.364µs
+2019-12-30 09:40:09.971   CNC 17   INF   Sleeping for 9.999743833s
+2019-12-30 09:40:19.974   CNC 17   INF   Device still active
+2019-12-30 09:40:19.975   CNC 17   INF   Offline -> 8 of 150
+2019-12-30 09:40:19.976   CNC 17   INF   Processing takes 748.088µs
+2019-12-30 09:40:19.976   CNC 17   INF   Sleeping for 9.998626734s
+2019-12-30 09:40:29.976   CNC 17   INF   Device still active
+2019-12-30 09:40:29.976   CNC 17   INF   Offline -> 9 of 150
+2019-12-30 09:40:29.977   CNC 17   INF   Processing takes 346.011µs
+2019-12-30 09:40:29.977   CNC 17   INF   Sleeping for 9.999525533s
+2019-12-30 09:40:39.980   CNC 17   INF   Device still active
+2019-12-30 09:40:39.980   CNC 17   INF   Offline -> 10 of 150
+2019-12-30 09:40:39.980   CNC 17   INF   Processing takes 202.014µs
+2019-12-30 09:40:39.981   CNC 17   INF   Sleeping for 9.999139744s
+2019-12-30 09:40:49.985   CNC 17   INF   Device still active
+2019-12-30 09:40:49.985   CNC 17   INF   Offline -> 11 of 150
+2019-12-30 09:40:49.985   CNC 17   INF   Processing takes 132.52µs
+2019-12-30 09:40:49.986   CNC 17   INF   Sleeping for 9.999403833s
+2019-12-30 09:40:59.987   CNC 17   INF   Device still active
+2019-12-30 09:40:59.987   CNC 17   INF   Offline -> 12 of 150
+2019-12-30 09:40:59.987   CNC 17   INF   Processing takes 210.98µs
+2019-12-30 09:40:59.987   CNC 17   INF   Sleeping for 9.999668437s
+2019-12-30 09:41:09.991   CNC 17   INF   Device still active
+2019-12-30 09:41:09.991   CNC 17   INF   Offline -> 13 of 150
+2019-12-30 09:41:09.991   CNC 17   INF   Processing takes 131.4µs
+2019-12-30 09:41:09.991   CNC 17   INF   Sleeping for 9.999753716s
+2019-12-30 09:41:19.992   CNC 17   INF   Device still active
+2019-12-30 09:41:19.992   CNC 17   INF   Offline -> 14 of 150
+2019-12-30 09:41:19.992   CNC 17   INF   Processing takes 79.132µs
+2019-12-30 09:41:19.992   CNC 17   INF   Sleeping for 9.999829174s
+2019-12-30 09:41:29.992   CNC 17   INF   Device still active
+2019-12-30 09:41:29.992   CNC 17   INF   Offline -> 15 of 150
+2019-12-30 09:41:29.992   CNC 17   INF   Processing takes 96.194µs
+2019-12-30 09:41:29.993   CNC 17   INF   Sleeping for 9.999801853s
+2019-12-30 09:41:39.993   CNC 17   INF   Device still active
+2019-12-30 09:41:39.993   CNC 17   INF   Offline -> 16 of 150
+2019-12-30 09:41:39.994   CNC 17   INF   Processing takes 583.906µs
+2019-12-30 09:41:39.994   CNC 17   INF   Sleeping for 9.999129725s
+2019-12-30 09:41:49.993   CNC 17   INF   Device still active
+2019-12-30 09:41:49.994   CNC 17   INF   Offline -> 17 of 150
+2019-12-30 09:41:49.994   CNC 17   INF   Processing takes 158.944µs
+2019-12-30 09:41:49.994   CNC 17   INF   Sleeping for 9.999667902s
+2019-12-30 09:41:59.996   CNC 17   INF   Device still active
+2019-12-30 09:41:59.997   CNC 17   INF   Offline -> 18 of 150
+2019-12-30 09:41:59.997   CNC 17   INF   Processing takes 411.614µs
+2019-12-30 09:41:59.997   CNC 17   INF   Sleeping for 9.999432491s
+2019-12-30 09:42:10.001   CNC 17   INF   Device still active
+2019-12-30 09:42:10.001   CNC 17   INF   Offline -> 19 of 150
+2019-12-30 09:42:10.001   CNC 17   INF   Processing takes 364.8µs
+2019-12-30 09:42:10.002   CNC 17   INF   Sleeping for 9.999530213s
+2019-12-30 09:42:20.002   CNC 17   INF   Device still active
+2019-12-30 09:42:20.002   CNC 17   INF   Offline -> 20 of 150
+2019-12-30 09:42:20.002   CNC 17   INF   Processing takes 93.874µs
+2019-12-30 09:42:20.002   CNC 17   INF   Sleeping for 9.999816878s
+2019-12-30 09:42:30.002   CNC 17   INF   Device still active
+2019-12-30 09:42:30.003   CNC 17   INF   Offline -> 21 of 150
+2019-12-30 09:42:30.004   CNC 17   INF   Processing takes 627.513µs
+2019-12-30 09:42:30.004   CNC 17   INF   Sleeping for 9.998941193s
+2019-12-30 09:42:40.003   CNC 17   INF   Device still active
+2019-12-30 09:42:40.003   CNC 17   INF   Offline -> 22 of 150
+2019-12-30 09:42:40.005   CNC 17   INF   Processing takes 408.724µs
+2019-12-30 09:42:40.006   CNC 17   INF   Sleeping for 9.997598192s
+2019-12-30 09:42:50.005   CNC 17   INF   Device still active
+2019-12-30 09:42:50.005   CNC 17   INF   Offline -> 23 of 150
+2019-12-30 09:42:50.006   CNC 17   INF   Processing takes 426.321µs
+2019-12-30 09:42:50.007   CNC 17   INF   Sleeping for 9.998294489s
+2019-12-30 09:43:00.006   CNC 17   INF   Device still active
+2019-12-30 09:43:00.006   CNC 17   INF   Offline -> 24 of 150
+2019-12-30 09:43:00.006   CNC 17   INF   Processing takes 149.743µs
+2019-12-30 09:43:00.006   CNC 17   INF   Sleeping for 9.999731066s
+2019-12-30 09:43:10.011   CNC 17   INF   Device still active
+2019-12-30 09:43:10.012   CNC 17   INF   Offline -> 25 of 150
+2019-12-30 09:43:10.012   CNC 17   INF   Processing takes 780.584µs
+2019-12-30 09:43:10.012   CNC 17   INF   Sleeping for 9.999015739s
+2019-12-30 09:43:20.012   CNC 17   INF   Device still active
+2019-12-30 09:43:20.012   CNC 17   INF   Offline -> 26 of 150
+2019-12-30 09:43:20.012   CNC 17   INF   Processing takes 110.546µs
+2019-12-30 09:43:20.012   CNC 17   INF   Sleeping for 9.999770641s
+2019-12-30 09:43:30.012   CNC 17   INF   Device still active
+2019-12-30 09:43:30.013   CNC 17   INF   Offline -> 27 of 150
+2019-12-30 09:43:30.013   CNC 17   INF   Processing takes 226.273µs
+2019-12-30 09:43:30.013   CNC 17   INF   Sleeping for 9.999636497s
+2019-12-30 09:43:40.013   CNC 17   INF   Device still active
+2019-12-30 09:43:40.013   CNC 17   INF   Offline -> 28 of 150
+2019-12-30 09:43:40.013   CNC 17   INF   Processing takes 203.948µs
+2019-12-30 09:43:40.013   CNC 17   INF   Sleeping for 9.999605292s
+2019-12-30 09:43:50.017   CNC 17   INF   Device still active
+2019-12-30 09:43:50.017   CNC 17   INF   Offline -> 29 of 150
+2019-12-30 09:43:50.017   CNC 17   INF   Processing takes 110.631µs
+2019-12-30 09:43:50.017   CNC 17   INF   Sleeping for 9.999786647s
+2019-12-30 09:44:00.018   CNC 17   INF   Device still active
+2019-12-30 09:44:00.018   CNC 17   INF   Offline -> 30 of 150
+2019-12-30 09:44:00.018   CNC 17   INF   Processing takes 128.756µs
+2019-12-30 09:44:00.018   CNC 17   INF   Sleeping for 9.999742511s
+2019-12-30 09:44:10.018   CNC 17   INF   Device still active
+2019-12-30 09:44:10.018   CNC 17   INF   Offline -> 31 of 150
+2019-12-30 09:44:10.018   CNC 17   INF   Processing takes 100.37µs
+2019-12-30 09:44:10.019   CNC 17   INF   Sleeping for 9.999801858s
+2019-12-30 09:44:20.019   CNC 17   INF   Device still active
+2019-12-30 09:44:20.019   CNC 17   INF   Offline -> 32 of 150
+2019-12-30 09:44:20.019   CNC 17   INF   Processing takes 195.962µs
+2019-12-30 09:44:20.019   CNC 17   INF   Sleeping for 9.999691363s
+2019-12-30 09:44:30.019   CNC 17   INF   Device still active
+2019-12-30 09:44:30.019   CNC 17   INF   Offline -> 33 of 150
+2019-12-30 09:44:30.020   CNC 17   INF   Processing takes 106.629µs
+2019-12-30 09:44:30.020   CNC 17   INF   Sleeping for 9.99980561s
+2019-12-30 09:44:40.020   CNC 17   INF   Device still active
+2019-12-30 09:44:40.020   CNC 17   INF   Offline -> 34 of 150
+2019-12-30 09:44:40.021   CNC 17   INF   Processing takes 265.386µs
+2019-12-30 09:44:40.021   CNC 17   INF   Sleeping for 9.999487124s
+2019-12-30 09:44:50.021   CNC 17   INF   Device still active
+2019-12-30 09:44:50.021   CNC 17   INF   Offline -> 35 of 150
+2019-12-30 09:44:50.021   CNC 17   INF   Processing takes 235.651µs
+2019-12-30 09:44:50.021   CNC 17   INF   Sleeping for 9.999573376s
+2019-12-30 10:31:19.326   CNC 17   INF   Device started running
+2019-12-30 10:31:19.327   CNC 17   INF   Device directory exists
+2019-12-30 10:31:19.328   CNC 17   INF   Production -> 0 of 300
+2019-12-30 10:31:19.418   CNC 17   INF   Processing takes 90.211064ms
+2019-12-30 10:31:19.418   CNC 17   INF   Sleeping for 9.909689142s
+2019-12-30 10:31:29.331   CNC 17   INF   Device still active
+2019-12-30 10:31:29.332   CNC 17   INF   Production -> 1 of 300
+2019-12-30 10:31:29.380   CNC 17   INF   Processing takes 48.888293ms
+2019-12-30 10:31:29.381   CNC 17   INF   Sleeping for 9.95096312s
+2019-12-30 10:31:39.332   CNC 17   INF   Device not active
+2019-12-30 10:50:38.718   CNC 17   INF   Device started running
+2019-12-30 10:50:38.719   CNC 17   INF   Device directory exists
+2019-12-30 10:50:38.719   CNC 17   INF   Production -> 0 of 300
+2019-12-30 10:50:38.808   CNC 17   INF   Processing takes 89.605093ms
+2019-12-30 10:50:38.808   CNC 17   INF   Sleeping for 9.910253978s
+2019-12-30 10:50:48.721   CNC 17   INF   Device still active
+2019-12-30 10:50:48.722   CNC 17   INF   Production -> 1 of 300
+2019-12-30 10:50:48.804   CNC 17   INF   Processing takes 82.513305ms
+2019-12-30 10:50:48.804   CNC 17   INF   Sleeping for 9.917346226s
+2019-12-30 10:50:58.723   CNC 17   INF   Device still active
+2019-12-30 10:50:58.723   CNC 17   INF   Production -> 2 of 300
+2019-12-30 10:50:58.832   CNC 17   INF   Processing takes 109.090864ms
+2019-12-30 10:50:58.832   CNC 17   INF   Sleeping for 9.890780053s
+2019-12-30 10:51:08.726   CNC 17   INF   Device still active
+2019-12-30 10:51:08.727   CNC 17   INF   Production -> 3 of 300
+2019-12-30 10:51:08.800   CNC 17   INF   Processing takes 74.286822ms
+2019-12-30 10:51:08.801   CNC 17   INF   Sleeping for 9.925623985s
+2019-12-30 10:51:18.728   CNC 17   INF   Device still active
+2019-12-30 10:51:18.729   CNC 17   INF   Production -> 4 of 300
+2019-12-30 10:51:18.819   CNC 17   INF   Processing takes 90.994373ms
+2019-12-30 10:51:18.820   CNC 17   INF   Sleeping for 9.908383299s
+2019-12-30 10:51:28.734   CNC 17   INF   Device still active
+2019-12-30 10:51:28.734   CNC 17   INF   Production -> 5 of 300
+2019-12-30 10:51:28.782   CNC 17   INF   Processing takes 48.099548ms
+2019-12-30 10:51:28.782   CNC 17   INF   Sleeping for 9.951749151s
+2019-12-30 10:51:38.735   CNC 17   INF   Device still active
+2019-12-30 10:51:38.735   CNC 17   INF   Production -> 6 of 300
+2019-12-30 10:51:38.789   CNC 17   INF   Processing takes 53.841599ms
+2019-12-30 10:51:38.789   CNC 17   INF   Sleeping for 9.946037083s
+2019-12-30 10:51:48.736   CNC 17   INF   Device still active
+2019-12-30 10:51:48.736   CNC 17   INF   Production -> 7 of 300
+2019-12-30 10:51:48.793   CNC 17   INF   Processing takes 56.642796ms
+2019-12-30 10:51:48.793   CNC 17   INF   Sleeping for 9.943227362s
+2019-12-30 10:51:58.738   CNC 17   INF   Device still active
+2019-12-30 10:51:58.738   CNC 17   INF   Production -> 8 of 300
+2019-12-30 10:51:58.808   CNC 17   INF   Processing takes 69.458071ms
+2019-12-30 10:51:58.808   CNC 17   INF   Sleeping for 9.930229342s
+2019-12-30 10:52:08.740   CNC 17   INF   Device still active
+2019-12-30 10:52:08.740   CNC 17   INF   Production -> 9 of 300
+2019-12-30 10:52:08.823   CNC 17   INF   Processing takes 82.573985ms
+2019-12-30 10:52:08.823   CNC 17   INF   Sleeping for 9.917278616s
+2019-12-30 10:52:18.741   CNC 17   INF   Device still active
+2019-12-30 10:52:18.742   CNC 17   INF   Production -> 10 of 300
+2019-12-30 10:52:18.805   CNC 17   INF   Processing takes 62.845743ms
+2019-12-30 10:52:18.805   CNC 17   INF   Sleeping for 9.937057895s
+2019-12-30 10:52:28.744   CNC 17   INF   Device still active
+2019-12-30 10:52:28.744   CNC 17   INF   Production -> 11 of 300
+2019-12-30 10:52:28.789   CNC 17   INF   Processing takes 44.902594ms
+2019-12-30 10:52:28.789   CNC 17   INF   Sleeping for 9.954975594s
+2019-12-30 10:52:38.749   CNC 17   INF   Device still active
+2019-12-30 10:52:38.750   CNC 17   INF   Production -> 12 of 300
+2019-12-30 10:52:38.808   CNC 17   INF   Processing takes 58.443538ms
+2019-12-30 10:52:38.808   CNC 17   INF   Sleeping for 9.941447126s
+2019-12-30 10:52:48.750   CNC 17   INF   Device still active
+2019-12-30 10:52:48.750   CNC 17   INF   Production -> 13 of 300
+2019-12-30 10:52:48.787   CNC 17   INF   Processing takes 37.116748ms
+2019-12-30 10:52:48.787   CNC 17   INF   Sleeping for 9.962721371s
+2019-12-30 10:52:58.750   CNC 17   INF   Device still active
+2019-12-30 10:52:58.751   CNC 17   INF   Production -> 14 of 300
+2019-12-30 10:52:58.814   CNC 17   INF   Processing takes 63.347756ms
+2019-12-30 10:52:58.814   CNC 17   INF   Sleeping for 9.936529184s
+2019-12-30 10:53:08.755   CNC 17   INF   Device still active
+2019-12-30 10:53:08.755   CNC 17   INF   Production -> 15 of 300
+2019-12-30 10:53:08.832   CNC 17   INF   Processing takes 77.473306ms
+2019-12-30 10:53:08.832   CNC 17   INF   Sleeping for 9.922421367s
+2019-12-30 10:53:18.759   CNC 17   INF   Device still active
+2019-12-30 10:53:18.759   CNC 17   INF   Production -> 16 of 300
+2019-12-30 10:53:18.821   CNC 17   INF   Processing takes 61.756468ms
+2019-12-30 10:53:18.821   CNC 17   INF   Sleeping for 9.938023114s
+2019-12-30 10:53:28.761   CNC 17   INF   Device still active
+2019-12-30 10:53:28.761   CNC 17   INF   Production -> 17 of 300
+2019-12-30 10:53:28.838   CNC 17   INF   Processing takes 76.641466ms
+2019-12-30 10:53:28.838   CNC 17   INF   Sleeping for 9.923186834s
+2019-12-30 10:53:38.762   CNC 17   INF   Device still active
+2019-12-30 10:53:38.762   CNC 17   INF   Production -> 18 of 300
+2019-12-30 10:53:38.856   CNC 17   INF   Processing takes 93.72459ms
+2019-12-30 10:53:38.856   CNC 17   INF   Sleeping for 9.906153972s
+2019-12-30 10:53:48.766   CNC 17   INF   Device still active
+2019-12-30 10:53:48.766   CNC 17   INF   Production -> 19 of 300
+2019-12-30 10:53:48.842   CNC 17   INF   Processing takes 76.003316ms
+2019-12-30 10:53:48.842   CNC 17   INF   Sleeping for 9.923890033s
+2019-12-30 10:53:58.766   CNC 17   INF   Device still active
+2019-12-30 10:53:58.767   CNC 17   INF   Production -> 20 of 300
+2019-12-30 10:53:58.831   CNC 17   INF   Processing takes 63.989227ms
+2019-12-30 10:53:58.831   CNC 17   INF   Sleeping for 9.935859467s
+2019-12-30 10:54:08.767   CNC 17   INF   Device still active
+2019-12-30 10:54:08.767   CNC 17   INF   Production -> 21 of 300
+2019-12-30 10:54:08.811   CNC 17   INF   Processing takes 43.917136ms
+2019-12-30 10:54:08.811   CNC 17   INF   Sleeping for 9.955982365s
+2019-12-30 10:54:18.769   CNC 17   INF   Device still active
+2019-12-30 10:54:18.769   CNC 17   INF   Production -> 22 of 300
+2019-12-30 10:54:18.810   CNC 17   INF   Processing takes 41.205785ms
+2019-12-30 10:54:18.810   CNC 17   INF   Sleeping for 9.958656792s
+2019-12-30 10:54:28.774   CNC 17   INF   Device still active
+2019-12-30 10:54:28.774   CNC 17   INF   Production -> 23 of 300
+2019-12-30 10:54:28.822   CNC 17   INF   Processing takes 48.322652ms
+2019-12-30 10:54:28.822   CNC 17   INF   Sleeping for 9.951569727s
+2019-12-30 10:54:38.774   CNC 17   INF   Device still active
+2019-12-30 10:54:38.774   CNC 17   INF   Production -> 24 of 300
+2019-12-30 10:54:38.857   CNC 17   INF   Processing takes 82.577232ms
+2019-12-30 10:54:38.857   CNC 17   INF   Sleeping for 9.917305035s
+2019-12-30 10:54:48.777   CNC 17   INF   Device still active
+2019-12-30 10:54:48.777   CNC 17   INF   Production -> 25 of 300
+2019-12-30 10:54:48.836   CNC 17   INF   Processing takes 59.000566ms
+2019-12-30 10:54:48.836   CNC 17   INF   Sleeping for 9.940929372s
+2019-12-30 10:54:58.780   CNC 17   INF   Device still active
+2019-12-30 10:54:58.780   CNC 17   INF   Production -> 26 of 300
+2019-12-30 10:54:58.849   CNC 17   INF   Processing takes 68.372475ms
+2019-12-30 10:54:58.849   CNC 17   INF   Sleeping for 9.931498769s
+2019-12-30 10:55:08.781   CNC 17   INF   Device still active
+2019-12-30 10:55:08.781   CNC 17   INF   Production -> 27 of 300
+2019-12-30 10:55:08.847   CNC 17   INF   Processing takes 65.619852ms
+2019-12-30 10:55:08.847   CNC 17   INF   Sleeping for 9.934141917s
+2019-12-30 10:55:18.781   CNC 17   INF   Device still active
+2019-12-30 10:55:18.782   CNC 17   INF   Production -> 28 of 300
+2019-12-30 10:55:18.851   CNC 17   INF   Processing takes 69.772267ms
+2019-12-30 10:55:18.852   CNC 17   INF   Sleeping for 9.930080855s
+2019-12-30 10:55:28.786   CNC 17   INF   Device still active
+2019-12-30 10:55:28.786   CNC 17   INF   Production -> 29 of 300
+2019-12-30 10:55:28.856   CNC 17   INF   Processing takes 69.959845ms
+2019-12-30 10:55:28.856   CNC 17   INF   Sleeping for 9.929950127s
+2019-12-30 10:55:42.171   CNC 17   INF   Device started running
+2019-12-30 10:55:42.171   CNC 17   INF   Device directory exists
+2019-12-30 10:55:42.171   CNC 17   INF   Production -> 0 of 300
+2019-12-30 10:55:42.232   CNC 17   INF   Processing takes 60.418538ms
+2019-12-30 10:55:42.232   CNC 17   INF   Sleeping for 9.939385592s
+2019-12-30 10:55:52.172   CNC 17   INF   Device still active
+2019-12-30 10:55:52.172   CNC 17   INF   Production -> 1 of 300
+2019-12-30 10:55:52.251   CNC 17   INF   Processing takes 78.778531ms
+2019-12-30 10:55:52.251   CNC 17   INF   Sleeping for 9.921092998s
+2019-12-30 10:56:02.172   CNC 17   INF   Device still active
+2019-12-30 10:56:02.172   CNC 17   INF   Production -> 2 of 300
+2019-12-30 10:56:02.241   CNC 17   INF   Processing takes 68.764432ms
+2019-12-30 10:56:02.241   CNC 17   INF   Sleeping for 9.93110986s
+2019-12-30 10:56:12.174   CNC 17   INF   Device still active
+2019-12-30 10:56:12.174   CNC 17   INF   Production -> 3 of 300
+2019-12-30 10:56:12.288   CNC 17   INF   Processing takes 114.640238ms
+2019-12-30 10:56:12.289   CNC 17   INF   Sleeping for 9.885197103s
+2019-12-30 10:56:22.176   CNC 17   INF   Device still active
+2019-12-30 10:56:22.177   CNC 17   INF   Production -> 4 of 300
+2019-12-30 10:56:22.259   CNC 17   INF   Processing takes 81.429369ms
+2019-12-30 10:56:22.259   CNC 17   INF   Sleeping for 9.918476887s
+2019-12-30 10:56:32.178   CNC 17   INF   Device still active
+2019-12-30 10:56:32.179   CNC 17   INF   Production -> 5 of 300
+2019-12-30 10:56:32.244   CNC 17   INF   Processing takes 65.717764ms
+2019-12-30 10:56:32.244   CNC 17   INF   Sleeping for 9.934191432s
+2019-12-30 10:56:42.181   CNC 17   INF   Device still active
+2019-12-30 10:56:42.181   CNC 17   INF   Production -> 6 of 300
+2019-12-30 10:56:42.294   CNC 17   INF   Processing takes 113.0077ms
+2019-12-30 10:56:42.294   CNC 17   INF   Sleeping for 9.886818851s
+2019-12-30 10:56:52.185   CNC 17   INF   Device still active
+2019-12-30 10:56:52.185   CNC 17   INF   Production -> 7 of 300
+2019-12-30 10:56:52.247   CNC 17   INF   Processing takes 62.296198ms
+2019-12-30 10:56:52.247   CNC 17   INF   Sleeping for 9.937580903s
+2019-12-30 10:57:02.186   CNC 17   INF   Device still active
+2019-12-30 10:57:02.188   CNC 17   INF   Production -> 8 of 300
+2019-12-30 10:57:02.320   CNC 17   INF   Processing takes 133.507322ms
+2019-12-30 10:57:02.320   CNC 17   INF   Sleeping for 9.86636264s
+2019-12-30 10:57:36.290   CNC 17   INF   Device started running
+2019-12-30 10:57:36.291   CNC 17   INF   Device directory exists
+2019-12-30 10:57:36.291   CNC 17   INF   Production -> 0 of 300
+2019-12-30 10:57:36.408   CNC 17   INF   Processing takes 116.98558ms
+2019-12-30 10:57:36.408   CNC 17   INF   Sleeping for 9.882829845s
+2019-12-30 10:58:10.040   CNC 17   INF   Device started running
+2019-12-30 10:58:10.041   CNC 17   INF   Device directory exists
+2019-12-30 10:58:10.041   CNC 17   INF   Production -> 0 of 300
+2019-12-30 10:58:10.099   CNC 17   INF   Processing takes 58.440948ms
+2019-12-30 10:58:10.100   CNC 17   INF   Sleeping for 9.94141842s
+2019-12-30 11:09:08.177   CNC 17   INF   Device started running
+2019-12-30 11:09:08.177   CNC 17   INF   Device directory exists
+2019-12-30 11:09:08.178   CNC 17   INF   Offline -> 0 of 150
+2019-12-30 11:09:08.178   CNC 17   INF   Processing takes 595.253µs
+2019-12-30 11:09:08.178   CNC 17   INF   Sleeping for 9.999299624s
+2019-12-30 11:09:18.182   CNC 17   INF   Device still active
+2019-12-30 11:09:18.183   CNC 17   INF   Offline -> 1 of 150
+2019-12-30 11:09:18.183   CNC 17   INF   Processing takes 776.267µs
+2019-12-30 11:09:18.184   CNC 17   INF   Sleeping for 9.999098267s
+2019-12-30 11:09:28.187   CNC 17   INF   Device still active
+2019-12-30 11:09:28.187   CNC 17   INF   Offline -> 2 of 150
+2019-12-30 11:09:28.188   CNC 17   INF   Processing takes 697.212µs
+2019-12-30 11:09:28.188   CNC 17   INF   Sleeping for 9.999094867s
+2019-12-30 11:09:38.192   CNC 17   INF   Device still active
+2019-12-30 11:09:38.192   CNC 17   INF   Offline -> 3 of 150
+2019-12-30 11:09:38.194   CNC 17   INF   Processing takes 224.466µs
+2019-12-30 11:09:38.194   CNC 17   INF   Sleeping for 9.99778301s
+2019-12-30 11:09:48.195   CNC 17   INF   Device still active
+2019-12-30 11:09:48.195   CNC 17   INF   Offline -> 4 of 150
+2019-12-30 11:09:48.195   CNC 17   INF   Processing takes 187.09µs
+2019-12-30 11:09:48.195   CNC 17   INF   Sleeping for 9.999643709s
+2019-12-30 11:09:58.200   CNC 17   INF   Device still active
+2019-12-30 11:09:58.201   CNC 17   INF   Offline -> 5 of 150
+2019-12-30 11:09:58.201   CNC 17   INF   Processing takes 516.331µs
+2019-12-30 11:09:58.201   CNC 17   INF   Sleeping for 9.999323315s
+2019-12-30 11:10:08.206   CNC 17   INF   Device still active
+2019-12-30 11:10:08.207   CNC 17   INF   Offline -> 6 of 150
+2019-12-30 11:10:08.207   CNC 17   INF   Processing takes 333.264µs
+2019-12-30 11:10:08.207   CNC 17   INF   Sleeping for 9.999162123s
+2019-12-30 11:10:18.207   CNC 17   INF   Device still active
+2019-12-30 11:10:18.208   CNC 17   INF   Offline -> 7 of 150
+2019-12-30 11:10:18.208   CNC 17   INF   Processing takes 369.91µs
+2019-12-30 11:10:18.208   CNC 17   INF   Sleeping for 9.999308921s
+2019-12-30 11:10:28.210   CNC 17   INF   Device still active
+2019-12-30 11:10:28.210   CNC 17   INF   Offline -> 8 of 150
+2019-12-30 11:10:28.210   CNC 17   INF   Processing takes 175.723µs
+2019-12-30 11:10:28.210   CNC 17   INF   Sleeping for 9.999673435s
+2019-12-30 11:10:38.210   CNC 17   INF   Device still active
+2019-12-30 11:10:38.211   CNC 17   INF   Offline -> 9 of 150
+2019-12-30 11:10:38.211   CNC 17   INF   Processing takes 130.46µs
+2019-12-30 11:10:38.211   CNC 17   INF   Sleeping for 9.999773667s
+2019-12-30 11:10:48.212   CNC 17   INF   Device still active
+2019-12-30 11:10:48.212   CNC 17   INF   Offline -> 10 of 150
+2019-12-30 11:10:48.213   CNC 17   INF   Processing takes 202.452µs
+2019-12-30 11:10:48.213   CNC 17   INF   Sleeping for 9.999686596s
+2019-12-30 11:10:58.213   CNC 17   INF   Device still active
+2019-12-30 11:10:58.214   CNC 17   INF   Offline -> 11 of 150
+2019-12-30 11:10:58.215   CNC 17   INF   Processing takes 594.926µs
+2019-12-30 11:10:58.215   CNC 17   INF   Sleeping for 9.999221975s
+2019-12-30 11:11:08.215   CNC 17   INF   Device still active
+2019-12-30 11:11:08.215   CNC 17   INF   Offline -> 12 of 150
+2019-12-30 11:11:08.216   CNC 17   INF   Processing takes 645.08µs
+2019-12-30 11:11:08.216   CNC 17   INF   Sleeping for 9.999245407s
+2019-12-30 11:11:18.218   CNC 17   INF   Device still active
+2019-12-30 11:11:18.218   CNC 17   INF   Offline -> 13 of 150
+2019-12-30 11:11:18.218   CNC 17   INF   Processing takes 80.559µs
+2019-12-30 11:11:18.218   CNC 17   INF   Sleeping for 9.999740978s
+2019-12-30 11:11:28.219   CNC 17   INF   Device still active
+2019-12-30 11:11:28.221   CNC 17   INF   Offline -> 14 of 150
+2019-12-30 11:11:28.221   CNC 17   INF   Processing takes 933.244µs
+2019-12-30 11:11:28.222   CNC 17   INF   Sleeping for 9.998109842s
+2019-12-30 11:11:38.221   CNC 17   INF   Device still active
+2019-12-30 11:11:38.222   CNC 17   INF   Offline -> 15 of 150
+2019-12-30 11:11:38.222   CNC 17   INF   Processing takes 1.069798ms
+2019-12-30 11:11:38.222   CNC 17   INF   Sleeping for 9.998795462s
+2019-12-30 11:11:48.225   CNC 17   INF   Device still active
+2019-12-30 11:11:48.225   CNC 17   INF   Offline -> 16 of 150
+2019-12-30 11:11:48.225   CNC 17   INF   Processing takes 219.37µs
+2019-12-30 11:11:48.225   CNC 17   INF   Sleeping for 9.999662908s
+2019-12-30 11:11:58.226   CNC 17   INF   Device still active
+2019-12-30 11:11:58.226   CNC 17   INF   Offline -> 17 of 150
+2019-12-30 11:11:58.227   CNC 17   INF   Processing takes 212.788µs
+2019-12-30 11:11:58.227   CNC 17   INF   Sleeping for 9.999536572s
+2019-12-30 11:13:02.021   CNC 17   INF   Device started running
+2019-12-30 11:13:02.021   CNC 17   INF   Device directory exists
+2019-12-30 11:13:02.021   CNC 17   INF   Offline -> 0 of 150
+2019-12-30 11:13:02.022   CNC 17   INF   Processing takes 99.336µs
+2019-12-30 11:13:02.022   CNC 17   INF   Sleeping for 9.99980543s
+2019-12-30 11:13:12.022   CNC 17   INF   Device still active
+2019-12-30 11:13:12.022   CNC 17   INF   Offline -> 1 of 150
+2019-12-30 11:13:12.022   CNC 17   INF   Processing takes 158.736µs
+2019-12-30 11:13:12.022   CNC 17   INF   Sleeping for 9.999706914s
+2019-12-30 11:13:22.025   CNC 17   INF   Device still active
+2019-12-30 11:13:22.026   CNC 17   INF   Offline -> 2 of 150
+2019-12-30 11:13:22.026   CNC 17   INF   Processing takes 337.411µs
+2019-12-30 11:13:22.027   CNC 17   INF   Sleeping for 9.999006011s
+2019-12-30 11:13:32.026   CNC 17   INF   Device still active
+2019-12-30 11:13:32.026   CNC 17   INF   Offline -> 3 of 150
+2019-12-30 11:13:32.027   CNC 17   INF   Processing takes 323.785µs
+2019-12-30 11:13:32.027   CNC 17   INF   Sleeping for 9.999430794s
+2019-12-30 11:13:42.030   CNC 17   INF   Device still active
+2019-12-30 11:13:42.030   CNC 17   INF   Offline -> 4 of 150
+2019-12-30 11:13:42.031   CNC 17   INF   Processing takes 436.821µs
+2019-12-30 11:13:42.031   CNC 17   INF   Sleeping for 9.99898212s
+2019-12-30 11:13:52.033   CNC 17   INF   Device still active
+2019-12-30 11:13:52.033   CNC 17   INF   Offline -> 5 of 150
+2019-12-30 11:13:52.033   CNC 17   INF   Processing takes 334.799µs
+2019-12-30 11:13:52.034   CNC 17   INF   Sleeping for 9.999327222s
+2019-12-30 11:14:02.035   CNC 17   INF   Device still active
+2019-12-30 11:14:02.036   CNC 17   INF   Offline -> 6 of 150
+2019-12-30 11:14:02.036   CNC 17   INF   Processing takes 389.852µs
+2019-12-30 11:14:02.036   CNC 17   INF   Sleeping for 9.999385052s
+2019-12-30 11:14:12.038   CNC 17   INF   Device still active
+2019-12-30 11:14:12.039   CNC 17   INF   Offline -> 7 of 150
+2019-12-30 11:14:12.039   CNC 17   INF   Processing takes 932.666µs
+2019-12-30 11:14:12.039   CNC 17   INF   Sleeping for 9.998859478s
+2019-12-30 11:14:22.040   CNC 17   INF   Device still active
+2019-12-30 11:14:22.040   CNC 17   INF   Offline -> 8 of 150
+2019-12-30 11:14:22.040   CNC 17   INF   Processing takes 200.273µs
+2019-12-30 11:14:22.040   CNC 17   INF   Sleeping for 9.999486302s
+2019-12-30 11:14:32.044   CNC 17   INF   Device still active
+2019-12-30 11:14:32.044   CNC 17   INF   Offline -> 9 of 150
+2019-12-30 11:14:32.044   CNC 17   INF   Processing takes 429.296µs
+2019-12-30 11:14:32.045   CNC 17   INF   Sleeping for 9.999069907s
+2019-12-30 11:14:42.048   CNC 17   INF   Device still active
+2019-12-30 11:14:42.048   CNC 17   INF   Offline -> 10 of 150
+2019-12-30 11:14:42.048   CNC 17   INF   Processing takes 110.319µs
+2019-12-30 11:14:42.049   CNC 17   INF   Sleeping for 9.99968655s
+2019-12-30 11:14:52.054   CNC 17   INF   Device still active
+2019-12-30 11:14:52.054   CNC 17   INF   Offline -> 11 of 150
+2019-12-30 11:14:52.054   CNC 17   INF   Processing takes 358.58µs
+2019-12-30 11:14:52.054   CNC 17   INF   Sleeping for 9.999544652s
