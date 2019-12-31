@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-const version = "2019.4.3.30"
+const version = "2019.4.3.31"
 const deleteLogsAfter = 240 * time.Hour
 const downloadInSeconds = 10
 
@@ -83,7 +83,7 @@ func AddTestWorkplace(reference string, workplaceName string, ipAddress string) 
 	var section WorkplaceSection
 	db.Where("name=?", "Machines").Find(&section)
 	var state State
-	db.Where("name=?", "Offline").Find(&state)
+	db.Where("name=?", "Poweroff").Find(&state)
 	var mode WorkplaceMode
 	db.Where("name=?", "Production").Find(&mode)
 	newWorkplace := Workplace{Name: workplaceName, Code: workplaceName, WorkplaceSectionId: section.ID, ActualStateId: state.ID, ActualWorkplaceModeId: mode.ID}
@@ -98,9 +98,9 @@ func AddTestWorkplace(reference string, workplaceName string, ipAddress string) 
 	db.Create(&digitalPort)
 	var devicePortAnalog DevicePort
 	db.Where("name=?", "Amperage").Where("device_id=?", device.ID).Find(&devicePortAnalog)
-	var offlineState State
-	db.Where("name=?", "Offline").Find(&offlineState)
-	analogPort := WorkplacePort{Name: "Amperage", DevicePortId: devicePortAnalog.ID, WorkplaceId: workplace.ID, StateId: offlineState.ID}
+	var poweroffState State
+	db.Where("name=?", "Poweroff").Find(&poweroffState)
+	analogPort := WorkplacePort{Name: "Amperage", DevicePortId: devicePortAnalog.ID, WorkplaceId: workplace.ID, StateId: poweroffState.ID}
 	db.Create(&analogPort)
 
 }
@@ -123,7 +123,7 @@ func RunDevice(device Device) {
 	device.CreateDirectoryIfNotExists()
 	actualCycle := 0
 	totalCycles := 0
-	actualState := "offline"
+	actualState := "poweroff"
 	for deviceIsActive {
 		start := time.Now()
 		if actualCycle >= totalCycles {
@@ -136,8 +136,8 @@ func RunDevice(device Device) {
 		case "downtime":
 			LogInfo(device.Name, "Downtime -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
 			device.GenerateDowntimeData()
-		case "offline":
-			LogInfo(device.Name, "Offline -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
+		case "poweroff":
+			LogInfo(device.Name, "Poweroff -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
 		}
 		LogInfo(device.Name, "Processing takes "+time.Since(start).String())
 		device.Sleep(start)

@@ -96,7 +96,7 @@ func (device Device) GenerateNewState() (actualCycle int, actualState string, to
 	randomNumber := rand.Intn(max-min) + min
 	switch randomNumber {
 	case 1:
-		return 0, "offline", 150
+		return 0, "poweroff", 150
 	case 2:
 		return 0, "downtime", 150
 	default:
