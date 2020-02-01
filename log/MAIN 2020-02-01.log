@@ -359,3 +359,193 @@
 2020-02-01 22:52:09.932   MAIN   INF   Program running
 2020-02-01 22:52:12.699   MAIN   INF   Active devices: 1, running devices: 1
 2020-02-01 22:52:12.699   MAIN   INF   Sleeping for 7.233436736s
+2020-02-01 23:05:20.167   MAIN   INF   Program version 2020.1.2.1 started
+2020-02-01 23:05:20.168   MAIN   INF   Program running
+2020-02-01 23:05:22.771   MAIN   INF   Active devices: 0, running devices: 0
+2020-02-01 23:05:22.771   MAIN   INF   Sleeping for 7.397113409s
+2020-02-01 23:05:30.173   MAIN   INF   Program running
+2020-02-01 23:05:32.179   MAIN   INF   Active devices: 20, running devices: 0
+2020-02-01 23:05:32.180   MAIN   INF   Sleeping for 7.993448098s
+2020-02-01 23:05:40.177   MAIN   INF   Program running
+2020-02-01 23:05:45.868   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:05:45.868   MAIN   INF   Sleeping for 4.308611699s
+2020-02-01 23:05:50.177   MAIN   INF   Program running
+2020-02-01 23:05:54.027   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:05:54.027   MAIN   INF   Sleeping for 6.149797484s
+2020-02-01 23:06:00.178   MAIN   INF   Program running
+2020-02-01 23:06:01.957   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:06:01.957   MAIN   INF   Sleeping for 8.221393912s
+2020-02-01 23:06:10.179   MAIN   INF   Program running
+2020-02-01 23:06:11.991   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:06:11.991   MAIN   INF   Sleeping for 8.187747675s
+2020-02-01 23:06:20.181   MAIN   INF   Program running
+2020-02-01 23:06:21.896   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:06:21.896   MAIN   INF   Sleeping for 8.284732162s
+2020-02-01 23:06:30.183   MAIN   INF   Program running
+2020-02-01 23:06:32.971   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:06:32.971   MAIN   INF   Sleeping for 7.211427285s
+2020-02-01 23:06:40.187   MAIN   INF   Program running
+2020-02-01 23:06:41.840   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:06:41.840   MAIN   INF   Sleeping for 8.346513965s
+2020-02-01 23:06:50.190   MAIN   INF   Program running
+2020-02-01 23:06:53.002   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:06:53.002   MAIN   INF   Sleeping for 7.187868473s
+2020-02-01 23:07:00.191   MAIN   INF   Program running
+2020-02-01 23:07:02.147   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:07:02.147   MAIN   INF   Sleeping for 8.043501454s
+2020-02-01 23:07:10.195   MAIN   INF   Program running
+2020-02-01 23:07:11.781   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:07:11.781   MAIN   INF   Sleeping for 8.413400801s
+2020-02-01 23:07:20.200   MAIN   INF   Program running
+2020-02-01 23:07:21.737   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:07:21.737   MAIN   INF   Sleeping for 8.462621625s
+2020-02-01 23:07:30.201   MAIN   INF   Program running
+2020-02-01 23:07:33.181   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:07:33.181   MAIN   INF   Sleeping for 7.01941386s
+2020-02-01 23:07:40.202   MAIN   INF   Program running
+2020-02-01 23:07:41.991   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:07:41.991   MAIN   INF   Sleeping for 8.210086418s
+2020-02-01 23:07:50.203   MAIN   INF   Program running
+2020-02-01 23:07:52.955   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:07:52.956   MAIN   INF   Sleeping for 7.246952238s
+2020-02-01 23:08:00.203   MAIN   INF   Program running
+2020-02-01 23:08:02.150   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:08:02.150   MAIN   INF   Sleeping for 8.053235257s
+2020-02-01 23:08:10.208   MAIN   INF   Program running
+2020-02-01 23:08:11.855   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:08:11.855   MAIN   INF   Sleeping for 8.35360653s
+2020-02-01 23:08:20.213   MAIN   INF   Program running
+2020-02-01 23:08:21.769   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:08:21.769   MAIN   INF   Sleeping for 8.443368827s
+2020-02-01 23:08:30.215   MAIN   INF   Program running
+2020-02-01 23:08:31.881   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:08:31.881   MAIN   INF   Sleeping for 8.334271487s
+2020-02-01 23:08:40.216   MAIN   INF   Program running
+2020-02-01 23:08:42.058   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:08:42.058   MAIN   INF   Sleeping for 8.158025851s
+2020-02-01 23:08:50.217   MAIN   INF   Program running
+2020-02-01 23:08:51.988   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:08:51.988   MAIN   INF   Sleeping for 8.228913231s
+2020-02-01 23:09:00.220   MAIN   INF   Program running
+2020-02-01 23:09:02.817   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:09:02.818   MAIN   INF   Sleeping for 7.402025883s
+2020-02-01 23:09:10.223   MAIN   INF   Program running
+2020-02-01 23:09:13.158   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:09:13.158   MAIN   INF   Sleeping for 7.064621757s
+2020-02-01 23:09:20.223   MAIN   INF   Program running
+2020-02-01 23:09:21.967   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:09:21.967   MAIN   INF   Sleeping for 8.256382532s
+2020-02-01 23:09:30.224   MAIN   INF   Program running
+2020-02-01 23:09:33.094   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:09:33.095   MAIN   INF   Sleeping for 7.129131442s
+2020-02-01 23:09:40.226   MAIN   INF   Program running
+2020-02-01 23:09:41.957   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:09:41.957   MAIN   INF   Sleeping for 8.268927689s
+2020-02-01 23:09:50.232   MAIN   INF   Program running
+2020-02-01 23:09:51.852   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:09:51.852   MAIN   INF   Sleeping for 8.379981175s
+2020-02-01 23:10:00.235   MAIN   INF   Program running
+2020-02-01 23:10:02.673   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:10:02.673   MAIN   INF   Sleeping for 7.561845712s
+2020-02-01 23:10:10.237   MAIN   INF   Program running
+2020-02-01 23:10:11.933   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:10:11.933   MAIN   INF   Sleeping for 8.303801857s
+2020-02-01 23:10:20.239   MAIN   INF   Program running
+2020-02-01 23:10:21.971   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:10:21.971   MAIN   INF   Sleeping for 8.268027024s
+2020-02-01 23:10:30.241   MAIN   INF   Program running
+2020-02-01 23:10:32.633   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:10:32.633   MAIN   INF   Sleeping for 7.60736075s
+2020-02-01 23:10:40.241   MAIN   INF   Program running
+2020-02-01 23:10:41.826   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:10:41.826   MAIN   INF   Sleeping for 8.41528201s
+2020-02-01 23:10:50.243   MAIN   INF   Program running
+2020-02-01 23:10:51.833   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:10:51.834   MAIN   INF   Sleeping for 8.409872045s
+2020-02-01 23:11:00.245   MAIN   INF   Program running
+2020-02-01 23:11:01.902   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:11:01.903   MAIN   INF   Sleeping for 8.342065884s
+2020-02-01 23:11:10.250   MAIN   INF   Program running
+2020-02-01 23:11:12.777   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:11:12.777   MAIN   INF   Sleeping for 7.472663826s
+2020-02-01 23:11:20.255   MAIN   INF   Program running
+2020-02-01 23:11:22.019   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:11:22.019   MAIN   INF   Sleeping for 8.236235627s
+2020-02-01 23:11:30.256   MAIN   INF   Program running
+2020-02-01 23:11:32.642   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:11:32.642   MAIN   INF   Sleeping for 7.613134735s
+2020-02-01 23:11:40.256   MAIN   INF   Program running
+2020-02-01 23:11:41.893   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:11:41.893   MAIN   INF   Sleeping for 8.363456589s
+2020-02-01 23:11:50.262   MAIN   INF   Program running
+2020-02-01 23:11:51.974   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:11:51.974   MAIN   INF   Sleeping for 8.28730714s
+2020-02-01 23:12:00.264   MAIN   INF   Program running
+2020-02-01 23:12:03.051   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:12:03.051   MAIN   INF   Sleeping for 7.212363281s
+2020-02-01 23:12:10.268   MAIN   INF   Program running
+2020-02-01 23:12:13.215   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:12:13.216   MAIN   INF   Sleeping for 7.052531933s
+2020-02-01 23:12:20.269   MAIN   INF   Program running
+2020-02-01 23:12:22.122   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:12:22.122   MAIN   INF   Sleeping for 8.146700022s
+2020-02-01 23:12:30.269   MAIN   INF   Program running
+2020-02-01 23:12:32.440   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:12:32.440   MAIN   INF   Sleeping for 7.828991442s
+2020-02-01 23:12:40.272   MAIN   INF   Program running
+2020-02-01 23:12:42.231   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:12:42.231   MAIN   INF   Sleeping for 8.04072182s
+2020-02-01 23:12:50.273   MAIN   INF   Program running
+2020-02-01 23:12:52.231   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:12:52.231   MAIN   INF   Sleeping for 8.042031617s
+2020-02-01 23:13:00.276   MAIN   INF   Program running
+2020-02-01 23:13:01.769   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:13:01.769   MAIN   INF   Sleeping for 8.507209516s
+2020-02-01 23:13:10.281   MAIN   INF   Program running
+2020-02-01 23:13:13.011   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:13:13.011   MAIN   INF   Sleeping for 7.270570942s
+2020-02-01 23:13:20.286   MAIN   INF   Program running
+2020-02-01 23:13:21.961   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:13:21.961   MAIN   INF   Sleeping for 8.324812657s
+2020-02-01 23:13:30.288   MAIN   INF   Program running
+2020-02-01 23:13:31.962   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:13:31.962   MAIN   INF   Sleeping for 8.325774738s
+2020-02-01 23:13:40.289   MAIN   INF   Program running
+2020-02-01 23:13:42.163   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:13:42.163   MAIN   INF   Sleeping for 8.125719621s
+2020-02-01 23:13:50.290   MAIN   INF   Program running
+2020-02-01 23:13:52.719   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:13:52.720   MAIN   INF   Sleeping for 7.570028962s
+2020-02-01 23:14:00.290   MAIN   INF   Program running
+2020-02-01 23:14:01.948   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:14:01.948   MAIN   INF   Sleeping for 8.341723564s
+2020-02-01 23:14:10.295   MAIN   INF   Program running
+2020-02-01 23:14:11.943   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:14:11.943   MAIN   INF   Sleeping for 8.352605174s
+2020-02-01 23:14:20.299   MAIN   INF   Program running
+2020-02-01 23:14:21.919   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:14:21.919   MAIN   INF   Sleeping for 8.379508536s
+2020-02-01 23:14:30.303   MAIN   INF   Program running
+2020-02-01 23:14:33.851   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:14:33.851   MAIN   INF   Sleeping for 6.451297524s
+2020-02-01 23:14:40.307   MAIN   INF   Program running
+2020-02-01 23:14:41.944   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:14:41.944   MAIN   INF   Sleeping for 8.363505945s
+2020-02-01 23:14:50.310   MAIN   INF   Program running
+2020-02-01 23:14:53.809   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:14:53.809   MAIN   INF   Sleeping for 6.500923914s
+2020-02-01 23:15:00.311   MAIN   INF   Program running
+2020-02-01 23:15:02.270   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:15:02.270   MAIN   INF   Sleeping for 8.04011211s
+2020-02-01 23:15:10.316   MAIN   INF   Program running
+2020-02-01 23:15:12.137   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:15:12.137   MAIN   INF   Sleeping for 8.179258616s
+2020-02-01 23:15:20.321   MAIN   INF   Program running
+2020-02-01 23:15:21.990   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:15:21.990   MAIN   INF   Sleeping for 8.330826119s
+2020-02-01 23:15:30.325   MAIN   INF   Program running
+2020-02-01 23:15:32.055   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:15:32.056   MAIN   INF   Sleeping for 8.269544254s
+2020-02-01 23:15:40.330   MAIN   INF   Program running
+2020-02-01 23:15:41.958   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 23:15:41.958   MAIN   INF   Sleeping for 8.372632667s
