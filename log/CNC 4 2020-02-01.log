@@ -27,3 +27,142 @@
 2020-02-01 21:41:57.724   CNC 4   INF   Production -> 6 of 300
 2020-02-01 21:41:58.044   CNC 4   INF   Processing takes 320.158368ms
 2020-02-01 21:41:58.044   CNC 4   INF   Sleeping for 9.679675155s
+2020-02-01 22:31:32.096   CNC 4   INF   Device started running
+2020-02-01 22:31:32.096   CNC 4   INF   Device directory exists
+2020-02-01 22:31:32.096   CNC 4   INF   Poweroff -> 0 of 150
+2020-02-01 22:31:32.097   CNC 4   INF   Processing takes 340.815µs
+2020-02-01 22:31:32.097   CNC 4   INF   Sleeping for 9.999406397s
+2020-02-01 22:31:42.100   CNC 4   INF   Device still active
+2020-02-01 22:31:42.101   CNC 4   INF   Poweroff -> 1 of 150
+2020-02-01 22:31:42.101   CNC 4   INF   Processing takes 142.859µs
+2020-02-01 22:31:42.101   CNC 4   INF   Sleeping for 9.999751924s
+2020-02-01 22:31:52.101   CNC 4   INF   Device still active
+2020-02-01 22:31:52.101   CNC 4   INF   Poweroff -> 2 of 150
+2020-02-01 22:31:52.102   CNC 4   INF   Processing takes 164.662µs
+2020-02-01 22:31:52.102   CNC 4   INF   Sleeping for 9.99957129s
+2020-02-01 22:32:02.102   CNC 4   INF   Device still active
+2020-02-01 22:32:02.102   CNC 4   INF   Poweroff -> 3 of 150
+2020-02-01 22:32:02.103   CNC 4   INF   Processing takes 296.675µs
+2020-02-01 22:32:02.103   CNC 4   INF   Sleeping for 9.999380092s
+2020-02-01 22:32:12.106   CNC 4   INF   Device still active
+2020-02-01 22:32:12.106   CNC 4   INF   Poweroff -> 4 of 150
+2020-02-01 22:32:12.106   CNC 4   INF   Processing takes 178.306µs
+2020-02-01 22:32:12.106   CNC 4   INF   Sleeping for 9.9996359s
+2020-02-01 22:32:22.110   CNC 4   INF   Device still active
+2020-02-01 22:32:22.110   CNC 4   INF   Poweroff -> 5 of 150
+2020-02-01 22:32:22.110   CNC 4   INF   Processing takes 91.954µs
+2020-02-01 22:32:22.110   CNC 4   INF   Sleeping for 9.999818471s
+2020-02-01 22:32:32.110   CNC 4   INF   Device still active
+2020-02-01 22:32:32.110   CNC 4   INF   Poweroff -> 6 of 150
+2020-02-01 22:32:32.111   CNC 4   INF   Processing takes 232.317µs
+2020-02-01 22:32:32.111   CNC 4   INF   Sleeping for 9.999637066s
+2020-02-01 22:32:42.115   CNC 4   INF   Device still active
+2020-02-01 22:32:42.115   CNC 4   INF   Poweroff -> 7 of 150
+2020-02-01 22:32:42.115   CNC 4   INF   Processing takes 172.967µs
+2020-02-01 22:32:42.116   CNC 4   INF   Sleeping for 9.999348398s
+2020-02-01 22:32:52.116   CNC 4   INF   Device still active
+2020-02-01 22:32:52.116   CNC 4   INF   Poweroff -> 8 of 150
+2020-02-01 22:32:52.116   CNC 4   INF   Processing takes 132.614µs
+2020-02-01 22:32:52.116   CNC 4   INF   Sleeping for 9.999720273s
+2020-02-01 22:33:02.118   CNC 4   INF   Device still active
+2020-02-01 22:33:02.119   CNC 4   INF   Poweroff -> 9 of 150
+2020-02-01 22:33:02.119   CNC 4   INF   Processing takes 525.346µs
+2020-02-01 22:33:02.119   CNC 4   INF   Sleeping for 9.999225327s
+2020-02-01 22:35:03.462   CNC 4   INF   Device started running
+2020-02-01 22:35:03.463   CNC 4   INF   Device directory exists
+2020-02-01 22:35:03.463   CNC 4   INF   Poweroff -> 0 of 150
+2020-02-01 22:35:03.464   CNC 4   INF   Processing takes 495.804µs
+2020-02-01 22:35:03.464   CNC 4   INF   Sleeping for 9.998926424s
+2020-02-01 22:35:13.464   CNC 4   INF   Device still active
+2020-02-01 22:35:13.465   CNC 4   INF   Poweroff -> 1 of 150
+2020-02-01 22:35:13.465   CNC 4   INF   Processing takes 431.583µs
+2020-02-01 22:35:13.465   CNC 4   INF   Sleeping for 9.999349523s
+2020-02-01 22:35:23.469   CNC 4   INF   Device still active
+2020-02-01 22:35:23.469   CNC 4   INF   Poweroff -> 2 of 150
+2020-02-01 22:35:23.470   CNC 4   INF   Processing takes 489.585µs
+2020-02-01 22:35:23.470   CNC 4   INF   Sleeping for 9.999187157s
+2020-02-01 22:35:33.470   CNC 4   INF   Device still active
+2020-02-01 22:35:33.470   CNC 4   INF   Poweroff -> 3 of 150
+2020-02-01 22:35:33.470   CNC 4   INF   Processing takes 381.765µs
+2020-02-01 22:35:33.471   CNC 4   INF   Sleeping for 9.999495173s
+2020-02-01 22:35:43.473   CNC 4   INF   Device still active
+2020-02-01 22:35:43.473   CNC 4   INF   Poweroff -> 4 of 150
+2020-02-01 22:35:43.474   CNC 4   INF   Processing takes 521.815µs
+2020-02-01 22:35:43.475   CNC 4   INF   Sleeping for 9.99890154s
+2020-02-01 22:35:53.478   CNC 4   INF   Device still active
+2020-02-01 22:35:53.479   CNC 4   INF   Poweroff -> 5 of 150
+2020-02-01 22:35:53.479   CNC 4   INF   Processing takes 375.368µs
+2020-02-01 22:35:53.479   CNC 4   INF   Sleeping for 9.999510932s
+2020-02-01 22:36:03.479   CNC 4   INF   Device still active
+2020-02-01 22:36:03.479   CNC 4   INF   Poweroff -> 6 of 150
+2020-02-01 22:36:03.480   CNC 4   INF   Processing takes 351.951µs
+2020-02-01 22:36:03.480   CNC 4   INF   Sleeping for 9.999211976s
+2020-02-01 22:36:13.484   CNC 4   INF   Device still active
+2020-02-01 22:36:13.484   CNC 4   INF   Poweroff -> 7 of 150
+2020-02-01 22:36:13.485   CNC 4   INF   Processing takes 213.68µs
+2020-02-01 22:36:13.485   CNC 4   INF   Sleeping for 9.999283671s
+2020-02-01 22:36:23.489   CNC 4   INF   Device still active
+2020-02-01 22:36:23.490   CNC 4   INF   Poweroff -> 8 of 150
+2020-02-01 22:36:23.491   CNC 4   INF   Processing takes 227.973µs
+2020-02-01 22:36:23.491   CNC 4   INF   Sleeping for 9.998596329s
+2020-02-01 22:36:33.491   CNC 4   INF   Device still active
+2020-02-01 22:36:33.491   CNC 4   INF   Poweroff -> 9 of 150
+2020-02-01 22:36:33.491   CNC 4   INF   Processing takes 129.736µs
+2020-02-01 22:36:33.491   CNC 4   INF   Sleeping for 9.999736725s
+2020-02-01 22:38:26.312   CNC 4   INF   Device started running
+2020-02-01 22:38:26.313   CNC 4   INF   Device directory exists
+2020-02-01 22:38:26.314   CNC 4   INF   Poweroff -> 0 of 150
+2020-02-01 22:38:26.314   CNC 4   INF   Processing takes 210.134µs
+2020-02-01 22:38:26.314   CNC 4   INF   Sleeping for 9.999704837s
+2020-02-01 22:38:36.316   CNC 4   INF   Device still active
+2020-02-01 22:38:36.317   CNC 4   INF   Poweroff -> 1 of 150
+2020-02-01 22:38:36.317   CNC 4   INF   Processing takes 472.267µs
+2020-02-01 22:38:36.317   CNC 4   INF   Sleeping for 9.999405646s
+2020-02-01 22:38:46.317   CNC 4   INF   Device still active
+2020-02-01 22:38:46.317   CNC 4   INF   Poweroff -> 2 of 150
+2020-02-01 22:38:46.317   CNC 4   INF   Processing takes 141.382µs
+2020-02-01 22:38:46.317   CNC 4   INF   Sleeping for 9.999751862s
+2020-02-01 22:38:56.321   CNC 4   INF   Device still active
+2020-02-01 22:38:56.321   CNC 4   INF   Poweroff -> 3 of 150
+2020-02-01 22:38:56.322   CNC 4   INF   Processing takes 1.027945ms
+2020-02-01 22:38:56.322   CNC 4   INF   Sleeping for 9.998714786s
+2020-02-01 22:39:06.325   CNC 4   INF   Device still active
+2020-02-01 22:39:06.325   CNC 4   INF   Poweroff -> 4 of 150
+2020-02-01 22:39:06.325   CNC 4   INF   Processing takes 129.403µs
+2020-02-01 22:39:06.325   CNC 4   INF   Sleeping for 9.999779479s
+2020-02-01 22:39:16.328   CNC 4   INF   Device still active
+2020-02-01 22:39:16.328   CNC 4   INF   Poweroff -> 5 of 150
+2020-02-01 22:39:16.328   CNC 4   INF   Processing takes 113.344µs
+2020-02-01 22:39:16.329   CNC 4   INF   Sleeping for 9.999372782s
+2020-02-01 22:39:26.329   CNC 4   INF   Device still active
+2020-02-01 22:39:26.329   CNC 4   INF   Poweroff -> 6 of 150
+2020-02-01 22:39:26.329   CNC 4   INF   Processing takes 249.79µs
+2020-02-01 22:39:26.329   CNC 4   INF   Sleeping for 9.999634738s
+2020-02-01 22:39:36.332   CNC 4   INF   Device still active
+2020-02-01 22:39:36.333   CNC 4   INF   Poweroff -> 7 of 150
+2020-02-01 22:39:36.334   CNC 4   INF   Processing takes 895.597µs
+2020-02-01 22:39:36.334   CNC 4   INF   Sleeping for 9.998741222s
+2020-02-01 22:39:46.333   CNC 4   INF   Device still active
+2020-02-01 22:39:46.334   CNC 4   INF   Poweroff -> 8 of 150
+2020-02-01 22:39:46.334   CNC 4   INF   Processing takes 89.187µs
+2020-02-01 22:39:46.334   CNC 4   INF   Sleeping for 9.99970584s
+2020-02-01 22:39:56.331   CNC 4   INF   Device still active
+2020-02-01 22:39:56.332   CNC 4   INF   Poweroff -> 9 of 150
+2020-02-01 22:39:56.332   CNC 4   INF   Processing takes 122.004µs
+2020-02-01 22:39:56.332   CNC 4   INF   Sleeping for 9.999792083s
+2020-02-01 22:40:06.334   CNC 4   INF   Device still active
+2020-02-01 22:40:06.334   CNC 4   INF   Poweroff -> 10 of 150
+2020-02-01 22:40:06.334   CNC 4   INF   Processing takes 484.716µs
+2020-02-01 22:40:06.334   CNC 4   INF   Sleeping for 9.999411062s
+2020-02-01 22:40:16.337   CNC 4   INF   Device still active
+2020-02-01 22:40:16.338   CNC 4   INF   Poweroff -> 11 of 150
+2020-02-01 22:40:16.338   CNC 4   INF   Processing takes 570.226µs
+2020-02-01 22:40:16.338   CNC 4   INF   Sleeping for 9.999294244s
+2020-02-01 22:40:26.338   CNC 4   INF   Device still active
+2020-02-01 22:40:26.339   CNC 4   INF   Poweroff -> 12 of 150
+2020-02-01 22:40:26.339   CNC 4   INF   Processing takes 106.829µs
+2020-02-01 22:40:26.339   CNC 4   INF   Sleeping for 9.999732306s
+2020-02-01 22:40:36.339   CNC 4   INF   Device still active
+2020-02-01 22:40:36.340   CNC 4   INF   Poweroff -> 13 of 150
+2020-02-01 22:40:36.340   CNC 4   INF   Processing takes 489.366µs
+2020-02-01 22:40:36.340   CNC 4   INF   Sleeping for 9.999396954s

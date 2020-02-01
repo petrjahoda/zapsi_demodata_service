@@ -27,3 +27,140 @@
 2020-02-01 21:41:57.725   CNC 13   INF   Production -> 6 of 300
 2020-02-01 21:41:58.065   CNC 13   INF   Processing takes 340.359577ms
 2020-02-01 21:41:58.065   CNC 13   INF   Sleeping for 9.659417507s
+2020-02-01 22:31:32.096   CNC 13   INF   Device started running
+2020-02-01 22:31:32.096   CNC 13   INF   Device directory exists
+2020-02-01 22:31:32.097   CNC 13   INF   Production -> 0 of 300
+2020-02-01 22:31:32.955   CNC 13   INF   Processing takes 858.343639ms
+2020-02-01 22:31:32.955   CNC 13   INF   Sleeping for 9.141498858s
+2020-02-01 22:31:42.100   CNC 13   INF   Device still active
+2020-02-01 22:31:42.101   CNC 13   INF   Production -> 1 of 300
+2020-02-01 22:31:42.480   CNC 13   INF   Processing takes 379.498694ms
+2020-02-01 22:31:42.480   CNC 13   INF   Sleeping for 9.620302769s
+2020-02-01 22:31:52.101   CNC 13   INF   Device still active
+2020-02-01 22:31:52.101   CNC 13   INF   Production -> 2 of 300
+2020-02-01 22:31:52.372   CNC 13   INF   Processing takes 270.014395ms
+2020-02-01 22:31:52.372   CNC 13   INF   Sleeping for 9.729823209s
+2020-02-01 22:32:02.102   CNC 13   INF   Device still active
+2020-02-01 22:32:02.102   CNC 13   INF   Production -> 3 of 300
+2020-02-01 22:32:02.280   CNC 13   INF   Processing takes 177.623784ms
+2020-02-01 22:32:02.280   CNC 13   INF   Sleeping for 9.822237394s
+2020-02-01 22:32:12.105   CNC 13   INF   Device still active
+2020-02-01 22:32:12.106   CNC 13   INF   Production -> 4 of 300
+2020-02-01 22:32:12.318   CNC 13   INF   Processing takes 212.718085ms
+2020-02-01 22:32:12.318   CNC 13   INF   Sleeping for 9.787059063s
+2020-02-01 22:32:22.105   CNC 13   INF   Device still active
+2020-02-01 22:32:22.106   CNC 13   INF   Production -> 5 of 300
+2020-02-01 22:32:22.383   CNC 13   INF   Processing takes 277.462763ms
+2020-02-01 22:32:22.383   CNC 13   INF   Sleeping for 9.722230449s
+2020-02-01 22:32:32.109   CNC 13   INF   Device still active
+2020-02-01 22:32:32.109   CNC 13   INF   Production -> 6 of 300
+2020-02-01 22:32:32.474   CNC 13   INF   Processing takes 364.968055ms
+2020-02-01 22:32:32.475   CNC 13   INF   Sleeping for 9.634350012s
+2020-02-01 22:32:42.110   CNC 13   INF   Device still active
+2020-02-01 22:32:42.110   CNC 13   INF   Production -> 7 of 300
+2020-02-01 22:32:42.195   CNC 13   INF   Processing takes 84.509737ms
+2020-02-01 22:32:42.195   CNC 13   INF   Sleeping for 9.915383195s
+2020-02-01 22:32:52.112   CNC 13   INF   Device still active
+2020-02-01 22:32:52.112   CNC 13   INF   Production -> 8 of 300
+2020-02-01 22:32:52.352   CNC 13   INF   Processing takes 239.772125ms
+2020-02-01 22:32:52.352   CNC 13   INF   Sleeping for 9.760117315s
+2020-02-01 22:33:02.118   CNC 13   INF   Device still active
+2020-02-01 22:33:02.119   CNC 13   INF   Production -> 9 of 300
+2020-02-01 22:33:02.323   CNC 13   INF   Processing takes 204.785715ms
+2020-02-01 22:33:02.323   CNC 13   INF   Sleeping for 9.795051907s
+2020-02-01 22:35:03.462   CNC 13   INF   Device started running
+2020-02-01 22:35:03.463   CNC 13   INF   Device directory exists
+2020-02-01 22:35:03.463   CNC 13   INF   Production -> 0 of 300
+2020-02-01 22:35:03.678   CNC 13   INF   Processing takes 214.554068ms
+2020-02-01 22:35:03.678   CNC 13   INF   Sleeping for 9.785302056s
+2020-02-01 22:35:13.464   CNC 13   INF   Device still active
+2020-02-01 22:35:13.464   CNC 13   INF   Production -> 1 of 300
+2020-02-01 22:35:13.638   CNC 13   INF   Processing takes 173.236902ms
+2020-02-01 22:35:13.638   CNC 13   INF   Sleeping for 9.8266382s
+2020-02-01 22:35:23.469   CNC 13   INF   Device still active
+2020-02-01 22:35:23.469   CNC 13   INF   Production -> 2 of 300
+2020-02-01 22:35:23.621   CNC 13   INF   Processing takes 152.056182ms
+2020-02-01 22:35:23.621   CNC 13   INF   Sleeping for 9.847813691s
+2020-02-01 22:35:33.470   CNC 13   INF   Device still active
+2020-02-01 22:35:33.470   CNC 13   INF   Production -> 3 of 300
+2020-02-01 22:35:33.697   CNC 13   INF   Processing takes 227.450997ms
+2020-02-01 22:35:33.698   CNC 13   INF   Sleeping for 9.772329195s
+2020-02-01 22:35:43.474   CNC 13   INF   Device still active
+2020-02-01 22:35:43.474   CNC 13   INF   Production -> 4 of 300
+2020-02-01 22:35:43.603   CNC 13   INF   Processing takes 129.675183ms
+2020-02-01 22:35:43.604   CNC 13   INF   Sleeping for 9.870096321s
+2020-02-01 22:35:53.477   CNC 13   INF   Device still active
+2020-02-01 22:35:53.478   CNC 13   INF   Production -> 5 of 300
+2020-02-01 22:35:53.768   CNC 13   INF   Processing takes 290.608384ms
+2020-02-01 22:35:53.768   CNC 13   INF   Sleeping for 9.709240428s
+2020-02-01 22:36:03.479   CNC 13   INF   Device still active
+2020-02-01 22:36:03.479   CNC 13   INF   Production -> 6 of 300
+2020-02-01 22:36:03.833   CNC 13   INF   Processing takes 353.817939ms
+2020-02-01 22:36:03.834   CNC 13   INF   Sleeping for 9.64570718s
+2020-02-01 22:36:13.483   CNC 13   INF   Device still active
+2020-02-01 22:36:13.484   CNC 13   INF   Production -> 7 of 300
+2020-02-01 22:36:13.718   CNC 13   INF   Processing takes 234.711264ms
+2020-02-01 22:36:13.719   CNC 13   INF   Sleeping for 9.765193422s
+2020-02-01 22:36:23.490   CNC 13   INF   Device still active
+2020-02-01 22:36:23.491   CNC 13   INF   Production -> 8 of 300
+2020-02-01 22:36:23.697   CNC 13   INF   Processing takes 206.839296ms
+2020-02-01 22:36:23.697   CNC 13   INF   Sleeping for 9.792999276s
+2020-02-01 22:36:33.491   CNC 13   INF   Device still active
+2020-02-01 22:36:33.491   CNC 13   INF   Production -> 9 of 300
+2020-02-01 22:38:26.312   CNC 13   INF   Device started running
+2020-02-01 22:38:26.312   CNC 13   INF   Device directory exists
+2020-02-01 22:38:26.312   CNC 13   INF   Production -> 0 of 300
+2020-02-01 22:38:26.521   CNC 13   INF   Processing takes 209.100787ms
+2020-02-01 22:38:26.521   CNC 13   INF   Sleeping for 9.790780993s
+2020-02-01 22:38:36.316   CNC 13   INF   Device still active
+2020-02-01 22:38:36.316   CNC 13   INF   Production -> 1 of 300
+2020-02-01 22:38:36.563   CNC 13   INF   Processing takes 246.396057ms
+2020-02-01 22:38:36.563   CNC 13   INF   Sleeping for 9.753456618s
+2020-02-01 22:38:46.316   CNC 13   INF   Device still active
+2020-02-01 22:38:46.317   CNC 13   INF   Production -> 2 of 300
+2020-02-01 22:38:46.558   CNC 13   INF   Processing takes 240.861186ms
+2020-02-01 22:38:46.558   CNC 13   INF   Sleeping for 9.759006988s
+2020-02-01 22:38:56.321   CNC 13   INF   Device still active
+2020-02-01 22:38:56.322   CNC 13   INF   Production -> 3 of 300
+2020-02-01 22:38:56.514   CNC 13   INF   Processing takes 191.245546ms
+2020-02-01 22:38:56.514   CNC 13   INF   Sleeping for 9.808645628s
+2020-02-01 22:39:06.325   CNC 13   INF   Device still active
+2020-02-01 22:39:06.325   CNC 13   INF   Production -> 4 of 300
+2020-02-01 22:39:06.527   CNC 13   INF   Processing takes 202.15293ms
+2020-02-01 22:39:06.527   CNC 13   INF   Sleeping for 9.797677584s
+2020-02-01 22:39:16.328   CNC 13   INF   Device still active
+2020-02-01 22:39:16.328   CNC 13   INF   Production -> 5 of 300
+2020-02-01 22:39:16.515   CNC 13   INF   Processing takes 186.692887ms
+2020-02-01 22:39:16.515   CNC 13   INF   Sleeping for 9.813192136s
+2020-02-01 22:39:26.329   CNC 13   INF   Device still active
+2020-02-01 22:39:26.329   CNC 13   INF   Production -> 6 of 300
+2020-02-01 22:39:26.578   CNC 13   INF   Processing takes 248.139138ms
+2020-02-01 22:39:26.578   CNC 13   INF   Sleeping for 9.751722395s
+2020-02-01 22:39:36.332   CNC 13   INF   Device still active
+2020-02-01 22:39:36.332   CNC 13   INF   Production -> 7 of 300
+2020-02-01 22:39:36.586   CNC 13   INF   Processing takes 253.6195ms
+2020-02-01 22:39:36.586   CNC 13   INF   Sleeping for 9.745984892s
+2020-02-01 22:39:46.333   CNC 13   INF   Device still active
+2020-02-01 22:39:46.334   CNC 13   INF   Production -> 8 of 300
+2020-02-01 22:39:46.555   CNC 13   INF   Processing takes 221.108109ms
+2020-02-01 22:39:46.555   CNC 13   INF   Sleeping for 9.778782596s
+2020-02-01 22:39:56.331   CNC 13   INF   Device still active
+2020-02-01 22:39:56.332   CNC 13   INF   Production -> 9 of 300
+2020-02-01 22:39:56.536   CNC 13   INF   Processing takes 204.236909ms
+2020-02-01 22:39:56.536   CNC 13   INF   Sleeping for 9.795626353s
+2020-02-01 22:40:06.334   CNC 13   INF   Device still active
+2020-02-01 22:40:06.334   CNC 13   INF   Production -> 10 of 300
+2020-02-01 22:40:06.554   CNC 13   INF   Processing takes 220.023548ms
+2020-02-01 22:40:06.554   CNC 13   INF   Sleeping for 9.77976418s
+2020-02-01 22:40:16.336   CNC 13   INF   Device still active
+2020-02-01 22:40:16.337   CNC 13   INF   Production -> 11 of 300
+2020-02-01 22:40:16.568   CNC 13   INF   Processing takes 231.259244ms
+2020-02-01 22:40:16.568   CNC 13   INF   Sleeping for 9.768647271s
+2020-02-01 22:40:26.338   CNC 13   INF   Device still active
+2020-02-01 22:40:26.339   CNC 13   INF   Production -> 12 of 300
+2020-02-01 22:40:26.512   CNC 13   INF   Processing takes 173.057388ms
+2020-02-01 22:40:26.512   CNC 13   INF   Sleeping for 9.826840755s
+2020-02-01 22:40:36.339   CNC 13   INF   Device still active
+2020-02-01 22:40:36.339   CNC 13   INF   Production -> 13 of 300
+2020-02-01 22:40:36.568   CNC 13   INF   Processing takes 228.949552ms
+2020-02-01 22:40:36.568   CNC 13   INF   Sleeping for 9.770906257s
