@@ -2,18 +2,20 @@ package main
 
 import (
 	"github.com/jinzhu/gorm"
+	"github.com/petrjahoda/zapsi_database"
 	"strconv"
 	"sync"
 	"time"
 )
 
-const version = "2019.4.3.31"
+const version = "2020.1.2.1"
+const programName = "Zapsi Demodata Service"
 const deleteLogsAfter = 240 * time.Hour
 const downloadInSeconds = 10
 
 var (
-	activeDevices  []Device
-	runningDevices []Device
+	activeDevices  []zapsi_database.Device
+	runningDevices []zapsi_database.Device
 	deviceSync     sync.Mutex
 )
 
@@ -27,8 +29,7 @@ func main() {
 	for {
 		start := time.Now()
 		LogInfo("MAIN", "Program running")
-		CheckDatabase()
-		CheckTables()
+		CompleteDatabaseCheck()
 		UpdateActiveDevices("MAIN")
 		if len(activeDevices) == 0 {
 			CreateDevicesAndWorkplaces()
@@ -50,7 +51,7 @@ func main() {
 }
 
 func CreateDevicesAndWorkplaces() {
-	connectionString, dialect := CheckDatabaseType()
+	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
 	db, err := gorm.Open(dialect, connectionString)
 	if err != nil {
 		LogError("MAIN", "Problem opening "+DatabaseName+" database: "+err.Error())
@@ -63,49 +64,49 @@ func CreateDevicesAndWorkplaces() {
 }
 
 func AddTestWorkplace(reference string, workplaceName string, ipAddress string) {
-	connectionString, dialect := CheckDatabaseType()
+	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
 	db, err := gorm.Open(dialect, connectionString)
 	if err != nil {
 		LogError(reference, "Problem opening "+DatabaseName+" database: "+err.Error())
 		return
 	}
 	defer db.Close()
-	var deviceType DeviceType
+	var deviceType zapsi_database.DeviceType
 	db.Where("name=?", "Zapsi").Find(&deviceType)
-	newDevice := Device{Name: workplaceName, DeviceType: deviceType.ID, IpAddress: ipAddress, TypeName: "Zapsi", Activated: true}
+	newDevice := zapsi_database.Device{Name: workplaceName, DeviceTypeId: deviceType.ID, IpAddress: ipAddress, TypeName: "Zapsi", Activated: true}
 	db.Create(&newDevice)
-	var device Device
+	var device zapsi_database.Device
 	db.Where("name=?", workplaceName).Find(&device)
-	deviceDigitalPort := DevicePort{Name: "Production", Unit: "ks", PortNumber: 1, DevicePortTypeId: 1, DeviceId: device.ID}
-	deviceAnalogPort := DevicePort{Name: "Amperage", Unit: "A", PortNumber: 3, DevicePortTypeId: 2, DeviceId: device.ID}
+	deviceDigitalPort := zapsi_database.DevicePort{Name: "Production", Unit: "ks", PortNumber: 1, DevicePortTypeId: 1, DeviceId: device.ID}
+	deviceAnalogPort := zapsi_database.DevicePort{Name: "Amperage", Unit: "A", PortNumber: 3, DevicePortTypeId: 2, DeviceId: device.ID}
 	db.Create(&deviceDigitalPort)
 	db.Create(&deviceAnalogPort)
-	var section WorkplaceSection
+	var section zapsi_database.WorkplaceSection
 	db.Where("name=?", "Machines").Find(&section)
-	var state State
+	var state zapsi_database.State
 	db.Where("name=?", "Poweroff").Find(&state)
-	var mode WorkplaceMode
+	var mode zapsi_database.WorkplaceMode
 	db.Where("name=?", "Production").Find(&mode)
-	newWorkplace := Workplace{Name: workplaceName, Code: workplaceName, WorkplaceSectionId: section.ID, ActualStateId: state.ID, ActualWorkplaceModeId: mode.ID}
+	newWorkplace := zapsi_database.Workplace{Name: workplaceName, Code: workplaceName, WorkplaceSectionId: section.ID, ActualStateId: state.ID, ActualWorkplaceModeId: mode.ID}
 	db.Create(&newWorkplace)
-	var workplace Workplace
+	var workplace zapsi_database.Workplace
 	db.Where("name=?", workplaceName).Find(&workplace)
-	var devicePortDigital DevicePort
+	var devicePortDigital zapsi_database.DevicePort
 	db.Where("name=?", "Production").Where("device_id=?", device.ID).Find(&devicePortDigital)
-	var productionState State
+	var productionState zapsi_database.State
 	db.Where("name=?", "Production").Find(&productionState)
-	digitalPort := WorkplacePort{Name: "Production", DevicePortId: devicePortDigital.ID, WorkplaceId: workplace.ID, StateId: productionState.ID}
+	digitalPort := zapsi_database.WorkplacePort{Name: "Production", DevicePortId: devicePortDigital.ID, WorkplaceId: workplace.ID, StateId: productionState.ID}
 	db.Create(&digitalPort)
-	var devicePortAnalog DevicePort
+	var devicePortAnalog zapsi_database.DevicePort
 	db.Where("name=?", "Amperage").Where("device_id=?", device.ID).Find(&devicePortAnalog)
-	var poweroffState State
+	var poweroffState zapsi_database.State
 	db.Where("name=?", "Poweroff").Find(&poweroffState)
-	analogPort := WorkplacePort{Name: "Amperage", DevicePortId: devicePortAnalog.ID, WorkplaceId: workplace.ID, StateId: poweroffState.ID}
+	analogPort := zapsi_database.WorkplacePort{Name: "Amperage", DevicePortId: devicePortAnalog.ID, WorkplaceId: workplace.ID, StateId: poweroffState.ID}
 	db.Create(&analogPort)
 
 }
 
-func CheckDevice(device Device) bool {
+func CheckDevice(device zapsi_database.Device) bool {
 	for _, runningDevice := range runningDevices {
 		if runningDevice.Name == device.Name {
 			return true
@@ -114,33 +115,33 @@ func CheckDevice(device Device) bool {
 	return false
 }
 
-func RunDevice(device Device) {
+func RunDevice(device zapsi_database.Device) {
 	LogInfo(device.Name, "Device started running")
 	deviceSync.Lock()
 	runningDevices = append(runningDevices, device)
 	deviceSync.Unlock()
 	deviceIsActive := true
-	device.CreateDirectoryIfNotExists()
+	CreateDirectoryIfNotExists(device)
 	actualCycle := 0
 	totalCycles := 0
 	actualState := "poweroff"
 	for deviceIsActive {
 		start := time.Now()
 		if actualCycle >= totalCycles {
-			actualCycle, actualState, totalCycles = device.GenerateNewState()
+			actualCycle, actualState, totalCycles = GenerateNewState()
 		}
 		switch actualState {
 		case "production":
 			LogInfo(device.Name, "Production -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
-			device.GenerateProductionData()
+			GenerateProductionData(device)
 		case "downtime":
 			LogInfo(device.Name, "Downtime -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
-			device.GenerateDowntimeData()
+			GenerateDowntimeData(device)
 		case "poweroff":
 			LogInfo(device.Name, "Poweroff -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
 		}
 		LogInfo(device.Name, "Processing takes "+time.Since(start).String())
-		device.Sleep(start)
+		Sleep(device, start)
 		deviceIsActive = CheckActive(device)
 		actualCycle++
 	}
@@ -149,7 +150,15 @@ func RunDevice(device Device) {
 
 }
 
-func CheckActive(device Device) bool {
+func Sleep(device zapsi_database.Device, start time.Time) {
+	if time.Since(start) < (downloadInSeconds * time.Second) {
+		sleepTime := downloadInSeconds*time.Second - time.Since(start)
+		LogInfo(device.Name, "Sleeping for "+sleepTime.String())
+		time.Sleep(sleepTime)
+	}
+}
+
+func CheckActive(device zapsi_database.Device) bool {
 	for _, activeDevice := range activeDevices {
 		if activeDevice.Name == device.Name {
 			LogInfo(device.Name, "Device still active")
@@ -160,7 +169,7 @@ func CheckActive(device Device) bool {
 	return false
 }
 
-func RemoveDeviceFromRunningDevices(device Device) {
+func RemoveDeviceFromRunningDevices(device zapsi_database.Device) {
 	for idx, runningDevice := range runningDevices {
 		if device.Name == runningDevice.Name {
 			deviceSync.Lock()
@@ -171,7 +180,7 @@ func RemoveDeviceFromRunningDevices(device Device) {
 }
 
 func UpdateActiveDevices(reference string) {
-	connectionString, dialect := CheckDatabaseType()
+	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
 	db, err := gorm.Open(dialect, connectionString)
 	if err != nil {
 		LogError(reference, "Problem opening "+DatabaseName+" database: "+err.Error())
@@ -179,8 +188,39 @@ func UpdateActiveDevices(reference string) {
 		return
 	}
 	defer db.Close()
-	var deviceType DeviceType
+	var deviceType zapsi_database.DeviceType
 	db.Where("name=?", "Zapsi").Find(&deviceType)
-	db.Where("device_type=?", deviceType.ID).Where("activated = true").Find(&activeDevices)
+	db.Where("device_type_id=?", deviceType.ID).Where("activated = true").Find(&activeDevices)
 	LogDebug("MAIN", "Zapsi device type id is "+strconv.Itoa(int(deviceType.ID)))
+}
+
+func CompleteDatabaseCheck() {
+	firstRunCheckComplete := false
+	for firstRunCheckComplete == false {
+		databaseOk := zapsi_database.CheckDatabase(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
+		tablesOk, err := zapsi_database.CheckTables(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
+		if err != nil {
+			LogInfo("MAIN", "Problem creating tables: "+err.Error())
+		}
+		if databaseOk && tablesOk {
+			WriteProgramVersionIntoSettings()
+			firstRunCheckComplete = true
+		}
+	}
+}
+
+func WriteProgramVersionIntoSettings() {
+	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
+	db, err := gorm.Open(dialect, connectionString)
+	if err != nil {
+		LogError("MAIN", "Problem opening "+DatabaseName+" database: "+err.Error())
+		return
+	}
+	defer db.Close()
+	var settings zapsi_database.Setting
+	db.Where("key=?", programName).Find(&settings)
+	settings.Key = programName
+	settings.Value = version
+	db.Save(&settings)
+	LogDebug("MAIN", "Updated version in database for "+programName)
 }

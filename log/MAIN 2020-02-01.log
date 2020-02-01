@@ -1,0 +1,57 @@
+2020-02-01 21:40:33.808   MAIN   INF   Program version 2020.1.2.1 started
+2020-02-01 21:40:33.808   MAIN   INF   Program running
+2020-02-01 21:40:36.721   MAIN   INF   Deleting old log file  2019-12-30.log with age of 804h31m49.222740234s
+2020-02-01 21:40:36.722   MAIN   INF   Deleting old log file CNC 0 2019-12-30.log with age of 801h56m17.217947393s
+2020-02-01 21:40:36.725   MAIN   INF   Deleting old log file CNC 1 2019-12-30.log with age of 801h56m17.218691472s
+2020-02-01 21:40:36.727   MAIN   INF   Deleting old log file CNC 10 2019-12-30.log with age of 801h56m17.217993668s
+2020-02-01 21:40:36.728   MAIN   INF   Deleting old log file CNC 11 2019-12-30.log with age of 801h56m17.217793983s
+2020-02-01 21:40:36.728   MAIN   INF   Deleting old log file CNC 12 2019-12-30.log with age of 801h56m17.218387678s
+2020-02-01 21:40:36.729   MAIN   INF   Deleting old log file CNC 13 2019-12-30.log with age of 801h56m17.217880251s
+2020-02-01 21:40:36.729   MAIN   INF   Deleting old log file CNC 14 2019-12-30.log with age of 801h56m17.217607149s
+2020-02-01 21:40:36.730   MAIN   INF   Deleting old log file CNC 15 2019-12-30.log with age of 801h56m17.217760298s
+2020-02-01 21:40:36.730   MAIN   INF   Deleting old log file CNC 16 2019-12-30.log with age of 801h56m17.21817441s
+2020-02-01 21:40:36.731   MAIN   INF   Deleting old log file CNC 17 2019-12-30.log with age of 801h56m17.218003099s
+2020-02-01 21:40:36.731   MAIN   INF   Deleting old log file CNC 18 2019-12-30.log with age of 801h56m17.218319824s
+2020-02-01 21:40:36.732   MAIN   INF   Deleting old log file CNC 19 2019-12-30.log with age of 801h56m17.218253551s
+2020-02-01 21:40:36.732   MAIN   INF   Deleting old log file CNC 2 2019-12-30.log with age of 801h56m17.217918545s
+2020-02-01 21:40:36.732   MAIN   INF   Deleting old log file CNC 20 2019-12-30.log with age of 804h28m49.91938989s
+2020-02-01 21:40:36.733   MAIN   INF   Deleting old log file CNC 21 2019-12-30.log with age of 804h28m49.852403985s
+2020-02-01 21:40:36.733   MAIN   INF   Deleting old log file CNC 22 2019-12-30.log with age of 804h28m49.794316689s
+2020-02-01 21:40:36.733   MAIN   INF   Deleting old log file CNC 23 2019-12-30.log with age of 804h28m49.74175575s
+2020-02-01 21:40:36.733   MAIN   INF   Deleting old log file CNC 3 2019-12-30.log with age of 801h56m17.21817902s
+2020-02-01 21:40:36.734   MAIN   INF   Deleting old log file CNC 4 2019-12-30.log with age of 801h56m17.217809478s
+2020-02-01 21:40:36.734   MAIN   INF   Deleting old log file CNC 5 2019-12-30.log with age of 801h56m17.218056807s
+2020-02-01 21:40:36.735   MAIN   INF   Deleting old log file CNC 6 2019-12-30.log with age of 801h56m17.217793881s
+2020-02-01 21:40:36.735   MAIN   INF   Deleting old log file CNC 7 2019-12-30.log with age of 801h56m17.217985397s
+2020-02-01 21:40:36.736   MAIN   INF   Deleting old log file CNC 8 2019-12-30.log with age of 801h56m17.218227267s
+2020-02-01 21:40:36.736   MAIN   INF   Deleting old log file CNC 9 2019-12-30.log with age of 801h56m17.218072894s
+2020-02-01 21:40:36.737   MAIN   INF   Deleting old log file MAIN 2019-12-30.err with age of 801h55m57.68524253s
+2020-02-01 21:40:36.737   MAIN   INF   Deleting old log file MAIN 2019-12-30.log with age of 801h55m57.684935251s
+2020-02-01 21:40:36.739   MAIN   INF   Deleting old log file MAIN 2019-12-31.log with age of 789h33m11.905954986s
+2020-02-01 21:40:36.739   MAIN   INF   Active devices: 0, running devices: 0
+2020-02-01 21:40:36.739   MAIN   INF   Sleeping for 7.068788085s
+2020-02-01 21:40:55.965   MAIN   INF   Program version 2020.1.2.1 started
+2020-02-01 21:40:55.965   MAIN   INF   Program running
+2020-02-01 21:40:57.705   MAIN   INF   Active devices: 20, running devices: 0
+2020-02-01 21:40:57.705   MAIN   INF   Sleeping for 8.260050904s
+2020-02-01 21:41:05.968   MAIN   INF   Program running
+2020-02-01 21:41:08.416   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 21:41:08.416   MAIN   INF   Sleeping for 7.552387838s
+2020-02-01 21:41:15.969   MAIN   INF   Program running
+2020-02-01 21:41:19.325   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 21:41:19.325   MAIN   INF   Sleeping for 6.643713041s
+2020-02-01 21:41:25.969   MAIN   INF   Program running
+2020-02-01 21:41:28.871   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 21:41:28.871   MAIN   INF   Sleeping for 7.098570786s
+2020-02-01 21:41:35.974   MAIN   INF   Program running
+2020-02-01 21:41:37.612   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 21:41:37.612   MAIN   INF   Sleeping for 8.362079693s
+2020-02-01 21:41:45.975   MAIN   INF   Program running
+2020-02-01 21:41:48.540   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 21:41:48.540   MAIN   INF   Sleeping for 7.434428663s
+2020-02-01 21:41:55.979   MAIN   INF   Program running
+2020-02-01 21:41:58.292   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-01 21:41:58.292   MAIN   INF   Sleeping for 7.686847065s
+2020-02-01 21:42:05.982   MAIN   INF   Program running
+2020-02-01 21:42:15.851   MAIN   INF   Program version 2020.1.2.1 started
+2020-02-01 21:42:15.852   MAIN   INF   Program running
