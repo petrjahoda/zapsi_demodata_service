@@ -95,7 +95,7 @@ func AddTestWorkplace(reference string, workplaceName string, ipAddress string) 
 	db.Where("name=?", "Production").Where("device_id=?", device.ID).Find(&devicePortDigital)
 	var productionState zapsi_database.State
 	db.Where("name=?", "Production").Find(&productionState)
-	digitalPort := zapsi_database.WorkplacePort{Name: "Production", DevicePortId: devicePortDigital.ID, WorkplaceId: workplace.ID, StateId: productionState.ID}
+	digitalPort := zapsi_database.WorkplacePort{Name: "Production", DevicePortId: devicePortDigital.ID, WorkplaceId: workplace.ID, StateId: productionState.ID, CounterOK: true}
 	db.Create(&digitalPort)
 	var devicePortAnalog zapsi_database.DevicePort
 	db.Where("name=?", "Amperage").Where("device_id=?", device.ID).Find(&devicePortAnalog)
