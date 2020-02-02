@@ -347,3 +347,33 @@
 2020-02-02 08:14:29.430   CNC 5   INF   Production -> 14 of 300
 2020-02-02 08:14:29.709   CNC 5   INF   Processing takes 278.834157ms
 2020-02-02 08:14:29.709   CNC 5   INF   Sleeping for 9.721040471s
+2020-02-02 11:11:35.761   CNC 5   INF   Device started running
+2020-02-02 11:11:35.762   CNC 5   INF   Device directory exists
+2020-02-02 11:11:35.762   CNC 5   INF   Production -> 0 of 300
+2020-02-02 11:11:35.922   CNC 5   INF   Processing takes 159.321719ms
+2020-02-02 11:11:35.922   CNC 5   INF   Sleeping for 9.8405426s
+2020-02-02 11:13:42.722   CNC 5   INF   Device started running
+2020-02-02 11:13:42.722   CNC 5   INF   Device directory exists
+2020-02-02 11:13:42.723   CNC 5   INF   Production -> 0 of 300
+2020-02-02 11:13:42.970   CNC 5   INF   Processing takes 247.469996ms
+2020-02-02 11:13:42.970   CNC 5   INF   Sleeping for 9.752348327s
+2020-02-02 11:14:02.293   CNC 5   INF   Device started running
+2020-02-02 11:14:02.293   CNC 5   INF   Device directory exists
+2020-02-02 11:14:02.293   CNC 5   INF   Production -> 0 of 300
+2020-02-02 11:14:02.497   CNC 5   INF   Processing takes 203.601211ms
+2020-02-02 11:14:02.497   CNC 5   INF   Sleeping for 9.796191062s
+2020-02-02 11:17:38.053   CNC 5   INF   Device started running
+2020-02-02 11:17:38.054   CNC 5   INF   Device directory exists
+2020-02-02 11:17:38.055   CNC 5   INF   Downtime -> 0 of 150
+2020-02-02 11:17:38.176   CNC 5   INF   Processing takes 121.308843ms
+2020-02-02 11:17:38.176   CNC 5   INF   Sleeping for 9.878534217s
+2020-02-02 11:19:37.130   CNC 5   INF   Device started running
+2020-02-02 11:19:37.132   CNC 5   INF   Device directory exists
+2020-02-02 11:19:37.132   CNC 5   INF   Production -> 0 of 300
+2020-02-02 11:19:37.370   CNC 5   INF   Processing takes 238.070931ms
+2020-02-02 11:19:37.370   CNC 5   INF   Sleeping for 9.761676982s
+2020-02-02 11:20:19.117   CNC 5   INF   Device started running
+2020-02-02 11:20:19.118   CNC 5   INF   Device directory exists
+2020-02-02 11:20:19.118   CNC 5   INF   Poweroff -> 0 of 150
+2020-02-02 11:20:19.118   CNC 5   INF   Processing takes 189.641µs
+2020-02-02 11:20:19.118   CNC 5   INF   Sleeping for 9.999679503s

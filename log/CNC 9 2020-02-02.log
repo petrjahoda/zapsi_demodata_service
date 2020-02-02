@@ -347,3 +347,33 @@
 2020-02-02 08:14:29.430   CNC 9   INF   Production -> 14 of 300
 2020-02-02 08:14:29.719   CNC 9   INF   Processing takes 289.373048ms
 2020-02-02 08:14:29.720   CNC 9   INF   Sleeping for 9.709924098s
+2020-02-02 11:11:35.761   CNC 9   INF   Device started running
+2020-02-02 11:11:35.762   CNC 9   INF   Device directory exists
+2020-02-02 11:11:35.762   CNC 9   INF   Downtime -> 0 of 150
+2020-02-02 11:11:35.848   CNC 9   INF   Processing takes 86.384534ms
+2020-02-02 11:11:35.848   CNC 9   INF   Sleeping for 9.913526793s
+2020-02-02 11:13:42.722   CNC 9   INF   Device started running
+2020-02-02 11:13:42.723   CNC 9   INF   Device directory exists
+2020-02-02 11:13:42.723   CNC 9   INF   Production -> 0 of 300
+2020-02-02 11:13:42.992   CNC 9   INF   Processing takes 268.980758ms
+2020-02-02 11:13:42.992   CNC 9   INF   Sleeping for 9.730884266s
+2020-02-02 11:14:02.295   CNC 9   INF   Device started running
+2020-02-02 11:14:02.295   CNC 9   INF   Device directory exists
+2020-02-02 11:14:02.295   CNC 9   INF   Production -> 0 of 300
+2020-02-02 11:14:02.541   CNC 9   INF   Processing takes 245.758857ms
+2020-02-02 11:14:02.541   CNC 9   INF   Sleeping for 9.753899893s
+2020-02-02 11:17:38.053   CNC 9   INF   Device started running
+2020-02-02 11:17:38.054   CNC 9   INF   Device directory exists
+2020-02-02 11:17:38.055   CNC 9   INF   Production -> 0 of 300
+2020-02-02 11:17:38.356   CNC 9   INF   Processing takes 301.107981ms
+2020-02-02 11:17:38.356   CNC 9   INF   Sleeping for 9.698693281s
+2020-02-02 11:19:37.131   CNC 9   INF   Device started running
+2020-02-02 11:19:37.132   CNC 9   INF   Device directory exists
+2020-02-02 11:19:37.132   CNC 9   INF   Production -> 0 of 300
+2020-02-02 11:19:37.389   CNC 9   INF   Processing takes 256.720172ms
+2020-02-02 11:19:37.390   CNC 9   INF   Sleeping for 9.742611395s
+2020-02-02 11:20:19.117   CNC 9   INF   Device started running
+2020-02-02 11:20:19.118   CNC 9   INF   Device directory exists
+2020-02-02 11:20:19.118   CNC 9   INF   Production -> 0 of 300
+2020-02-02 11:20:19.318   CNC 9   INF   Processing takes 200.193655ms
+2020-02-02 11:20:19.318   CNC 9   INF   Sleeping for 9.799669396s
