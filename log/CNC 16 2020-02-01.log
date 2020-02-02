@@ -413,3 +413,48 @@
 2020-02-01 23:15:42.375   CNC 16   INF   Production -> 61 of 300
 2020-02-01 23:15:42.565   CNC 16   INF   Processing takes 190.585908ms
 2020-02-01 23:15:42.565   CNC 16   INF   Sleeping for 9.809289803s
+2020-02-01 23:21:26.599   CNC 16   INF   Device started running
+2020-02-01 23:21:26.599   CNC 16   INF   Device directory exists
+2020-02-01 23:21:26.600   CNC 16   INF   Poweroff -> 0 of 150
+2020-02-01 23:21:26.600   CNC 16   INF   Processing takes 328.239µs
+2020-02-01 23:21:26.600   CNC 16   INF   Sleeping for 9.999572916s
+2020-02-01 23:21:36.603   CNC 16   INF   Device still active
+2020-02-01 23:21:36.604   CNC 16   INF   Poweroff -> 1 of 150
+2020-02-01 23:21:36.604   CNC 16   INF   Processing takes 1.058133ms
+2020-02-01 23:21:36.605   CNC 16   INF   Sleeping for 9.998407975s
+2020-02-01 23:21:46.604   CNC 16   INF   Device still active
+2020-02-01 23:21:46.604   CNC 16   INF   Poweroff -> 2 of 150
+2020-02-01 23:21:46.605   CNC 16   INF   Processing takes 316.272µs
+2020-02-01 23:21:46.605   CNC 16   INF   Sleeping for 9.999513936s
+2020-02-01 23:21:56.607   CNC 16   INF   Device still active
+2020-02-01 23:21:56.608   CNC 16   INF   Poweroff -> 3 of 150
+2020-02-01 23:21:56.608   CNC 16   INF   Processing takes 354.596µs
+2020-02-01 23:21:56.608   CNC 16   INF   Sleeping for 9.999288188s
+2020-02-01 23:22:06.612   CNC 16   INF   Device still active
+2020-02-01 23:22:06.612   CNC 16   INF   Poweroff -> 4 of 150
+2020-02-01 23:22:06.613   CNC 16   INF   Processing takes 168.048µs
+2020-02-01 23:22:06.613   CNC 16   INF   Sleeping for 9.999721695s
+2020-02-01 23:22:16.614   CNC 16   INF   Device still active
+2020-02-01 23:22:16.614   CNC 16   INF   Poweroff -> 5 of 150
+2020-02-01 23:22:16.614   CNC 16   INF   Processing takes 309.945µs
+2020-02-01 23:22:16.615   CNC 16   INF   Sleeping for 9.999170659s
+2020-02-01 23:22:26.618   CNC 16   INF   Device still active
+2020-02-01 23:22:26.618   CNC 16   INF   Poweroff -> 6 of 150
+2020-02-01 23:22:26.618   CNC 16   INF   Processing takes 467.232µs
+2020-02-01 23:22:26.619   CNC 16   INF   Sleeping for 9.999123803s
+2020-02-01 23:22:36.621   CNC 16   INF   Device still active
+2020-02-01 23:22:36.621   CNC 16   INF   Poweroff -> 7 of 150
+2020-02-01 23:22:36.621   CNC 16   INF   Processing takes 396.196µs
+2020-02-01 23:22:36.622   CNC 16   INF   Sleeping for 9.999386679s
+2020-02-01 23:22:46.623   CNC 16   INF   Device still active
+2020-02-01 23:22:46.623   CNC 16   INF   Poweroff -> 8 of 150
+2020-02-01 23:22:46.623   CNC 16   INF   Processing takes 427.317µs
+2020-02-01 23:22:46.624   CNC 16   INF   Sleeping for 9.999346272s
+2020-02-01 23:22:56.628   CNC 16   INF   Device still active
+2020-02-01 23:22:56.628   CNC 16   INF   Poweroff -> 9 of 150
+2020-02-01 23:22:56.628   CNC 16   INF   Processing takes 395.025µs
+2020-02-01 23:22:56.628   CNC 16   INF   Sleeping for 9.999415268s
+2020-02-01 23:23:06.631   CNC 16   INF   Device still active
+2020-02-01 23:23:06.631   CNC 16   INF   Poweroff -> 10 of 150
+2020-02-01 23:23:06.631   CNC 16   INF   Processing takes 177.325µs
+2020-02-01 23:23:06.632   CNC 16   INF   Sleeping for 9.999693635s

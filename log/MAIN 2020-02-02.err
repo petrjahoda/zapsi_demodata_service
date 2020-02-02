@@ -1,0 +1,45 @@
+2020-02-02 08:08:29.406   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.411   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.411   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.413   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.415   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.416   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.417   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.418   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.420   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.421   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.422   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.422   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.425   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.428   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:29.431   MAIN   ERR   Problem opening zapsi4 database: pq: the database system is shutting down
+2020-02-02 08:08:40.712   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:40.713   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.725   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.725   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused
+2020-02-02 08:08:50.726   MAIN   ERR   Problem opening zapsi4 database: dial tcp 127.0.0.1:5432: connect: connection refused

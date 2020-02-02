@@ -1,0 +1,288 @@
+2020-02-02 07:52:55.143   CNC 18   INF   Device started running
+2020-02-02 07:52:55.143   CNC 18   INF   Device directory exists
+2020-02-02 07:52:55.143   CNC 18   INF   Downtime -> 0 of 150
+2020-02-02 07:52:55.317   CNC 18   INF   Processing takes 173.357821ms
+2020-02-02 07:52:55.317   CNC 18   INF   Sleeping for 9.82649307s
+2020-02-02 07:53:05.145   CNC 18   INF   Device still active
+2020-02-02 07:53:05.146   CNC 18   INF   Downtime -> 1 of 150
+2020-02-02 07:53:05.323   CNC 18   INF   Processing takes 177.387771ms
+2020-02-02 07:53:05.324   CNC 18   INF   Sleeping for 9.821903314s
+2020-02-02 07:53:15.146   CNC 18   INF   Device still active
+2020-02-02 07:53:15.146   CNC 18   INF   Downtime -> 2 of 150
+2020-02-02 07:53:15.431   CNC 18   INF   Processing takes 284.211979ms
+2020-02-02 07:53:15.431   CNC 18   INF   Sleeping for 9.715433628s
+2020-02-02 07:53:25.146   CNC 18   INF   Device still active
+2020-02-02 07:53:25.147   CNC 18   INF   Downtime -> 3 of 150
+2020-02-02 07:53:25.303   CNC 18   INF   Processing takes 156.300164ms
+2020-02-02 07:53:25.303   CNC 18   INF   Sleeping for 9.843556776s
+2020-02-02 07:53:35.147   CNC 18   INF   Device still active
+2020-02-02 07:53:35.147   CNC 18   INF   Downtime -> 4 of 150
+2020-02-02 07:53:35.339   CNC 18   INF   Processing takes 192.10727ms
+2020-02-02 07:53:35.339   CNC 18   INF   Sleeping for 9.807683543s
+2020-02-02 07:53:45.149   CNC 18   INF   Device still active
+2020-02-02 07:53:45.149   CNC 18   INF   Downtime -> 5 of 150
+2020-02-02 07:53:45.429   CNC 18   INF   Processing takes 279.525531ms
+2020-02-02 07:53:45.429   CNC 18   INF   Sleeping for 9.720299224s
+2020-02-02 07:53:55.150   CNC 18   INF   Device still active
+2020-02-02 07:53:55.150   CNC 18   INF   Downtime -> 6 of 150
+2020-02-02 07:53:55.251   CNC 18   INF   Processing takes 100.935248ms
+2020-02-02 07:53:55.251   CNC 18   INF   Sleeping for 9.898937385s
+2020-02-02 07:54:05.154   CNC 18   INF   Device still active
+2020-02-02 07:54:05.154   CNC 18   INF   Downtime -> 7 of 150
+2020-02-02 07:54:05.332   CNC 18   INF   Processing takes 178.430216ms
+2020-02-02 07:54:05.332   CNC 18   INF   Sleeping for 9.821425257s
+2020-02-02 07:54:15.154   CNC 18   INF   Device still active
+2020-02-02 07:54:15.154   CNC 18   INF   Downtime -> 8 of 150
+2020-02-02 07:54:15.350   CNC 18   INF   Processing takes 196.345475ms
+2020-02-02 07:54:15.351   CNC 18   INF   Sleeping for 9.803446952s
+2020-02-02 07:54:25.155   CNC 18   INF   Device still active
+2020-02-02 07:54:25.155   CNC 18   INF   Downtime -> 9 of 150
+2020-02-02 07:54:25.321   CNC 18   INF   Processing takes 166.398043ms
+2020-02-02 07:54:25.321   CNC 18   INF   Sleeping for 9.833494368s
+2020-02-02 07:54:35.155   CNC 18   INF   Device still active
+2020-02-02 07:54:35.155   CNC 18   INF   Downtime -> 10 of 150
+2020-02-02 07:54:35.278   CNC 18   INF   Processing takes 123.078474ms
+2020-02-02 07:54:35.279   CNC 18   INF   Sleeping for 9.876831011s
+2020-02-02 07:54:45.159   CNC 18   INF   Device still active
+2020-02-02 07:54:45.159   CNC 18   INF   Downtime -> 11 of 150
+2020-02-02 07:54:45.320   CNC 18   INF   Processing takes 161.441334ms
+2020-02-02 07:54:45.320   CNC 18   INF   Sleeping for 9.838311995s
+2020-02-02 07:54:55.159   CNC 18   INF   Device still active
+2020-02-02 07:54:55.159   CNC 18   INF   Downtime -> 12 of 150
+2020-02-02 07:54:55.380   CNC 18   INF   Processing takes 221.04658ms
+2020-02-02 07:54:55.380   CNC 18   INF   Sleeping for 9.77868734s
+2020-02-02 07:55:05.159   CNC 18   INF   Device still active
+2020-02-02 07:55:05.159   CNC 18   INF   Downtime -> 13 of 150
+2020-02-02 07:55:05.277   CNC 18   INF   Processing takes 117.068285ms
+2020-02-02 07:55:05.277   CNC 18   INF   Sleeping for 9.882793035s
+2020-02-02 07:55:15.160   CNC 18   INF   Device still active
+2020-02-02 07:55:15.160   CNC 18   INF   Downtime -> 14 of 150
+2020-02-02 07:55:15.279   CNC 18   INF   Processing takes 118.89365ms
+2020-02-02 07:55:15.279   CNC 18   INF   Sleeping for 9.881002397s
+2020-02-02 07:55:25.165   CNC 18   INF   Device still active
+2020-02-02 07:55:25.165   CNC 18   INF   Downtime -> 15 of 150
+2020-02-02 07:55:25.361   CNC 18   INF   Processing takes 196.337632ms
+2020-02-02 07:55:25.362   CNC 18   INF   Sleeping for 9.80347211s
+2020-02-02 07:55:35.169   CNC 18   INF   Device still active
+2020-02-02 07:55:35.170   CNC 18   INF   Downtime -> 16 of 150
+2020-02-02 07:55:35.398   CNC 18   INF   Processing takes 229.013034ms
+2020-02-02 07:55:35.400   CNC 18   INF   Sleeping for 9.769761479s
+2020-02-02 07:55:45.170   CNC 18   INF   Device still active
+2020-02-02 07:55:45.171   CNC 18   INF   Downtime -> 17 of 150
+2020-02-02 07:55:45.528   CNC 18   INF   Processing takes 356.788495ms
+2020-02-02 07:55:45.528   CNC 18   INF   Sleeping for 9.643089251s
+2020-02-02 07:55:55.174   CNC 18   INF   Device still active
+2020-02-02 07:55:55.174   CNC 18   INF   Downtime -> 18 of 150
+2020-02-02 07:55:55.317   CNC 18   INF   Processing takes 142.860081ms
+2020-02-02 07:55:55.317   CNC 18   INF   Sleeping for 9.857021221s
+2020-02-02 07:58:28.510   CNC 18   INF   Device started running
+2020-02-02 07:58:28.511   CNC 18   INF   Device directory exists
+2020-02-02 07:58:28.512   CNC 18   INF   Downtime -> 0 of 150
+2020-02-02 07:58:28.727   CNC 18   INF   Processing takes 215.568726ms
+2020-02-02 07:58:28.727   CNC 18   INF   Sleeping for 9.784071151s
+2020-02-02 07:58:38.515   CNC 18   INF   Device still active
+2020-02-02 07:58:38.515   CNC 18   INF   Downtime -> 1 of 150
+2020-02-02 07:58:38.836   CNC 18   INF   Processing takes 321.036699ms
+2020-02-02 07:58:38.837   CNC 18   INF   Sleeping for 9.67879749s
+2020-02-02 07:58:48.518   CNC 18   INF   Device still active
+2020-02-02 07:58:48.518   CNC 18   INF   Downtime -> 2 of 150
+2020-02-02 07:58:48.620   CNC 18   INF   Processing takes 102.384636ms
+2020-02-02 07:58:48.620   CNC 18   INF   Sleeping for 9.897506471s
+2020-02-02 07:58:58.523   CNC 18   INF   Device still active
+2020-02-02 07:58:58.524   CNC 18   INF   Downtime -> 3 of 150
+2020-02-02 07:58:58.681   CNC 18   INF   Processing takes 157.840197ms
+2020-02-02 07:58:58.681   CNC 18   INF   Sleeping for 9.842036937s
+2020-02-02 07:59:08.524   CNC 18   INF   Device still active
+2020-02-02 07:59:08.524   CNC 18   INF   Downtime -> 4 of 150
+2020-02-02 07:59:08.605   CNC 18   INF   Processing takes 81.365847ms
+2020-02-02 07:59:08.605   CNC 18   INF   Sleeping for 9.918487433s
+2020-02-02 07:59:18.526   CNC 18   INF   Device still active
+2020-02-02 07:59:18.527   CNC 18   INF   Downtime -> 5 of 150
+2020-02-02 07:59:18.679   CNC 18   INF   Processing takes 152.393814ms
+2020-02-02 07:59:18.679   CNC 18   INF   Sleeping for 9.847470589s
+2020-02-02 08:00:07.533   CNC 18   INF   Device started running
+2020-02-02 08:00:07.533   CNC 18   INF   Device directory exists
+2020-02-02 08:00:07.534   CNC 18   INF   Poweroff -> 0 of 150
+2020-02-02 08:00:07.534   CNC 18   INF   Processing takes 439.706µs
+2020-02-02 08:00:07.534   CNC 18   INF   Sleeping for 9.999221606s
+2020-02-02 08:00:17.537   CNC 18   INF   Device still active
+2020-02-02 08:00:17.538   CNC 18   INF   Poweroff -> 1 of 150
+2020-02-02 08:00:17.539   CNC 18   INF   Processing takes 933.874µs
+2020-02-02 08:00:17.539   CNC 18   INF   Sleeping for 9.998551416s
+2020-02-02 08:00:27.540   CNC 18   INF   Device still active
+2020-02-02 08:00:27.540   CNC 18   INF   Poweroff -> 2 of 150
+2020-02-02 08:00:27.540   CNC 18   INF   Processing takes 155.115µs
+2020-02-02 08:00:27.540   CNC 18   INF   Sleeping for 9.99973993s
+2020-02-02 08:00:37.540   CNC 18   INF   Device still active
+2020-02-02 08:00:37.540   CNC 18   INF   Poweroff -> 3 of 150
+2020-02-02 08:00:37.541   CNC 18   INF   Processing takes 232.234µs
+2020-02-02 08:00:37.541   CNC 18   INF   Sleeping for 9.999182565s
+2020-02-02 08:00:47.545   CNC 18   INF   Device still active
+2020-02-02 08:00:47.546   CNC 18   INF   Poweroff -> 4 of 150
+2020-02-02 08:00:47.546   CNC 18   INF   Processing takes 865.645µs
+2020-02-02 08:00:47.546   CNC 18   INF   Sleeping for 9.998945081s
+2020-02-02 08:00:57.547   CNC 18   INF   Device still active
+2020-02-02 08:00:57.548   CNC 18   INF   Poweroff -> 5 of 150
+2020-02-02 08:00:57.548   CNC 18   INF   Processing takes 721.273µs
+2020-02-02 08:00:57.549   CNC 18   INF   Sleeping for 9.998855183s
+2020-02-02 08:01:07.548   CNC 18   INF   Device still active
+2020-02-02 08:01:07.549   CNC 18   INF   Poweroff -> 6 of 150
+2020-02-02 08:01:07.549   CNC 18   INF   Processing takes 702.649µs
+2020-02-02 08:01:07.550   CNC 18   INF   Sleeping for 9.999157824s
+2020-02-02 08:01:17.549   CNC 18   INF   Device still active
+2020-02-02 08:01:17.549   CNC 18   INF   Poweroff -> 7 of 150
+2020-02-02 08:01:17.550   CNC 18   INF   Processing takes 348.593µs
+2020-02-02 08:01:17.550   CNC 18   INF   Sleeping for 9.999200035s
+2020-02-02 08:01:27.551   CNC 18   INF   Device still active
+2020-02-02 08:01:27.551   CNC 18   INF   Poweroff -> 8 of 150
+2020-02-02 08:01:27.551   CNC 18   INF   Processing takes 164.191µs
+2020-02-02 08:01:27.552   CNC 18   INF   Sleeping for 9.999560717s
+2020-02-02 08:01:37.552   CNC 18   INF   Device still active
+2020-02-02 08:01:37.552   CNC 18   INF   Poweroff -> 9 of 150
+2020-02-02 08:01:37.552   CNC 18   INF   Processing takes 334.871µs
+2020-02-02 08:01:37.552   CNC 18   INF   Sleeping for 9.99956609s
+2020-02-02 08:01:47.552   CNC 18   INF   Device still active
+2020-02-02 08:01:47.553   CNC 18   INF   Poweroff -> 10 of 150
+2020-02-02 08:01:47.554   CNC 18   INF   Processing takes 343.151µs
+2020-02-02 08:01:47.554   CNC 18   INF   Sleeping for 9.998749029s
+2020-02-02 08:03:09.332   CNC 18   INF   Device started running
+2020-02-02 08:03:09.332   CNC 18   INF   Device directory exists
+2020-02-02 08:03:09.332   CNC 18   INF   Production -> 0 of 300
+2020-02-02 08:03:09.538   CNC 18   INF   Processing takes 205.745905ms
+2020-02-02 08:03:09.538   CNC 18   INF   Sleeping for 9.794153014s
+2020-02-02 08:03:19.340   CNC 18   INF   Device still active
+2020-02-02 08:03:19.340   CNC 18   INF   Production -> 1 of 300
+2020-02-02 08:03:20.170   CNC 18   INF   Processing takes 829.395656ms
+2020-02-02 08:03:20.170   CNC 18   INF   Sleeping for 9.170428775s
+2020-02-02 08:03:29.343   CNC 18   INF   Device still active
+2020-02-02 08:03:29.343   CNC 18   INF   Production -> 2 of 300
+2020-02-02 08:03:29.843   CNC 18   INF   Processing takes 499.861356ms
+2020-02-02 08:03:29.843   CNC 18   INF   Sleeping for 9.499950331s
+2020-02-02 08:03:39.343   CNC 18   INF   Device still active
+2020-02-02 08:03:39.344   CNC 18   INF   Production -> 3 of 300
+2020-02-02 08:03:39.601   CNC 18   INF   Processing takes 257.865502ms
+2020-02-02 08:03:39.602   CNC 18   INF   Sleeping for 9.742006785s
+2020-02-02 08:03:49.344   CNC 18   INF   Device still active
+2020-02-02 08:03:49.344   CNC 18   INF   Production -> 4 of 300
+2020-02-02 08:03:49.592   CNC 18   INF   Processing takes 247.854718ms
+2020-02-02 08:03:49.592   CNC 18   INF   Sleeping for 9.752031134s
+2020-02-02 08:03:59.344   CNC 18   INF   Device still active
+2020-02-02 08:03:59.344   CNC 18   INF   Production -> 5 of 300
+2020-02-02 08:03:59.463   CNC 18   INF   Processing takes 118.053577ms
+2020-02-02 08:03:59.463   CNC 18   INF   Sleeping for 9.881356902s
+2020-02-02 08:04:09.348   CNC 18   INF   Device still active
+2020-02-02 08:04:09.348   CNC 18   INF   Production -> 6 of 300
+2020-02-02 08:04:09.585   CNC 18   INF   Processing takes 237.219389ms
+2020-02-02 08:04:09.585   CNC 18   INF   Sleeping for 9.762666757s
+2020-02-02 08:04:19.348   CNC 18   INF   Device still active
+2020-02-02 08:04:19.349   CNC 18   INF   Production -> 7 of 300
+2020-02-02 08:04:19.522   CNC 18   INF   Processing takes 172.974578ms
+2020-02-02 08:04:19.522   CNC 18   INF   Sleeping for 9.826882855s
+2020-02-02 08:04:29.349   CNC 18   INF   Device still active
+2020-02-02 08:04:29.350   CNC 18   INF   Production -> 8 of 300
+2020-02-02 08:04:29.644   CNC 18   INF   Processing takes 294.661944ms
+2020-02-02 08:04:29.644   CNC 18   INF   Sleeping for 9.705180684s
+2020-02-02 08:04:39.350   CNC 18   INF   Device still active
+2020-02-02 08:04:39.350   CNC 18   INF   Production -> 9 of 300
+2020-02-02 08:04:39.560   CNC 18   INF   Processing takes 209.989533ms
+2020-02-02 08:04:39.560   CNC 18   INF   Sleeping for 9.789862154s
+2020-02-02 08:04:49.354   CNC 18   INF   Device still active
+2020-02-02 08:04:49.354   CNC 18   INF   Production -> 10 of 300
+2020-02-02 08:04:49.693   CNC 18   INF   Processing takes 338.460389ms
+2020-02-02 08:04:49.693   CNC 18   INF   Sleeping for 9.661378954s
+2020-02-02 08:04:59.356   CNC 18   INF   Device still active
+2020-02-02 08:04:59.356   CNC 18   INF   Production -> 11 of 300
+2020-02-02 08:04:59.672   CNC 18   INF   Processing takes 315.850011ms
+2020-02-02 08:04:59.673   CNC 18   INF   Sleeping for 9.68380579s
+2020-02-02 08:05:09.357   CNC 18   INF   Device still active
+2020-02-02 08:05:09.357   CNC 18   INF   Production -> 12 of 300
+2020-02-02 08:05:09.650   CNC 18   INF   Processing takes 292.865231ms
+2020-02-02 08:05:09.650   CNC 18   INF   Sleeping for 9.706978756s
+2020-02-02 08:05:19.360   CNC 18   INF   Device still active
+2020-02-02 08:05:19.361   CNC 18   INF   Production -> 13 of 300
+2020-02-02 08:05:19.620   CNC 18   INF   Processing takes 258.915407ms
+2020-02-02 08:05:19.620   CNC 18   INF   Sleeping for 9.740912629s
+2020-02-02 08:05:29.363   CNC 18   INF   Device still active
+2020-02-02 08:05:29.364   CNC 18   INF   Production -> 14 of 300
+2020-02-02 08:05:29.722   CNC 18   INF   Processing takes 358.177662ms
+2020-02-02 08:05:29.722   CNC 18   INF   Sleeping for 9.641656521s
+2020-02-02 08:05:39.368   CNC 18   INF   Device still active
+2020-02-02 08:05:39.368   CNC 18   INF   Production -> 15 of 300
+2020-02-02 08:05:39.644   CNC 18   INF   Processing takes 275.701097ms
+2020-02-02 08:05:39.644   CNC 18   INF   Sleeping for 9.724131428s
+2020-02-02 08:05:49.372   CNC 18   INF   Device still active
+2020-02-02 08:05:49.372   CNC 18   INF   Production -> 16 of 300
+2020-02-02 08:05:49.868   CNC 18   INF   Processing takes 495.226556ms
+2020-02-02 08:05:49.868   CNC 18   INF   Sleeping for 9.504581704s
+2020-02-02 08:05:59.373   CNC 18   INF   Device still active
+2020-02-02 08:05:59.373   CNC 18   INF   Production -> 17 of 300
+2020-02-02 08:05:59.524   CNC 18   INF   Processing takes 150.860962ms
+2020-02-02 08:05:59.524   CNC 18   INF   Sleeping for 9.84898989s
+2020-02-02 08:06:09.374   CNC 18   INF   Device still active
+2020-02-02 08:06:09.374   CNC 18   INF   Production -> 18 of 300
+2020-02-02 08:06:09.605   CNC 18   INF   Processing takes 230.721508ms
+2020-02-02 08:06:09.605   CNC 18   INF   Sleeping for 9.768878925s
+2020-02-02 08:06:19.374   CNC 18   INF   Device still active
+2020-02-02 08:06:19.374   CNC 18   INF   Production -> 19 of 300
+2020-02-02 08:06:19.714   CNC 18   INF   Processing takes 339.177492ms
+2020-02-02 08:06:19.714   CNC 18   INF   Sleeping for 9.660093963s
+2020-02-02 08:06:29.379   CNC 18   INF   Device still active
+2020-02-02 08:06:29.379   CNC 18   INF   Production -> 20 of 300
+2020-02-02 08:06:29.594   CNC 18   INF   Processing takes 215.020887ms
+2020-02-02 08:06:29.594   CNC 18   INF   Sleeping for 9.784814113s
+2020-02-02 08:06:39.379   CNC 18   INF   Device still active
+2020-02-02 08:06:39.379   CNC 18   INF   Production -> 21 of 300
+2020-02-02 08:06:39.535   CNC 18   INF   Processing takes 156.170408ms
+2020-02-02 08:06:39.535   CNC 18   INF   Sleeping for 9.843687876s
+2020-02-02 08:06:49.380   CNC 18   INF   Device still active
+2020-02-02 08:06:49.380   CNC 18   INF   Production -> 22 of 300
+2020-02-02 08:06:49.657   CNC 18   INF   Processing takes 276.467269ms
+2020-02-02 08:06:49.657   CNC 18   INF   Sleeping for 9.72341206s
+2020-02-02 08:06:59.384   CNC 18   INF   Device still active
+2020-02-02 08:06:59.385   CNC 18   INF   Production -> 23 of 300
+2020-02-02 08:06:59.609   CNC 18   INF   Processing takes 224.584696ms
+2020-02-02 08:06:59.609   CNC 18   INF   Sleeping for 9.775123211s
+2020-02-02 08:07:09.385   CNC 18   INF   Device still active
+2020-02-02 08:07:09.386   CNC 18   INF   Production -> 24 of 300
+2020-02-02 08:07:09.556   CNC 18   INF   Processing takes 170.857885ms
+2020-02-02 08:07:09.557   CNC 18   INF   Sleeping for 9.82896578s
+2020-02-02 08:07:19.390   CNC 18   INF   Device still active
+2020-02-02 08:07:19.390   CNC 18   INF   Production -> 25 of 300
+2020-02-02 08:07:19.800   CNC 18   INF   Processing takes 409.561387ms
+2020-02-02 08:07:19.800   CNC 18   INF   Sleeping for 9.590281493s
+2020-02-02 08:07:29.391   CNC 18   INF   Device still active
+2020-02-02 08:07:29.391   CNC 18   INF   Production -> 26 of 300
+2020-02-02 08:07:29.599   CNC 18   INF   Processing takes 208.398708ms
+2020-02-02 08:07:29.599   CNC 18   INF   Sleeping for 9.791498389s
+2020-02-02 08:07:39.392   CNC 18   INF   Device still active
+2020-02-02 08:07:39.392   CNC 18   INF   Production -> 27 of 300
+2020-02-02 08:07:39.857   CNC 18   INF   Processing takes 465.032788ms
+2020-02-02 08:07:39.858   CNC 18   INF   Sleeping for 9.534106936s
+2020-02-02 08:07:49.394   CNC 18   INF   Device still active
+2020-02-02 08:07:49.394   CNC 18   INF   Production -> 28 of 300
+2020-02-02 08:07:49.700   CNC 18   INF   Processing takes 305.966459ms
+2020-02-02 08:07:49.700   CNC 18   INF   Sleeping for 9.693948437s
+2020-02-02 08:07:59.395   CNC 18   INF   Device still active
+2020-02-02 08:07:59.396   CNC 18   INF   Production -> 29 of 300
+2020-02-02 08:07:59.622   CNC 18   INF   Processing takes 226.911921ms
+2020-02-02 08:07:59.622   CNC 18   INF   Sleeping for 9.772970636s
+2020-02-02 08:08:09.396   CNC 18   INF   Device still active
+2020-02-02 08:08:09.397   CNC 18   INF   Production -> 30 of 300
+2020-02-02 08:08:09.591   CNC 18   INF   Processing takes 194.387627ms
+2020-02-02 08:08:09.591   CNC 18   INF   Sleeping for 9.805424971s
+2020-02-02 08:08:19.399   CNC 18   INF   Device still active
+2020-02-02 08:08:19.400   CNC 18   INF   Production -> 31 of 300
+2020-02-02 08:08:19.674   CNC 18   INF   Processing takes 274.104306ms
+2020-02-02 08:08:19.674   CNC 18   INF   Sleeping for 9.725760537s
+2020-02-02 08:08:29.400   CNC 18   INF   Device still active
+2020-02-02 08:08:29.401   CNC 18   INF   Production -> 32 of 300
+2020-02-02 08:08:29.417   CNC 18   INF   Processing takes 16.345604ms
+2020-02-02 08:08:29.417   CNC 18   INF   Sleeping for 9.983595599s
+2020-02-02 08:08:39.405   CNC 18   INF   Device still active
+2020-02-02 08:08:39.405   CNC 18   INF   Production -> 33 of 300
+2020-02-02 08:08:40.714   CNC 18   INF   Processing takes 1.309053544s
+2020-02-02 08:08:40.714   CNC 18   INF   Sleeping for 8.690838814s
+2020-02-02 08:08:49.408   CNC 18   INF   Device still active
+2020-02-02 08:08:49.408   CNC 18   INF   Production -> 34 of 300
+2020-02-02 08:08:50.728   CNC 18   INF   Processing takes 1.318873474s
+2020-02-02 08:08:50.728   CNC 18   INF   Sleeping for 8.680342705s

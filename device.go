@@ -45,7 +45,7 @@ func GenerateDowntimeData(device zapsi_database.Device) {
 	min := 80
 	max := 100
 	randomNumber := rand.Intn(max-min) + min
-	recordToInsert := zapsi_database.DeviceAnalogRecord{DateTime: timeToInsert, Data: float32(randomNumber), DevicePortId: analogPort.ID, Interval: 10}
+	recordToInsert := zapsi_database.DeviceAnalogRecord{DateTime: timeToInsert, Data: float32(randomNumber), DevicePortId: analogPort.ID, Duration: time.Second * 10}
 	db.NewRecord(recordToInsert)
 	db.Create(&recordToInsert)
 	analogPort.ActualData = strconv.Itoa(randomNumber)
@@ -70,10 +70,10 @@ func GenerateProductionData(device zapsi_database.Device) {
 
 	timeToInsert := time.Now()
 	timeToInsertForZero := timeToInsert.Add(1 * time.Second)
-	recordToInsertOne := zapsi_database.DeviceDigitalRecord{DateTime: timeToInsert, Data: 1, DevicePortId: digitalPort.ID, Interval: 9}
+	recordToInsertOne := zapsi_database.DeviceDigitalRecord{DateTime: timeToInsert, Data: 1, DevicePortId: digitalPort.ID, Duration: time.Second * 9}
 	db.NewRecord(recordToInsertOne)
 	db.Create(&recordToInsertOne)
-	recordToInsertZero := zapsi_database.DeviceDigitalRecord{DateTime: timeToInsertForZero, Data: 0, DevicePortId: digitalPort.ID, Interval: 1}
+	recordToInsertZero := zapsi_database.DeviceDigitalRecord{DateTime: timeToInsertForZero, Data: 0, DevicePortId: digitalPort.ID, Duration: time.Second * 1}
 	db.NewRecord(recordToInsertZero)
 	db.Create(&recordToInsertZero)
 	digitalPort.ActualData = "0"
@@ -83,7 +83,7 @@ func GenerateProductionData(device zapsi_database.Device) {
 	min := 80
 	max := 100
 	randomNumber := rand.Intn(max-min) + min
-	recordToInsert := zapsi_database.DeviceAnalogRecord{DateTime: timeToInsert, Data: float32(randomNumber), DevicePortId: analogPort.ID, Interval: 10}
+	recordToInsert := zapsi_database.DeviceAnalogRecord{DateTime: timeToInsert, Data: float32(randomNumber), DevicePortId: analogPort.ID, Duration: time.Second * 10}
 	db.NewRecord(recordToInsert)
 	db.Create(&recordToInsert)
 	analogPort.ActualData = strconv.Itoa(randomNumber)
