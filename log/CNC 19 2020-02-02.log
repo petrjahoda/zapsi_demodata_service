@@ -286,3 +286,64 @@
 2020-02-02 08:08:49.409   CNC 19   INF   Poweroff -> 34 of 150
 2020-02-02 08:08:49.410   CNC 19   INF   Processing takes 147.157µs
 2020-02-02 08:08:49.410   CNC 19   INF   Sleeping for 9.999537552s
+2020-02-02 08:12:09.380   CNC 19   INF   Device started running
+2020-02-02 08:12:09.380   CNC 19   INF   Device directory exists
+2020-02-02 08:12:09.381   CNC 19   INF   Downtime -> 0 of 150
+2020-02-02 08:12:09.628   CNC 19   INF   Processing takes 247.537603ms
+2020-02-02 08:12:09.629   CNC 19   INF   Sleeping for 9.75163932s
+2020-02-02 08:12:19.387   CNC 19   INF   Device still active
+2020-02-02 08:12:19.387   CNC 19   INF   Downtime -> 1 of 150
+2020-02-02 08:12:19.761   CNC 19   INF   Processing takes 373.550886ms
+2020-02-02 08:12:19.761   CNC 19   INF   Sleeping for 9.625798843s
+2020-02-02 08:12:29.392   CNC 19   INF   Device still active
+2020-02-02 08:12:29.393   CNC 19   INF   Downtime -> 2 of 150
+2020-02-02 08:12:29.810   CNC 19   INF   Processing takes 417.441697ms
+2020-02-02 08:12:29.810   CNC 19   INF   Sleeping for 9.582345959s
+2020-02-02 08:12:39.396   CNC 19   INF   Device still active
+2020-02-02 08:12:39.397   CNC 19   INF   Downtime -> 3 of 150
+2020-02-02 08:12:39.608   CNC 19   INF   Processing takes 211.526445ms
+2020-02-02 08:12:39.609   CNC 19   INF   Sleeping for 9.787971504s
+2020-02-02 08:12:49.398   CNC 19   INF   Device still active
+2020-02-02 08:12:49.398   CNC 19   INF   Downtime -> 4 of 150
+2020-02-02 08:12:49.516   CNC 19   INF   Processing takes 118.463224ms
+2020-02-02 08:12:49.517   CNC 19   INF   Sleeping for 9.8814012s
+2020-02-02 08:12:59.402   CNC 19   INF   Device still active
+2020-02-02 08:12:59.403   CNC 19   INF   Downtime -> 5 of 150
+2020-02-02 08:12:59.491   CNC 19   INF   Processing takes 88.756388ms
+2020-02-02 08:12:59.492   CNC 19   INF   Sleeping for 9.91108118s
+2020-02-02 08:13:09.408   CNC 19   INF   Device still active
+2020-02-02 08:13:09.409   CNC 19   INF   Downtime -> 6 of 150
+2020-02-02 08:13:09.760   CNC 19   INF   Processing takes 351.424646ms
+2020-02-02 08:13:09.760   CNC 19   INF   Sleeping for 9.648413038s
+2020-02-02 08:13:19.411   CNC 19   INF   Device still active
+2020-02-02 08:13:19.412   CNC 19   INF   Downtime -> 7 of 150
+2020-02-02 08:13:19.772   CNC 19   INF   Processing takes 360.963763ms
+2020-02-02 08:13:19.773   CNC 19   INF   Sleeping for 9.638877355s
+2020-02-02 08:13:29.415   CNC 19   INF   Device still active
+2020-02-02 08:13:29.415   CNC 19   INF   Downtime -> 8 of 150
+2020-02-02 08:13:29.541   CNC 19   INF   Processing takes 126.253852ms
+2020-02-02 08:13:29.542   CNC 19   INF   Sleeping for 9.873158138s
+2020-02-02 08:13:39.416   CNC 19   INF   Device still active
+2020-02-02 08:13:39.416   CNC 19   INF   Downtime -> 9 of 150
+2020-02-02 08:13:39.653   CNC 19   INF   Processing takes 237.005374ms
+2020-02-02 08:13:39.653   CNC 19   INF   Sleeping for 9.762851895s
+2020-02-02 08:13:49.417   CNC 19   INF   Device still active
+2020-02-02 08:13:49.419   CNC 19   INF   Downtime -> 10 of 150
+2020-02-02 08:13:49.922   CNC 19   INF   Processing takes 504.325777ms
+2020-02-02 08:13:49.922   CNC 19   INF   Sleeping for 9.49541666s
+2020-02-02 08:13:59.421   CNC 19   INF   Device still active
+2020-02-02 08:13:59.421   CNC 19   INF   Downtime -> 11 of 150
+2020-02-02 08:13:59.888   CNC 19   INF   Processing takes 466.695136ms
+2020-02-02 08:13:59.888   CNC 19   INF   Sleeping for 9.532764472s
+2020-02-02 08:14:09.422   CNC 19   INF   Device still active
+2020-02-02 08:14:09.422   CNC 19   INF   Downtime -> 12 of 150
+2020-02-02 08:14:09.748   CNC 19   INF   Processing takes 325.916792ms
+2020-02-02 08:14:09.748   CNC 19   INF   Sleeping for 9.67392047s
+2020-02-02 08:14:19.428   CNC 19   INF   Device still active
+2020-02-02 08:14:19.429   CNC 19   INF   Downtime -> 13 of 150
+2020-02-02 08:14:19.582   CNC 19   INF   Processing takes 153.370426ms
+2020-02-02 08:14:19.582   CNC 19   INF   Sleeping for 9.846483975s
+2020-02-02 08:14:29.429   CNC 19   INF   Device still active
+2020-02-02 08:14:29.430   CNC 19   INF   Downtime -> 14 of 150
+2020-02-02 08:14:29.582   CNC 19   INF   Processing takes 152.456492ms
+2020-02-02 08:14:29.582   CNC 19   INF   Sleeping for 9.847391772s

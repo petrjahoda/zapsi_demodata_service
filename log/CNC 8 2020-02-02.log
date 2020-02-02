@@ -286,3 +286,64 @@
 2020-02-02 08:08:49.409   CNC 8   INF   Production -> 34 of 300
 2020-02-02 08:08:50.726   CNC 8   INF   Processing takes 1.316744267s
 2020-02-02 08:08:50.726   CNC 8   INF   Sleeping for 8.683122696s
+2020-02-02 08:12:09.380   CNC 8   INF   Device started running
+2020-02-02 08:12:09.380   CNC 8   INF   Device directory exists
+2020-02-02 08:12:09.381   CNC 8   INF   Downtime -> 0 of 150
+2020-02-02 08:12:09.601   CNC 8   INF   Processing takes 220.73463ms
+2020-02-02 08:12:09.601   CNC 8   INF   Sleeping for 9.779116027s
+2020-02-02 08:12:19.388   CNC 8   INF   Device still active
+2020-02-02 08:12:19.388   CNC 8   INF   Downtime -> 1 of 150
+2020-02-02 08:12:19.748   CNC 8   INF   Processing takes 359.651194ms
+2020-02-02 08:12:19.748   CNC 8   INF   Sleeping for 9.640139951s
+2020-02-02 08:12:29.392   CNC 8   INF   Device still active
+2020-02-02 08:12:29.392   CNC 8   INF   Downtime -> 2 of 150
+2020-02-02 08:12:29.861   CNC 8   INF   Processing takes 468.722067ms
+2020-02-02 08:12:29.861   CNC 8   INF   Sleeping for 9.53082889s
+2020-02-02 08:12:39.395   CNC 8   INF   Device still active
+2020-02-02 08:12:39.397   CNC 8   INF   Downtime -> 3 of 150
+2020-02-02 08:12:39.499   CNC 8   INF   Processing takes 103.746755ms
+2020-02-02 08:12:39.500   CNC 8   INF   Sleeping for 9.896122956s
+2020-02-02 08:12:49.398   CNC 8   INF   Device still active
+2020-02-02 08:12:49.398   CNC 8   INF   Downtime -> 4 of 150
+2020-02-02 08:12:49.520   CNC 8   INF   Processing takes 122.011645ms
+2020-02-02 08:12:49.520   CNC 8   INF   Sleeping for 9.877848857s
+2020-02-02 08:12:59.403   CNC 8   INF   Device still active
+2020-02-02 08:12:59.403   CNC 8   INF   Downtime -> 5 of 150
+2020-02-02 08:12:59.675   CNC 8   INF   Processing takes 272.091263ms
+2020-02-02 08:12:59.675   CNC 8   INF   Sleeping for 9.727664686s
+2020-02-02 08:13:09.408   CNC 8   INF   Device still active
+2020-02-02 08:13:09.409   CNC 8   INF   Downtime -> 6 of 150
+2020-02-02 08:13:09.654   CNC 8   INF   Processing takes 246.009045ms
+2020-02-02 08:13:09.654   CNC 8   INF   Sleeping for 9.753803304s
+2020-02-02 08:13:19.411   CNC 8   INF   Device still active
+2020-02-02 08:13:19.412   CNC 8   INF   Downtime -> 7 of 150
+2020-02-02 08:13:19.899   CNC 8   INF   Processing takes 487.149776ms
+2020-02-02 08:13:19.899   CNC 8   INF   Sleeping for 9.512725804s
+2020-02-02 08:13:29.414   CNC 8   INF   Device still active
+2020-02-02 08:13:29.414   CNC 8   INF   Downtime -> 8 of 150
+2020-02-02 08:13:29.573   CNC 8   INF   Processing takes 158.414087ms
+2020-02-02 08:13:29.573   CNC 8   INF   Sleeping for 9.841452544s
+2020-02-02 08:13:39.415   CNC 8   INF   Device still active
+2020-02-02 08:13:39.415   CNC 8   INF   Downtime -> 9 of 150
+2020-02-02 08:13:39.584   CNC 8   INF   Processing takes 169.137919ms
+2020-02-02 08:13:39.584   CNC 8   INF   Sleeping for 9.830736342s
+2020-02-02 08:13:49.417   CNC 8   INF   Device still active
+2020-02-02 08:13:49.419   CNC 8   INF   Downtime -> 10 of 150
+2020-02-02 08:13:50.120   CNC 8   INF   Processing takes 701.921191ms
+2020-02-02 08:13:50.120   CNC 8   INF   Sleeping for 9.297613695s
+2020-02-02 08:13:59.421   CNC 8   INF   Device still active
+2020-02-02 08:13:59.422   CNC 8   INF   Downtime -> 11 of 150
+2020-02-02 08:13:59.683   CNC 8   INF   Processing takes 261.814893ms
+2020-02-02 08:13:59.684   CNC 8   INF   Sleeping for 9.737976288s
+2020-02-02 08:14:09.422   CNC 8   INF   Device still active
+2020-02-02 08:14:09.422   CNC 8   INF   Downtime -> 12 of 150
+2020-02-02 08:14:09.683   CNC 8   INF   Processing takes 261.32591ms
+2020-02-02 08:14:09.684   CNC 8   INF   Sleeping for 9.738546338s
+2020-02-02 08:14:19.428   CNC 8   INF   Device still active
+2020-02-02 08:14:19.429   CNC 8   INF   Downtime -> 13 of 150
+2020-02-02 08:14:19.528   CNC 8   INF   Processing takes 99.941423ms
+2020-02-02 08:14:19.528   CNC 8   INF   Sleeping for 9.899947506s
+2020-02-02 08:14:29.429   CNC 8   INF   Device still active
+2020-02-02 08:14:29.430   CNC 8   INF   Downtime -> 14 of 150
+2020-02-02 08:14:29.537   CNC 8   INF   Processing takes 107.990569ms
+2020-02-02 08:14:29.538   CNC 8   INF   Sleeping for 9.891882931s

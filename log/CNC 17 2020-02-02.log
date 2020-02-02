@@ -286,3 +286,64 @@
 2020-02-02 08:08:49.409   CNC 17   INF   Production -> 34 of 300
 2020-02-02 08:08:50.728   CNC 17   INF   Processing takes 1.318474176s
 2020-02-02 08:08:50.728   CNC 17   INF   Sleeping for 8.680463258s
+2020-02-02 08:12:09.380   CNC 17   INF   Device started running
+2020-02-02 08:12:09.381   CNC 17   INF   Device directory exists
+2020-02-02 08:12:09.381   CNC 17   INF   Poweroff -> 0 of 150
+2020-02-02 08:12:09.381   CNC 17   INF   Processing takes 117.259µs
+2020-02-02 08:12:09.381   CNC 17   INF   Sleeping for 9.999732179s
+2020-02-02 08:12:19.387   CNC 17   INF   Device still active
+2020-02-02 08:12:19.388   CNC 17   INF   Poweroff -> 1 of 150
+2020-02-02 08:12:19.388   CNC 17   INF   Processing takes 264.384µs
+2020-02-02 08:12:19.388   CNC 17   INF   Sleeping for 9.999441102s
+2020-02-02 08:12:29.392   CNC 17   INF   Device still active
+2020-02-02 08:12:29.393   CNC 17   INF   Poweroff -> 2 of 150
+2020-02-02 08:12:29.393   CNC 17   INF   Processing takes 690.789µs
+2020-02-02 08:12:29.393   CNC 17   INF   Sleeping for 9.999148147s
+2020-02-02 08:12:39.397   CNC 17   INF   Device still active
+2020-02-02 08:12:39.397   CNC 17   INF   Poweroff -> 3 of 150
+2020-02-02 08:12:39.398   CNC 17   INF   Processing takes 295.908µs
+2020-02-02 08:12:39.398   CNC 17   INF   Sleeping for 9.998579574s
+2020-02-02 08:12:49.401   CNC 17   INF   Device still active
+2020-02-02 08:12:49.401   CNC 17   INF   Poweroff -> 4 of 150
+2020-02-02 08:12:49.401   CNC 17   INF   Processing takes 227.722µs
+2020-02-02 08:12:49.401   CNC 17   INF   Sleeping for 9.99951437s
+2020-02-02 08:12:59.404   CNC 17   INF   Device still active
+2020-02-02 08:12:59.404   CNC 17   INF   Poweroff -> 5 of 150
+2020-02-02 08:12:59.404   CNC 17   INF   Processing takes 306.818µs
+2020-02-02 08:12:59.404   CNC 17   INF   Sleeping for 9.999483065s
+2020-02-02 08:13:09.407   CNC 17   INF   Device still active
+2020-02-02 08:13:09.408   CNC 17   INF   Poweroff -> 6 of 150
+2020-02-02 08:13:09.408   CNC 17   INF   Processing takes 349.712µs
+2020-02-02 08:13:09.408   CNC 17   INF   Sleeping for 9.999201971s
+2020-02-02 08:13:19.411   CNC 17   INF   Device still active
+2020-02-02 08:13:19.412   CNC 17   INF   Poweroff -> 7 of 150
+2020-02-02 08:13:19.412   CNC 17   INF   Processing takes 327.186µs
+2020-02-02 08:13:19.412   CNC 17   INF   Sleeping for 9.99931768s
+2020-02-02 08:13:29.414   CNC 17   INF   Device still active
+2020-02-02 08:13:29.415   CNC 17   INF   Poweroff -> 8 of 150
+2020-02-02 08:13:29.415   CNC 17   INF   Processing takes 353.225µs
+2020-02-02 08:13:29.416   CNC 17   INF   Sleeping for 9.999205034s
+2020-02-02 08:13:39.416   CNC 17   INF   Device still active
+2020-02-02 08:13:39.416   CNC 17   INF   Poweroff -> 9 of 150
+2020-02-02 08:13:39.416   CNC 17   INF   Processing takes 272.396µs
+2020-02-02 08:13:39.416   CNC 17   INF   Sleeping for 9.999608513s
+2020-02-02 08:13:49.417   CNC 17   INF   Device still active
+2020-02-02 08:13:49.419   CNC 17   INF   Poweroff -> 10 of 150
+2020-02-02 08:13:49.420   CNC 17   INF   Processing takes 1.23879ms
+2020-02-02 08:13:49.420   CNC 17   INF   Sleeping for 9.997877988s
+2020-02-02 08:13:59.421   CNC 17   INF   Device still active
+2020-02-02 08:13:59.422   CNC 17   INF   Poweroff -> 11 of 150
+2020-02-02 08:13:59.422   CNC 17   INF   Processing takes 760.057µs
+2020-02-02 08:13:59.422   CNC 17   INF   Sleeping for 9.999010225s
+2020-02-02 08:14:09.422   CNC 17   INF   Device still active
+2020-02-02 08:14:09.423   CNC 17   INF   Poweroff -> 12 of 150
+2020-02-02 08:14:09.423   CNC 17   INF   Processing takes 1.079844ms
+2020-02-02 08:14:09.423   CNC 17   INF   Sleeping for 9.998793003s
+2020-02-02 08:14:19.428   CNC 17   INF   Device still active
+2020-02-02 08:14:19.428   CNC 17   INF   Poweroff -> 13 of 150
+2020-02-02 08:14:19.430   CNC 17   INF   Processing takes 471.754µs
+2020-02-02 08:14:19.431   CNC 17   INF   Sleeping for 9.997172078s
+2020-02-02 08:14:29.428   CNC 17   INF   Device still active
+2020-02-02 08:14:29.429   CNC 17   INF   Poweroff -> 14 of 150
+2020-02-02 08:14:29.429   CNC 17   INF   Processing takes 468.483µs
+2020-02-02 08:14:29.430   CNC 17   INF   Sleeping for 9.999213305s

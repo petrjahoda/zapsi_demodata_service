@@ -286,3 +286,64 @@
 2020-02-02 08:08:49.408   CNC 3   INF   Production -> 34 of 300
 2020-02-02 08:08:50.727   CNC 3   INF   Processing takes 1.318387605s
 2020-02-02 08:08:50.727   CNC 3   INF   Sleeping for 8.681154294s
+2020-02-02 08:12:09.381   CNC 3   INF   Device started running
+2020-02-02 08:12:09.381   CNC 3   INF   Device directory exists
+2020-02-02 08:12:09.381   CNC 3   INF   Downtime -> 0 of 150
+2020-02-02 08:12:09.591   CNC 3   INF   Processing takes 210.147482ms
+2020-02-02 08:12:09.591   CNC 3   INF   Sleeping for 9.789758237s
+2020-02-02 08:12:19.386   CNC 3   INF   Device still active
+2020-02-02 08:12:19.387   CNC 3   INF   Downtime -> 1 of 150
+2020-02-02 08:12:19.811   CNC 3   INF   Processing takes 423.783809ms
+2020-02-02 08:12:19.812   CNC 3   INF   Sleeping for 9.575415153s
+2020-02-02 08:12:29.392   CNC 3   INF   Device still active
+2020-02-02 08:12:29.392   CNC 3   INF   Downtime -> 2 of 150
+2020-02-02 08:12:29.870   CNC 3   INF   Processing takes 478.069205ms
+2020-02-02 08:12:29.870   CNC 3   INF   Sleeping for 9.521782034s
+2020-02-02 08:12:39.395   CNC 3   INF   Device still active
+2020-02-02 08:12:39.396   CNC 3   INF   Downtime -> 3 of 150
+2020-02-02 08:12:39.679   CNC 3   INF   Processing takes 283.130043ms
+2020-02-02 08:12:39.679   CNC 3   INF   Sleeping for 9.716745856s
+2020-02-02 08:12:49.399   CNC 3   INF   Device still active
+2020-02-02 08:12:49.399   CNC 3   INF   Downtime -> 4 of 150
+2020-02-02 08:12:49.610   CNC 3   INF   Processing takes 210.780109ms
+2020-02-02 08:12:49.610   CNC 3   INF   Sleeping for 9.789057909s
+2020-02-02 08:12:59.403   CNC 3   INF   Device still active
+2020-02-02 08:12:59.404   CNC 3   INF   Downtime -> 5 of 150
+2020-02-02 08:12:59.675   CNC 3   INF   Processing takes 271.741454ms
+2020-02-02 08:12:59.675   CNC 3   INF   Sleeping for 9.727957015s
+2020-02-02 08:13:09.407   CNC 3   INF   Device still active
+2020-02-02 08:13:09.407   CNC 3   INF   Downtime -> 6 of 150
+2020-02-02 08:13:09.823   CNC 3   INF   Processing takes 415.742952ms
+2020-02-02 08:13:09.823   CNC 3   INF   Sleeping for 9.583583905s
+2020-02-02 08:13:19.411   CNC 3   INF   Device still active
+2020-02-02 08:13:19.412   CNC 3   INF   Downtime -> 7 of 150
+2020-02-02 08:13:19.821   CNC 3   INF   Processing takes 409.079741ms
+2020-02-02 08:13:19.821   CNC 3   INF   Sleeping for 9.590804064s
+2020-02-02 08:13:29.415   CNC 3   INF   Device still active
+2020-02-02 08:13:29.415   CNC 3   INF   Downtime -> 8 of 150
+2020-02-02 08:13:29.629   CNC 3   INF   Processing takes 213.632063ms
+2020-02-02 08:13:29.629   CNC 3   INF   Sleeping for 9.786250459s
+2020-02-02 08:13:39.416   CNC 3   INF   Device still active
+2020-02-02 08:13:39.416   CNC 3   INF   Downtime -> 9 of 150
+2020-02-02 08:13:39.633   CNC 3   INF   Processing takes 216.721976ms
+2020-02-02 08:13:39.633   CNC 3   INF   Sleeping for 9.783136169s
+2020-02-02 08:13:49.417   CNC 3   INF   Device still active
+2020-02-02 08:13:49.418   CNC 3   INF   Downtime -> 10 of 150
+2020-02-02 08:13:50.131   CNC 3   INF   Processing takes 713.082054ms
+2020-02-02 08:13:50.131   CNC 3   INF   Sleeping for 9.286485308s
+2020-02-02 08:13:59.421   CNC 3   INF   Device still active
+2020-02-02 08:13:59.421   CNC 3   INF   Downtime -> 11 of 150
+2020-02-02 08:13:59.731   CNC 3   INF   Processing takes 310.251397ms
+2020-02-02 08:13:59.732   CNC 3   INF   Sleeping for 9.689108021s
+2020-02-02 08:14:09.422   CNC 3   INF   Device still active
+2020-02-02 08:14:09.423   CNC 3   INF   Downtime -> 12 of 150
+2020-02-02 08:14:09.624   CNC 3   INF   Processing takes 201.711065ms
+2020-02-02 08:14:09.624   CNC 3   INF   Sleeping for 9.798154307s
+2020-02-02 08:14:19.428   CNC 3   INF   Device still active
+2020-02-02 08:14:19.429   CNC 3   INF   Downtime -> 13 of 150
+2020-02-02 08:14:19.517   CNC 3   INF   Processing takes 89.10523ms
+2020-02-02 08:14:19.517   CNC 3   INF   Sleeping for 9.910785048s
+2020-02-02 08:14:29.430   CNC 3   INF   Device still active
+2020-02-02 08:14:29.430   CNC 3   INF   Downtime -> 14 of 150
+2020-02-02 08:14:29.519   CNC 3   INF   Processing takes 89.2279ms
+2020-02-02 08:14:29.519   CNC 3   INF   Sleeping for 9.91064905s

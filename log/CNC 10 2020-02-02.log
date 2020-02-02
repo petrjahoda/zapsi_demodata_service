@@ -286,3 +286,64 @@
 2020-02-02 08:08:49.409   CNC 10   INF   Production -> 34 of 300
 2020-02-02 08:08:50.728   CNC 10   INF   Processing takes 1.318384094s
 2020-02-02 08:08:50.728   CNC 10   INF   Sleeping for 8.680771665s
+2020-02-02 08:12:09.380   CNC 10   INF   Device started running
+2020-02-02 08:12:09.381   CNC 10   INF   Device directory exists
+2020-02-02 08:12:09.381   CNC 10   INF   Downtime -> 0 of 150
+2020-02-02 08:12:09.545   CNC 10   INF   Processing takes 164.38049ms
+2020-02-02 08:12:09.545   CNC 10   INF   Sleeping for 9.835498505s
+2020-02-02 08:12:19.387   CNC 10   INF   Device still active
+2020-02-02 08:12:19.388   CNC 10   INF   Downtime -> 1 of 150
+2020-02-02 08:12:19.860   CNC 10   INF   Processing takes 472.526336ms
+2020-02-02 08:12:19.861   CNC 10   INF   Sleeping for 9.526773192s
+2020-02-02 08:12:29.392   CNC 10   INF   Device still active
+2020-02-02 08:12:29.393   CNC 10   INF   Downtime -> 2 of 150
+2020-02-02 08:12:29.872   CNC 10   INF   Processing takes 479.786736ms
+2020-02-02 08:12:29.872   CNC 10   INF   Sleeping for 9.520053766s
+2020-02-02 08:12:39.397   CNC 10   INF   Device still active
+2020-02-02 08:12:39.397   CNC 10   INF   Downtime -> 3 of 150
+2020-02-02 08:12:39.560   CNC 10   INF   Processing takes 162.548345ms
+2020-02-02 08:12:39.560   CNC 10   INF   Sleeping for 9.837292168s
+2020-02-02 08:12:49.398   CNC 10   INF   Device still active
+2020-02-02 08:12:49.398   CNC 10   INF   Downtime -> 4 of 150
+2020-02-02 08:12:49.510   CNC 10   INF   Processing takes 111.351821ms
+2020-02-02 08:12:49.510   CNC 10   INF   Sleeping for 9.888533822s
+2020-02-02 08:12:59.403   CNC 10   INF   Device still active
+2020-02-02 08:12:59.403   CNC 10   INF   Downtime -> 5 of 150
+2020-02-02 08:12:59.619   CNC 10   INF   Processing takes 215.677826ms
+2020-02-02 08:12:59.619   CNC 10   INF   Sleeping for 9.784109755s
+2020-02-02 08:13:09.407   CNC 10   INF   Device still active
+2020-02-02 08:13:09.408   CNC 10   INF   Downtime -> 6 of 150
+2020-02-02 08:13:09.613   CNC 10   INF   Processing takes 205.66164ms
+2020-02-02 08:13:09.613   CNC 10   INF   Sleeping for 9.793977444s
+2020-02-02 08:13:19.411   CNC 10   INF   Device still active
+2020-02-02 08:13:19.412   CNC 10   INF   Downtime -> 7 of 150
+2020-02-02 08:13:19.753   CNC 10   INF   Processing takes 341.054882ms
+2020-02-02 08:13:19.753   CNC 10   INF   Sleeping for 9.658802353s
+2020-02-02 08:13:29.414   CNC 10   INF   Device still active
+2020-02-02 08:13:29.414   CNC 10   INF   Downtime -> 8 of 150
+2020-02-02 08:13:29.584   CNC 10   INF   Processing takes 169.556889ms
+2020-02-02 08:13:29.585   CNC 10   INF   Sleeping for 9.829673885s
+2020-02-02 08:13:39.415   CNC 10   INF   Device still active
+2020-02-02 08:13:39.416   CNC 10   INF   Downtime -> 9 of 150
+2020-02-02 08:13:39.703   CNC 10   INF   Processing takes 287.318084ms
+2020-02-02 08:13:39.703   CNC 10   INF   Sleeping for 9.712555326s
+2020-02-02 08:13:49.418   CNC 10   INF   Device still active
+2020-02-02 08:13:49.419   CNC 10   INF   Downtime -> 10 of 150
+2020-02-02 08:13:49.913   CNC 10   INF   Processing takes 494.757303ms
+2020-02-02 08:13:49.914   CNC 10   INF   Sleeping for 9.504726695s
+2020-02-02 08:13:59.421   CNC 10   INF   Device still active
+2020-02-02 08:13:59.422   CNC 10   INF   Downtime -> 11 of 150
+2020-02-02 08:13:59.618   CNC 10   INF   Processing takes 196.756922ms
+2020-02-02 08:13:59.618   CNC 10   INF   Sleeping for 9.803085073s
+2020-02-02 08:14:09.422   CNC 10   INF   Device still active
+2020-02-02 08:14:09.422   CNC 10   INF   Downtime -> 12 of 150
+2020-02-02 08:14:09.631   CNC 10   INF   Processing takes 209.009512ms
+2020-02-02 08:14:09.631   CNC 10   INF   Sleeping for 9.790764142s
+2020-02-02 08:14:19.429   CNC 10   INF   Device still active
+2020-02-02 08:14:19.429   CNC 10   INF   Downtime -> 13 of 150
+2020-02-02 08:14:19.563   CNC 10   INF   Processing takes 134.088273ms
+2020-02-02 08:14:19.563   CNC 10   INF   Sleeping for 9.865792589s
+2020-02-02 08:14:29.430   CNC 10   INF   Device still active
+2020-02-02 08:14:29.431   CNC 10   INF   Downtime -> 14 of 150
+2020-02-02 08:14:29.641   CNC 10   INF   Processing takes 210.833281ms
+2020-02-02 08:14:29.641   CNC 10   INF   Sleeping for 9.78906591s
