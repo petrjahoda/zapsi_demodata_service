@@ -169,3 +169,69 @@
 2020-02-29 10:10:23.331   MAIN   INF   Active devices: 20, running devices: 20
 2020-02-29 10:10:23.331   MAIN   INF   Sleeping for 9.957409795s
 2020-02-29 10:10:23.596   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:47:07.147   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:47:09.148   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:47:09.149   MAIN   INF   Program running
+2020-02-29 10:47:10.920   MAIN   INF   Active devices: 0, running devices: 0
+2020-02-29 10:47:10.920   MAIN   INF   Sleeping for 8.228186719s
+2020-02-29 10:47:19.152   MAIN   INF   Program running
+2020-02-29 10:47:20.625   MAIN   INF   Active devices: 0, running devices: 0
+2020-02-29 10:47:20.625   MAIN   INF   Sleeping for 8.526856389s
+2020-02-29 10:47:21.054   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:49:21.225   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:49:23.226   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:49:23.227   MAIN   INF   Program running
+2020-02-29 10:49:24.463   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:51:21.086   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:51:23.092   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:51:23.092   MAIN   INF   Program running
+2020-02-29 10:51:23.120   MAIN   INF   Active devices: 20, running devices: 0
+2020-02-29 10:51:23.120   MAIN   INF   Sleeping for 9.972406044s
+2020-02-29 10:51:24.725   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:25.727   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:26.731   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:27.732   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:28.732   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:29.734   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:30.738   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:31.741   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:32.744   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:33.094   MAIN   INF   Program running
+2020-02-29 10:51:33.120   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-29 10:51:33.121   MAIN   INF   Sleeping for 9.972952259s
+2020-02-29 10:51:33.750   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:51:38.428   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:51:40.429   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:51:40.430   MAIN   INF   Program running
+2020-02-29 10:51:40.463   MAIN   INF   Active devices: 20, running devices: 0
+2020-02-29 10:51:40.464   MAIN   INF   Sleeping for 9.966082812s
+2020-02-29 10:51:42.125   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:43.126   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:44.131   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:45.132   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:46.134   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:47.135   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:48.139   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:49.145   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:50.146   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:50.430   MAIN   INF   Program running
+2020-02-29 10:51:50.478   MAIN   INF   Active devices: 20, running devices: 0
+2020-02-29 10:51:50.479   MAIN   INF   Sleeping for 9.95138248s
+2020-02-29 10:51:51.146   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:51:53.184   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:51:55.186   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:51:55.186   MAIN   INF   Program running
+2020-02-29 10:51:55.259   MAIN   INF   Active devices: 20, running devices: 0
+2020-02-29 10:51:55.259   MAIN   INF   Sleeping for 9.926846876s
+2020-02-29 10:51:57.386   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:58.389   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:51:59.389   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:52:00.390   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:52:01.393   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:52:02.394   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:52:03.394   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:52:04.399   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:52:05.191   MAIN   INF   Program running
+2020-02-29 10:52:05.256   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-29 10:52:05.257   MAIN   INF   Sleeping for 9.934086019s
+2020-02-29 10:52:05.403   MAIN   INF   Stopped on platform darwin-launchd

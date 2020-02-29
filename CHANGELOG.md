@@ -20,6 +20,7 @@ adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html) rules.
 ### Change
 - update for latest database changes
 - minor changes after testing new postgres, mariadb and mssql
+- when searching for active devices, changed from "true" to "1"
 
 ## [2020.1.1.1] - 2020-01-01
 

@@ -48,3 +48,27 @@
 2020-02-29 10:10:13.627   CNC 18   INF   Sleeping for 9.724735664s
 2020-02-29 10:10:23.353   CNC 18   INF   Device still active
 2020-02-29 10:10:23.354   CNC 18   INF   Device not active, stopped running
+2020-02-29 10:51:23.121   CNC 18   INF   Device started running
+2020-02-29 10:51:23.122   CNC 18   INF   Device directory exists
+2020-02-29 10:51:23.122   CNC 18   INF   Production -> 0 of 300
+2020-02-29 10:51:23.346   CNC 18   INF   Processing takes 223.480445ms
+2020-02-29 10:51:23.346   CNC 18   INF   Sleeping for 9.775655538s
+2020-02-29 10:51:33.122   CNC 18   INF   Device still active
+2020-02-29 10:51:33.122   CNC 18   INF   Device not active, stopped running
+2020-02-29 10:51:40.465   CNC 18   INF   Device started running
+2020-02-29 10:51:40.465   CNC 18   INF   Device directory exists
+2020-02-29 10:51:40.465   CNC 18   INF   Production -> 0 of 300
+2020-02-29 10:51:40.721   CNC 18   INF   Processing takes 255.261422ms
+2020-02-29 10:51:40.721   CNC 18   INF   Sleeping for 9.744546487s
+2020-02-29 10:51:50.466   CNC 18   INF   Device still active
+2020-02-29 10:51:50.466   CNC 18   INF   Device not active, stopped running
+2020-02-29 10:51:50.480   CNC 18   INF   Device started running
+2020-02-29 10:51:50.480   CNC 18   INF   Device directory exists
+2020-02-29 10:51:50.480   CNC 18   INF   Device not active, stopped running
+2020-02-29 10:51:55.260   CNC 18   INF   Device started running
+2020-02-29 10:51:55.260   CNC 18   INF   Device directory exists
+2020-02-29 10:51:55.260   CNC 18   INF   Downtime -> 0 of 150
+2020-02-29 10:51:55.426   CNC 18   INF   Processing takes 166.098396ms
+2020-02-29 10:51:55.426   CNC 18   INF   Sleeping for 9.833445699s
+2020-02-29 10:52:05.260   CNC 18   INF   Device still active
+2020-02-29 10:52:05.260   CNC 18   INF   Device not active, stopped running

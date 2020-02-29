@@ -48,3 +48,27 @@
 2020-02-29 10:10:13.623   CNC 5   INF   Sleeping for 9.728271536s
 2020-02-29 10:10:23.353   CNC 5   INF   Device still active
 2020-02-29 10:10:23.353   CNC 5   INF   Device not active, stopped running
+2020-02-29 10:51:23.120   CNC 5   INF   Device started running
+2020-02-29 10:51:23.122   CNC 5   INF   Device directory exists
+2020-02-29 10:51:23.122   CNC 5   INF   Production -> 0 of 300
+2020-02-29 10:51:23.262   CNC 5   INF   Processing takes 140.425967ms
+2020-02-29 10:51:23.263   CNC 5   INF   Sleeping for 9.85942812s
+2020-02-29 10:51:33.122   CNC 5   INF   Device still active
+2020-02-29 10:51:33.122   CNC 5   INF   Device not active, stopped running
+2020-02-29 10:51:40.465   CNC 5   INF   Device started running
+2020-02-29 10:51:40.465   CNC 5   INF   Device directory exists
+2020-02-29 10:51:40.465   CNC 5   INF   Downtime -> 0 of 150
+2020-02-29 10:51:40.675   CNC 5   INF   Processing takes 209.934299ms
+2020-02-29 10:51:40.675   CNC 5   INF   Sleeping for 9.789724175s
+2020-02-29 10:51:50.465   CNC 5   INF   Device still active
+2020-02-29 10:51:50.466   CNC 5   INF   Device not active, stopped running
+2020-02-29 10:51:50.479   CNC 5   INF   Device started running
+2020-02-29 10:51:50.479   CNC 5   INF   Device directory exists
+2020-02-29 10:51:50.480   CNC 5   INF   Device not active, stopped running
+2020-02-29 10:51:55.259   CNC 5   INF   Device started running
+2020-02-29 10:51:55.260   CNC 5   INF   Device directory exists
+2020-02-29 10:51:55.260   CNC 5   INF   Production -> 0 of 300
+2020-02-29 10:51:55.552   CNC 5   INF   Processing takes 292.358441ms
+2020-02-29 10:51:55.552   CNC 5   INF   Sleeping for 9.707501875s
+2020-02-29 10:52:05.260   CNC 5   INF   Device still active
+2020-02-29 10:52:05.260   CNC 5   INF   Device not active, stopped running
