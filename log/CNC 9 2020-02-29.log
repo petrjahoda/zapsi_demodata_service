@@ -1,0 +1,50 @@
+2020-02-29 10:01:05.050   CNC 9   INF   Device started running
+2020-02-29 10:01:05.051   CNC 9   INF   Device directory exists
+2020-02-29 10:01:05.051   CNC 9   INF   Production -> 0 of 300
+2020-02-29 10:01:05.232   CNC 9   INF   Processing takes 180.75134ms
+2020-02-29 10:01:05.232   CNC 9   INF   Sleeping for 9.819084668s
+2020-02-29 10:01:15.052   CNC 9   INF   Device still active
+2020-02-29 10:01:15.052   CNC 9   INF   Production -> 1 of 300
+2020-02-29 10:01:15.297   CNC 9   INF   Processing takes 244.967311ms
+2020-02-29 10:01:15.297   CNC 9   INF   Sleeping for 9.754881549s
+2020-02-29 10:01:25.052   CNC 9   INF   Device not active
+2020-02-29 10:01:25.052   CNC 9   INF   Device not active, stopped running
+2020-02-29 10:01:25.060   CNC 9   INF   Device started running
+2020-02-29 10:01:25.060   CNC 9   INF   Device directory exists
+2020-02-29 10:01:25.061   CNC 9   INF   Poweroff -> 0 of 150
+2020-02-29 10:01:25.061   CNC 9   INF   Processing takes 346.111µs
+2020-02-29 10:01:25.061   CNC 9   INF   Sleeping for 9.999509861s
+2020-02-29 10:01:35.061   CNC 9   INF   Device still active
+2020-02-29 10:01:35.061   CNC 9   INF   Device not active, stopped running
+2020-02-29 10:01:51.081   CNC 9   INF   Device started running
+2020-02-29 10:01:51.082   CNC 9   INF   Device directory exists
+2020-02-29 10:01:51.082   CNC 9   INF   Production -> 0 of 300
+2020-02-29 10:01:51.298   CNC 9   INF   Processing takes 216.488419ms
+2020-02-29 10:01:51.298   CNC 9   INF   Sleeping for 9.783397306s
+2020-02-29 10:02:01.082   CNC 9   INF   Device still active
+2020-02-29 10:02:01.082   CNC 9   INF   Production -> 1 of 300
+2020-02-29 10:02:01.199   CNC 9   INF   Processing takes 117.279808ms
+2020-02-29 10:02:01.199   CNC 9   INF   Sleeping for 9.882605868s
+2020-02-29 10:02:11.082   CNC 9   INF   Device not active
+2020-02-29 10:02:11.082   CNC 9   INF   Device not active, stopped running
+2020-02-29 10:02:11.083   CNC 9   INF   Device started running
+2020-02-29 10:02:11.083   CNC 9   INF   Device directory exists
+2020-02-29 10:02:11.084   CNC 9   INF   Device not active, stopped running
+2020-02-29 10:08:40.454   CNC 9   INF   Device started running
+2020-02-29 10:08:40.454   CNC 9   INF   Device directory exists
+2020-02-29 10:08:40.455   CNC 9   INF   Downtime -> 0 of 150
+2020-02-29 10:08:40.620   CNC 9   INF   Processing takes 165.303005ms
+2020-02-29 10:08:40.620   CNC 9   INF   Sleeping for 9.834412594s
+2020-02-29 10:08:50.455   CNC 9   INF   Device still active
+2020-02-29 10:08:50.455   CNC 9   INF   Device not active, stopped running
+2020-02-29 10:10:03.350   CNC 9   INF   Device started running
+2020-02-29 10:10:03.350   CNC 9   INF   Device directory exists
+2020-02-29 10:10:03.351   CNC 9   INF   Production -> 0 of 300
+2020-02-29 10:10:03.592   CNC 9   INF   Processing takes 240.794289ms
+2020-02-29 10:10:03.592   CNC 9   INF   Sleeping for 9.758824646s
+2020-02-29 10:10:13.351   CNC 9   INF   Device still active
+2020-02-29 10:10:13.351   CNC 9   INF   Production -> 1 of 300
+2020-02-29 10:10:13.626   CNC 9   INF   Processing takes 275.197124ms
+2020-02-29 10:10:13.626   CNC 9   INF   Sleeping for 9.724691931s
+2020-02-29 10:10:23.353   CNC 9   INF   Device still active
+2020-02-29 10:10:23.354   CNC 9   INF   Device not active, stopped running

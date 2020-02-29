@@ -1,0 +1,171 @@
+2020-02-29 10:00:02.502   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:00:04.504   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:00:04.505   MAIN   INF   Program running
+2020-02-29 10:00:04.515   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2020-02-29 10:00:04.522   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2020-02-29 10:00:04.527   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
+2020-02-29 10:00:04.528   MAIN   INF   Deleting old log file CNC 0 2020-02-01.log with age of 658h36m57.896134834s
+2020-02-29 10:00:04.532   MAIN   INF   Deleting old log file CNC 0 2020-02-02.log with age of 646h39m45.247150846s
+2020-02-29 10:00:04.535   MAIN   INF   Deleting old log file CNC 1 2020-02-01.log with age of 658h36m57.579761045s
+2020-02-29 10:00:04.537   MAIN   INF   Deleting old log file CNC 1 2020-02-02.log with age of 646h39m45.409508784s
+2020-02-29 10:00:04.538   MAIN   INF   Deleting old log file CNC 10 2020-02-01.log with age of 658h36m57.62921647s
+2020-02-29 10:00:04.539   MAIN   INF   Deleting old log file CNC 10 2020-02-02.log with age of 646h39m45.318004064s
+2020-02-29 10:00:04.540   MAIN   INF   Deleting old log file CNC 11 2020-02-01.log with age of 658h36m57.717782931s
+2020-02-29 10:00:04.540   MAIN   INF   Deleting old log file CNC 11 2020-02-02.log with age of 646h39m45.173535253s
+2020-02-29 10:00:04.540   MAIN   INF   Deleting old log file CNC 12 2020-02-01.log with age of 658h36m57.89654385s
+2020-02-29 10:00:04.541   MAIN   INF   Deleting old log file CNC 12 2020-02-02.log with age of 646h39m45.167189794s
+2020-02-29 10:00:04.541   MAIN   INF   Deleting old log file CNC 13 2020-02-01.log with age of 658h36m57.649331751s
+2020-02-29 10:00:04.541   MAIN   INF   Deleting old log file CNC 13 2020-02-02.log with age of 646h39m45.31122856s
+2020-02-29 10:00:04.541   MAIN   INF   Deleting old log file CNC 14 2020-02-01.log with age of 658h36m57.662235333s
+2020-02-29 10:00:04.541   MAIN   INF   Deleting old log file CNC 14 2020-02-02.log with age of 646h39m45.409820608s
+2020-02-29 10:00:04.542   MAIN   INF   Deleting old log file CNC 15 2020-02-01.log with age of 658h36m57.896308204s
+2020-02-29 10:00:04.542   MAIN   INF   Deleting old log file CNC 15 2020-02-02.log with age of 646h39m45.185439717s
+2020-02-29 10:00:04.543   MAIN   INF   Deleting old log file CNC 16 2020-02-01.log with age of 658h36m57.896096583s
+2020-02-29 10:00:04.543   MAIN   INF   Deleting old log file CNC 16 2020-02-02.log with age of 646h39m45.171362968s
+2020-02-29 10:00:04.543   MAIN   INF   Deleting old log file CNC 17 2020-02-01.log with age of 658h36m57.621390301s
+2020-02-29 10:00:04.543   MAIN   INF   Deleting old log file CNC 17 2020-02-02.log with age of 646h39m45.248339776s
+2020-02-29 10:00:04.544   MAIN   INF   Deleting old log file CNC 18 2020-02-01.log with age of 658h36m57.613842361s
+2020-02-29 10:00:04.544   MAIN   INF   Deleting old log file CNC 18 2020-02-02.log with age of 646h39m45.189007588s
+2020-02-29 10:00:04.544   MAIN   INF   Deleting old log file CNC 19 2020-02-01.log with age of 658h36m57.59548914s
+2020-02-29 10:00:04.545   MAIN   INF   Deleting old log file CNC 19 2020-02-02.log with age of 646h39m45.224083198s
+2020-02-29 10:00:04.545   MAIN   INF   Deleting old log file CNC 2 2020-02-01.log with age of 658h36m57.656638136s
+2020-02-29 10:00:04.546   MAIN   INF   Deleting old log file CNC 2 2020-02-02.log with age of 646h39m45.409689879s
+2020-02-29 10:00:04.546   MAIN   INF   Deleting old log file CNC 3 2020-02-01.log with age of 658h36m57.691308349s
+2020-02-29 10:00:04.546   MAIN   INF   Deleting old log file CNC 3 2020-02-02.log with age of 646h39m45.320336575s
+2020-02-29 10:00:04.546   MAIN   INF   Deleting old log file CNC 4 2020-02-01.log with age of 658h36m57.711416807s
+2020-02-29 10:00:04.547   MAIN   INF   Deleting old log file CNC 4 2020-02-02.log with age of 646h39m45.194259104s
+2020-02-29 10:00:04.547   MAIN   INF   Deleting old log file CNC 5 2020-02-01.log with age of 658h36m57.591518393s
+2020-02-29 10:00:04.547   MAIN   INF   Deleting old log file CNC 5 2020-02-02.log with age of 646h39m45.4095264s
+2020-02-29 10:00:04.547   MAIN   INF   Deleting old log file CNC 6 2020-02-01.log with age of 658h36m57.810426492s
+2020-02-29 10:00:04.548   MAIN   INF   Deleting old log file CNC 6 2020-02-02.log with age of 646h39m45.312763532s
+2020-02-29 10:00:04.548   MAIN   INF   Deleting old log file CNC 7 2020-02-01.log with age of 658h36m57.67243117s
+2020-02-29 10:00:04.548   MAIN   INF   Deleting old log file CNC 7 2020-02-02.log with age of 646h39m45.409541471s
+2020-02-29 10:00:04.548   MAIN   INF   Deleting old log file CNC 8 2020-02-01.log with age of 658h36m57.647817769s
+2020-02-29 10:00:04.549   MAIN   INF   Deleting old log file CNC 8 2020-02-02.log with age of 646h39m45.190919994s
+2020-02-29 10:00:04.549   MAIN   INF   Deleting old log file CNC 9 2020-02-01.log with age of 658h36m57.896204306s
+2020-02-29 10:00:04.549   MAIN   INF   Deleting old log file CNC 9 2020-02-02.log with age of 646h39m45.209551799s
+2020-02-29 10:00:04.549   MAIN   INF   Deleting old log file MAIN 2020-02-01.log with age of 658h36m57.152863404s
+2020-02-29 10:00:04.550   MAIN   INF   Deleting old log file MAIN 2020-02-02.err with age of 649h51m13.800937114s
+2020-02-29 10:00:04.550   MAIN   INF   Deleting old log file MAIN 2020-02-02.log with age of 646h39m45.410758971s
+2020-02-29 10:00:04.552   MAIN   INF   Deleting old log file MAIN 2020-02-08.log with age of 504h59m30.027313588s
+2020-02-29 10:00:04.553   MAIN   INF   Active devices: 0, running devices: 0
+2020-02-29 10:00:04.553   MAIN   INF   Sleeping for 9.951702253s
+2020-02-29 10:00:11.413   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:00:24.701   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:00:26.060   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:00:36.108   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:00:38.109   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:00:38.109   MAIN   WRN   Config file does not exist, creating
+2020-02-29 10:00:38.110   MAIN   INF   Directory for config file created
+2020-02-29 10:00:38.111   MAIN   INF   Writing data to JSON file
+2020-02-29 10:00:38.111   MAIN   INF   Data written to config file
+2020-02-29 10:00:38.111   MAIN   INF   Program running
+2020-02-29 10:00:38.245   MAIN   ERR   Problem opening zapsi3 database: dial tcp: lookup zapsi_database: no such host
+2020-02-29 10:00:38.249   MAIN   ERR   Problem opening zapsi3 database: dial tcp: lookup zapsi_database: no such host
+2020-02-29 10:00:38.252   MAIN   ERR   Problem opening zapsi3 database: dial tcp: lookup zapsi_database: no such host
+2020-02-29 10:00:38.252   MAIN   INF   Active devices: 0, running devices: 0
+2020-02-29 10:00:38.252   MAIN   INF   Sleeping for 9.858816473s
+2020-02-29 10:00:46.649   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:00:53.009   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:00:55.011   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:00:55.012   MAIN   INF   Program running
+2020-02-29 10:00:55.972   MAIN   INF   Active devices: 0, running devices: 0
+2020-02-29 10:00:55.972   MAIN   INF   Sleeping for 9.039637361s
+2020-02-29 10:01:05.015   MAIN   INF   Program running
+2020-02-29 10:01:05.048   MAIN   INF   Active devices: 20, running devices: 0
+2020-02-29 10:01:05.049   MAIN   INF   Sleeping for 9.966034652s
+2020-02-29 10:01:15.019   MAIN   INF   Program running
+2020-02-29 10:01:15.107   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-29 10:01:15.107   MAIN   INF   Sleeping for 9.911626615s
+2020-02-29 10:01:25.020   MAIN   INF   Program running
+2020-02-29 10:01:25.060   MAIN   INF   Active devices: 20, running devices: 9
+2020-02-29 10:01:25.060   MAIN   INF   Sleeping for 9.959839635s
+2020-02-29 10:01:27.703   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:01:28.707   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:01:29.710   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:01:30.711   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:01:31.714   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:01:32.715   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:01:33.720   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:01:34.722   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:01:35.022   MAIN   INF   Program running
+2020-02-29 10:01:35.053   MAIN   INF   Active devices: 20, running devices: 11
+2020-02-29 10:01:35.053   MAIN   INF   Sleeping for 9.969408401s
+2020-02-29 10:01:35.723   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:01:39.046   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:01:41.050   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:01:41.050   MAIN   INF   Program running
+2020-02-29 10:01:42.043   MAIN   INF   Active devices: 0, running devices: 0
+2020-02-29 10:01:42.043   MAIN   INF   Sleeping for 9.007442293s
+2020-02-29 10:01:51.052   MAIN   INF   Program running
+2020-02-29 10:01:51.080   MAIN   INF   Active devices: 20, running devices: 0
+2020-02-29 10:01:51.080   MAIN   INF   Sleeping for 9.97184978s
+2020-02-29 10:02:01.055   MAIN   INF   Program running
+2020-02-29 10:02:01.080   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-29 10:02:01.080   MAIN   INF   Sleeping for 9.974617349s
+2020-02-29 10:02:02.805   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:02:03.806   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:02:04.806   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:02:05.807   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:02:06.811   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:02:07.812   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:02:08.813   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:02:09.817   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:02:10.820   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:02:11.056   MAIN   INF   Program running
+2020-02-29 10:02:11.083   MAIN   INF   Active devices: 20, running devices: 0
+2020-02-29 10:02:11.083   MAIN   INF   Sleeping for 9.97271175s
+2020-02-29 10:02:11.823   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:02:15.240   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:02:17.243   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:02:17.243   MAIN   INF   Program running
+2020-02-29 10:02:19.266   MAIN   INF   Active devices: 0, running devices: 0
+2020-02-29 10:02:19.267   MAIN   INF   Sleeping for 7.976628185s
+2020-02-29 10:02:19.323   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:06:59.946   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:07:01.947   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:07:01.947   MAIN   INF   Program running
+2020-02-29 10:07:03.106   MAIN   INF   Active devices: 0, running devices: 0
+2020-02-29 10:07:03.106   MAIN   INF   Sleeping for 8.841620043s
+2020-02-29 10:07:11.951   MAIN   INF   Program running
+2020-02-29 10:07:13.506   MAIN   INF   Active devices: 0, running devices: 0
+2020-02-29 10:07:13.507   MAIN   INF   Sleeping for 8.444828154s
+2020-02-29 10:07:13.915   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:08:38.388   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:08:40.389   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:08:40.390   MAIN   INF   Program running
+2020-02-29 10:08:40.454   MAIN   INF   Active devices: 20, running devices: 0
+2020-02-29 10:08:40.454   MAIN   INF   Sleeping for 9.935928301s
+2020-02-29 10:08:42.467   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:08:43.470   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:08:44.472   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:08:45.475   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:08:46.479   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:08:47.484   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:08:48.486   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:08:49.487   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:08:50.394   MAIN   INF   Program running
+2020-02-29 10:08:50.450   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-29 10:08:50.451   MAIN   INF   Sleeping for 9.942996808s
+2020-02-29 10:08:50.488   MAIN   INF   Stopped on platform darwin-launchd
+2020-02-29 10:09:51.284   MAIN   INF   Starting Zapsi Demodata Service on darwin-launchd
+2020-02-29 10:09:53.284   MAIN   INF   Program version 2020.1.2.29 started
+2020-02-29 10:09:53.285   MAIN   INF   Program running
+2020-02-29 10:09:54.366   MAIN   INF   Active devices: 0, running devices: 0
+2020-02-29 10:09:54.366   MAIN   INF   Sleeping for 8.918876273s
+2020-02-29 10:10:03.288   MAIN   INF   Program running
+2020-02-29 10:10:03.349   MAIN   INF   Active devices: 20, running devices: 0
+2020-02-29 10:10:03.349   MAIN   INF   Sleeping for 9.938961306s
+2020-02-29 10:10:13.289   MAIN   INF   Program running
+2020-02-29 10:10:13.322   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-29 10:10:13.322   MAIN   INF   Sleeping for 9.96608338s
+2020-02-29 10:10:17.586   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:10:18.589   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:10:19.590   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:10:20.594   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:10:21.595   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:10:22.595   MAIN   INF   Stopping, still running devices: 20
+2020-02-29 10:10:23.289   MAIN   INF   Program running
+2020-02-29 10:10:23.331   MAIN   INF   Active devices: 20, running devices: 20
+2020-02-29 10:10:23.331   MAIN   INF   Sleeping for 9.957409795s
+2020-02-29 10:10:23.596   MAIN   INF   Stopped on platform darwin-launchd

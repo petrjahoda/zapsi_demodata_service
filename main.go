@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-const version = "2020.1.2.8"
+const version = "2020.1.2.29"
 const programName = "Zapsi Demodata Service"
 const programDesription = "Created demodata life it comes from Zapsi devices"
 const deleteLogsAfter = 240 * time.Hour
@@ -42,7 +42,7 @@ func (p *program) run() {
 	for {
 		start := time.Now()
 		LogInfo("MAIN", "Program running")
-		CompleteDatabaseCheck()
+		WriteProgramVersionIntoSettings()
 		UpdateActiveDevices("MAIN")
 		if len(activeDevices) == 0 {
 			CreateDevicesAndWorkplaces()
@@ -230,23 +230,8 @@ func UpdateActiveDevices(reference string) {
 	defer db.Close()
 	var deviceType zapsi_database.DeviceType
 	db.Where("name=?", "Zapsi").Find(&deviceType)
-	db.Where("device_type_id=?", deviceType.ID).Where("activated = true").Find(&activeDevices)
+	db.Where("device_type_id=?", deviceType.ID).Where("activated = ?", "true").Find(&activeDevices)
 	LogDebug("MAIN", "Zapsi device type id is "+strconv.Itoa(int(deviceType.ID)))
-}
-
-func CompleteDatabaseCheck() {
-	firstRunCheckComplete := false
-	for firstRunCheckComplete == false {
-		databaseOk := zapsi_database.CheckDatabase(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
-		tablesOk, err := zapsi_database.CheckTables(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
-		if err != nil {
-			LogInfo("MAIN", "Problem creating tables: "+err.Error())
-		}
-		if databaseOk && tablesOk {
-			WriteProgramVersionIntoSettings()
-			firstRunCheckComplete = true
-		}
-	}
 }
 
 func WriteProgramVersionIntoSettings() {

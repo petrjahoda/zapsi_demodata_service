@@ -11,7 +11,7 @@ import (
 )
 
 func CreateDirectoryIfNotExists(device zapsi_database.Device) {
-	deviceDirectory := filepath.Join(".", strconv.Itoa(int(device.ID))+"-"+device.Name)
+	deviceDirectory := filepath.Join(".", strconv.Itoa(device.ID)+"-"+device.Name)
 
 	if _, checkPathError := os.Stat(deviceDirectory); checkPathError == nil {
 		LogInfo(device.Name, "Device directory exists")
