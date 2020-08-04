@@ -15,6 +15,12 @@ adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html) rules.
 * ```Security``` in case of vulnerabilities.
 
 
+## [2020.3.2.4] - 2020-08-04
+
+### Changed
+- update to latest libraries and latest database changes
+- removed all about config and logging to file
+
 ## [2020.1.2.29] - 2020-02-29
 
 ### Change

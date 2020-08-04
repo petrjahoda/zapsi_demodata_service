@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/jinzhu/gorm"
-	"github.com/petrjahoda/zapsi_database"
+	"github.com/petrjahoda/database"
+	"gorm.io/driver/postgres"
+	"gorm.io/gorm"
 	"math/rand"
 	"os"
 	"path/filepath"
@@ -10,13 +11,12 @@ import (
 	"time"
 )
 
-func CreateDirectoryIfNotExists(device zapsi_database.Device) {
-	deviceDirectory := filepath.Join(".", strconv.Itoa(device.ID)+"-"+device.Name)
-
+func CreateDirectoryIfNotExists(device database.Device) {
+	deviceDirectory := filepath.Join(".", strconv.Itoa(int(device.ID))+"-"+device.Name)
 	if _, checkPathError := os.Stat(deviceDirectory); checkPathError == nil {
 		LogInfo(device.Name, "Device directory exists")
 	} else if os.IsNotExist(checkPathError) {
-		LogWarning(device.Name, "Device directory not exist, creating")
+		LogInfo(device.Name, "Device directory not exist, creating")
 		mkdirError := os.MkdirAll(deviceDirectory, 0777)
 		if mkdirError != nil {
 			LogError(device.Name, "Unable to create device directory: "+mkdirError.Error())
@@ -28,67 +28,54 @@ func CreateDirectoryIfNotExists(device zapsi_database.Device) {
 	}
 }
 
-func GenerateDowntimeData(device zapsi_database.Device) {
-	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
-	db, err := gorm.Open(dialect, connectionString)
+func GenerateDowntimeData(device database.Device) {
+	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
-		LogError("MAIN", "Problem opening "+DatabaseName+" database: "+err.Error())
+		LogError("MAIN", "Problem opening  database: "+err.Error())
 		return
 	}
-	defer db.Close()
-	var deviceToReturn zapsi_database.Device
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
+	var deviceToReturn database.Device
 	db.Where("name=?", device.Name).Find(&deviceToReturn)
-	var analogPort zapsi_database.DevicePort
+	var analogPort database.DevicePort
 	db.Where("device_id=?", device.ID).Where("name=?", "Amperage").Find(&analogPort)
 
 	timeToInsert := time.Now()
 	min := 80
 	max := 100
 	randomNumber := rand.Intn(max-min) + min
-	recordToInsert := zapsi_database.DevicePortAnalogRecord{DateTime: timeToInsert, Data: float32(randomNumber), DevicePortId: analogPort.ID, Duration: time.Second * 10}
-	db.NewRecord(recordToInsert)
+	recordToInsert := database.DevicePortAnalogRecord{DateTime: timeToInsert, Data: float32(randomNumber), DevicePortID: int(analogPort.ID)}
 	db.Create(&recordToInsert)
-	analogPort.ActualData = strconv.Itoa(randomNumber)
-	analogPort.ActualDataDateTime = timeToInsert
-	db.Save(&analogPort)
 }
 
-func GenerateProductionData(device zapsi_database.Device) {
-	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
-	db, err := gorm.Open(dialect, connectionString)
+func GenerateProductionData(device database.Device) {
+	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
-		LogError("MAIN", "Problem opening "+DatabaseName+" database: "+err.Error())
+		LogError("MAIN", "Problem opening database: "+err.Error())
 		return
 	}
-	defer db.Close()
-	var deviceToReturn zapsi_database.Device
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
+	var deviceToReturn database.Device
 	db.Where("name=?", device.Name).Find(&deviceToReturn)
-	var digitalPort zapsi_database.DevicePort
+	var digitalPort database.DevicePort
 	db.Where("device_id=?", device.ID).Where("name=?", "Production").Find(&digitalPort)
-	var analogPort zapsi_database.DevicePort
+	var analogPort database.DevicePort
 	db.Where("device_id=?", device.ID).Where("name=?", "Amperage").Find(&analogPort)
 
 	timeToInsert := time.Now()
 	timeToInsertForZero := timeToInsert.Add(1 * time.Second)
-	recordToInsertOne := zapsi_database.DevicePortDigitalRecord{DateTime: timeToInsert, Data: 1, DevicePortId: digitalPort.ID, Duration: time.Second * 9}
-	db.NewRecord(recordToInsertOne)
+	recordToInsertOne := database.DevicePortDigitalRecord{DateTime: timeToInsert, Data: 1, DevicePortID: int(digitalPort.ID)}
 	db.Create(&recordToInsertOne)
-	recordToInsertZero := zapsi_database.DevicePortDigitalRecord{DateTime: timeToInsertForZero, Data: 0, DevicePortId: digitalPort.ID, Duration: time.Second * 1}
-	db.NewRecord(recordToInsertZero)
+	recordToInsertZero := database.DevicePortDigitalRecord{DateTime: timeToInsertForZero, Data: 0, DevicePortID: int(digitalPort.ID)}
 	db.Create(&recordToInsertZero)
-	digitalPort.ActualData = "0"
-	digitalPort.ActualDataDateTime = timeToInsert
-	db.Save(&digitalPort)
 
 	min := 80
 	max := 100
 	randomNumber := rand.Intn(max-min) + min
-	recordToInsert := zapsi_database.DevicePortAnalogRecord{DateTime: timeToInsert, Data: float32(randomNumber), DevicePortId: analogPort.ID, Duration: time.Second * 10}
-	db.NewRecord(recordToInsert)
+	recordToInsert := database.DevicePortAnalogRecord{DateTime: timeToInsert, Data: float32(randomNumber), DevicePortID: int(analogPort.ID)}
 	db.Create(&recordToInsert)
-	analogPort.ActualData = strconv.Itoa(randomNumber)
-	analogPort.ActualDataDateTime = timeToInsert
-	db.Save(&analogPort)
 }
 
 func GenerateNewState() (actualCycle int, actualState string, totalCycles int) {

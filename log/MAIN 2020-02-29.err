@@ -1,6 +1,0 @@
-2020-02-29 10:00:04.515   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
-2020-02-29 10:00:04.522   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
-2020-02-29 10:00:04.527   MAIN   ERR   Problem opening zapsi4 database: pq: database "zapsi4" does not exist
-2020-02-29 10:00:38.245   MAIN   ERR   Problem opening zapsi3 database: dial tcp: lookup zapsi_database: no such host
-2020-02-29 10:00:38.249   MAIN   ERR   Problem opening zapsi3 database: dial tcp: lookup zapsi_database: no such host
-2020-02-29 10:00:38.252   MAIN   ERR   Problem opening zapsi3 database: dial tcp: lookup zapsi_database: no such host

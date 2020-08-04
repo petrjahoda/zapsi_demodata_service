@@ -1,25 +1,26 @@
 package main
 
 import (
-	"github.com/jinzhu/gorm"
 	"github.com/kardianos/service"
-	"github.com/petrjahoda/zapsi_database"
+	"github.com/petrjahoda/database"
+	"gorm.io/driver/postgres"
+	"gorm.io/gorm"
 	"strconv"
 	"sync"
 	"time"
 )
 
-const version = "2020.1.2.29"
+const version = "2020.3.2.4"
 const programName = "Zapsi Demodata Service"
-const programDesription = "Created demodata life it comes from Zapsi devices"
-const deleteLogsAfter = 240 * time.Hour
+const programDescription = "Created demodata life it comes from Zapsi devices"
 const downloadInSeconds = 10
+const config = "user=postgres password=Zps05..... dbname=version3 host=database port=5432 sslmode=disable"
 
 var serviceRunning = false
 
 var (
-	activeDevices  []zapsi_database.Device
-	runningDevices []zapsi_database.Device
+	activeDevices  []database.Device
+	runningDevices []database.Device
 	deviceSync     sync.Mutex
 )
 
@@ -34,11 +35,7 @@ func (p *program) Start(s service.Service) error {
 
 func (p *program) run() {
 	time.Sleep(2 * time.Second)
-	LogDirectoryFileCheck("MAIN")
 	LogInfo("MAIN", "Program version "+version+" started")
-	CreateConfigIfNotExists()
-	LoadSettingsFromConfigFile()
-	LogDebug("MAIN", "Using ["+DatabaseType+"] on "+DatabaseIpAddress+":"+DatabasePort+" with database "+DatabaseName)
 	for {
 		start := time.Now()
 		LogInfo("MAIN", "Program running")
@@ -47,7 +44,6 @@ func (p *program) run() {
 		if len(activeDevices) == 0 {
 			CreateDevicesAndWorkplaces()
 		}
-		DeleteOldLogFiles()
 		LogInfo("MAIN", "Active devices: "+strconv.Itoa(len(activeDevices))+", running devices: "+strconv.Itoa(len(runningDevices)))
 		for _, activeDevice := range activeDevices {
 			activeDeviceIsRunning := CheckDevice(activeDevice)
@@ -77,7 +73,7 @@ func main() {
 	serviceConfig := &service.Config{
 		Name:        programName,
 		DisplayName: programName,
-		Description: programDesription,
+		Description: programDescription,
 	}
 	prg := &program{}
 	s, err := service.New(prg, serviceConfig)
@@ -91,62 +87,62 @@ func main() {
 }
 
 func CreateDevicesAndWorkplaces() {
-	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
-	db, err := gorm.Open(dialect, connectionString)
+	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
-		LogError("MAIN", "Problem opening "+DatabaseName+" database: "+err.Error())
+		LogError("MAIN", "Problem opening database: "+err.Error())
 		return
 	}
-	defer db.Close()
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
 	for i := 0; i < 20; i++ {
 		AddTestWorkplace("MAIN", "CNC "+strconv.Itoa(i), "192.168.0."+strconv.Itoa(i))
 	}
 }
 
 func AddTestWorkplace(reference string, workplaceName string, ipAddress string) {
-	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
-	db, err := gorm.Open(dialect, connectionString)
+	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
-		LogError(reference, "Problem opening "+DatabaseName+" database: "+err.Error())
+		LogError(reference, "Problem opening database: "+err.Error())
 		return
 	}
-	defer db.Close()
-	var deviceType zapsi_database.DeviceType
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
+	var deviceType database.DeviceType
 	db.Where("name=?", "Zapsi").Find(&deviceType)
-	newDevice := zapsi_database.Device{Name: workplaceName, DeviceTypeId: deviceType.ID, IpAddress: ipAddress, TypeName: "Zapsi", Activated: true}
+	newDevice := database.Device{Name: workplaceName, DeviceTypeID: int(deviceType.ID), IpAddress: ipAddress, TypeName: "Zapsi", Activated: true}
 	db.Create(&newDevice)
-	var device zapsi_database.Device
+	var device database.Device
 	db.Where("name=?", workplaceName).Find(&device)
-	deviceDigitalPort := zapsi_database.DevicePort{Name: "Production", Unit: "ks", PortNumber: 1, DevicePortTypeId: 1, DeviceId: device.ID}
-	deviceAnalogPort := zapsi_database.DevicePort{Name: "Amperage", Unit: "A", PortNumber: 3, DevicePortTypeId: 2, DeviceId: device.ID}
+	deviceDigitalPort := database.DevicePort{Name: "Production", Unit: "ks", PortNumber: 1, DevicePortTypeID: 1, DeviceID: int(device.ID)}
+	deviceAnalogPort := database.DevicePort{Name: "Amperage", Unit: "A", PortNumber: 3, DevicePortTypeID: 2, DeviceID: int(device.ID)}
 	db.Create(&deviceDigitalPort)
 	db.Create(&deviceAnalogPort)
-	var section zapsi_database.WorkplaceSection
+	var section database.WorkplaceSection
 	db.Where("name=?", "Machines").Find(&section)
-	var state zapsi_database.State
+	var state database.State
 	db.Where("name=?", "Poweroff").Find(&state)
-	var mode zapsi_database.WorkplaceMode
+	var mode database.WorkplaceMode
 	db.Where("name=?", "Production").Find(&mode)
-	newWorkplace := zapsi_database.Workplace{Name: workplaceName, Code: workplaceName, WorkplaceSectionId: section.ID, ActualStateId: state.ID, ActualWorkplaceModeId: mode.ID}
+	newWorkplace := database.Workplace{Name: workplaceName, Code: workplaceName, WorkplaceSectionID: int(section.ID), WorkplaceModeID: int(mode.ID)}
 	db.Create(&newWorkplace)
-	var workplace zapsi_database.Workplace
+	var workplace database.Workplace
 	db.Where("name=?", workplaceName).Find(&workplace)
-	var devicePortDigital zapsi_database.DevicePort
+	var devicePortDigital database.DevicePort
 	db.Where("name=?", "Production").Where("device_id=?", device.ID).Find(&devicePortDigital)
-	var productionState zapsi_database.State
+	var productionState database.State
 	db.Where("name=?", "Production").Find(&productionState)
-	digitalPort := zapsi_database.WorkplacePort{Name: "Production", DevicePortId: devicePortDigital.ID, WorkplaceId: workplace.ID, StateId: productionState.ID, CounterOK: true}
+	digitalPort := database.WorkplacePort{Name: "Production", DevicePortID: int(devicePortDigital.ID), WorkplaceID: int(workplace.ID), StateID: int(productionState.ID), CounterOK: true}
 	db.Create(&digitalPort)
-	var devicePortAnalog zapsi_database.DevicePort
+	var devicePortAnalog database.DevicePort
 	db.Where("name=?", "Amperage").Where("device_id=?", device.ID).Find(&devicePortAnalog)
-	var poweroffState zapsi_database.State
+	var poweroffState database.State
 	db.Where("name=?", "Poweroff").Find(&poweroffState)
-	analogPort := zapsi_database.WorkplacePort{Name: "Amperage", DevicePortId: devicePortAnalog.ID, WorkplaceId: workplace.ID, StateId: poweroffState.ID}
+	analogPort := database.WorkplacePort{Name: "Amperage", DevicePortID: int(devicePortAnalog.ID), WorkplaceID: int(workplace.ID), StateID: int(poweroffState.ID)}
 	db.Create(&analogPort)
 
 }
 
-func CheckDevice(device zapsi_database.Device) bool {
+func CheckDevice(device database.Device) bool {
 	for _, runningDevice := range runningDevices {
 		if runningDevice.Name == device.Name {
 			return true
@@ -155,7 +151,7 @@ func CheckDevice(device zapsi_database.Device) bool {
 	return false
 }
 
-func RunDevice(device zapsi_database.Device) {
+func RunDevice(device database.Device) {
 	LogInfo(device.Name, "Device started running")
 	deviceSync.Lock()
 	runningDevices = append(runningDevices, device)
@@ -190,7 +186,7 @@ func RunDevice(device zapsi_database.Device) {
 
 }
 
-func Sleep(device zapsi_database.Device, start time.Time) {
+func Sleep(device database.Device, start time.Time) {
 	if time.Since(start) < (downloadInSeconds * time.Second) {
 		sleepTime := downloadInSeconds*time.Second - time.Since(start)
 		LogInfo(device.Name, "Sleeping for "+sleepTime.String())
@@ -198,7 +194,7 @@ func Sleep(device zapsi_database.Device, start time.Time) {
 	}
 }
 
-func CheckActive(device zapsi_database.Device) bool {
+func CheckActive(device database.Device) bool {
 	for _, activeDevice := range activeDevices {
 		if activeDevice.Name == device.Name {
 			LogInfo(device.Name, "Device still active")
@@ -209,7 +205,7 @@ func CheckActive(device zapsi_database.Device) bool {
 	return false
 }
 
-func RemoveDeviceFromRunningDevices(device zapsi_database.Device) {
+func RemoveDeviceFromRunningDevices(device database.Device) {
 	deviceSync.Lock()
 	for idx, runningDevice := range runningDevices {
 		if device.Name == runningDevice.Name {
@@ -220,32 +216,32 @@ func RemoveDeviceFromRunningDevices(device zapsi_database.Device) {
 }
 
 func UpdateActiveDevices(reference string) {
-	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
-	db, err := gorm.Open(dialect, connectionString)
+	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
-		LogError(reference, "Problem opening "+DatabaseName+" database: "+err.Error())
+		LogError(reference, "Problem opening database: "+err.Error())
 		activeDevices = nil
 		return
 	}
-	defer db.Close()
-	var deviceType zapsi_database.DeviceType
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
+	var deviceType database.DeviceType
 	db.Where("name=?", "Zapsi").Find(&deviceType)
-	db.Debug().Where("device_type_id=?", deviceType.ID).Where("activated = ?", "1").Find(&activeDevices)
-	LogDebug("MAIN", "Zapsi device type id is "+strconv.Itoa(int(deviceType.ID)))
+	db.Where("device_type_id=?", deviceType.ID).Where("activated = ?", "1").Find(&activeDevices)
+	LogInfo("MAIN", "Zapsi device type id is "+strconv.Itoa(int(deviceType.ID)))
 }
 
 func WriteProgramVersionIntoSettings() {
-	connectionString, dialect := zapsi_database.CheckDatabaseType(DatabaseType, DatabaseIpAddress, DatabasePort, DatabaseLogin, DatabaseName, DatabasePassword)
-	db, err := gorm.Open(dialect, connectionString)
+	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
-		LogError("MAIN", "Problem opening "+DatabaseName+" database: "+err.Error())
+		LogError("MAIN", "Problem opening  database: "+err.Error())
 		return
 	}
-	defer db.Close()
-	var settings zapsi_database.Setting
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
+	var settings database.Setting
 	db.Where("name=?", programName).Find(&settings)
 	settings.Name = programName
 	settings.Value = version
 	db.Save(&settings)
-	LogDebug("MAIN", "Updated version in database for "+programName)
+	LogInfo("MAIN", "Updated version in database for "+programName)
 }

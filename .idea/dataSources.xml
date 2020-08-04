@@ -1,29 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="zapsi4" uuid="ab36193a-2087-4d4c-b9e3-6069984fba23">
+    <data-source source="LOCAL" name="postgres@localhost" uuid="ed08342d-35cc-4062-a02c-f9fccf9fe212">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="zapsi3@localhost" uuid="44642e87-151b-476c-bf6a-abd059aa89c1">
-      <driver-ref>mysql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3308/zapsi3</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="@localhost [2]" uuid="db54c2a2-f1d1-412d-8325-d67cf3876eff">
-      <driver-ref>mariadb</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mariadb://localhost:3307</jdbc-url>
-    </data-source>
-    <data-source source="LOCAL" name="@localhost [3]" uuid="66d67ae9-5c34-4289-abcc-127041e28af9">
-      <driver-ref>sqlserver.ms</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
-      <jdbc-url>jdbc:sqlserver://localhost:1433</jdbc-url>
     </data-source>
   </component>
 </project>
