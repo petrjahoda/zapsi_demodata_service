@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-const version = "2020.3.2.22"
+const version = "2020.3.2.29"
 const programName = "Zapsi Demodata Service"
 const programDescription = "Created demodata life it comes from Zapsi devices"
 const downloadInSeconds = 10
@@ -27,7 +27,7 @@ var (
 type program struct{}
 
 func (p *program) Start(s service.Service) error {
-	LogInfo("MAIN", "Starting "+programName+" on "+s.Platform())
+	logInfo("MAIN", "Starting "+programName+" on "+s.Platform())
 	go p.run()
 	serviceRunning = true
 	return nil
@@ -35,25 +35,25 @@ func (p *program) Start(s service.Service) error {
 
 func (p *program) run() {
 	time.Sleep(2 * time.Second)
-	LogInfo("MAIN", "Program version "+version+" started")
+	logInfo("MAIN", "Program version "+version+" started")
 	for {
 		start := time.Now()
-		LogInfo("MAIN", "Program running")
-		WriteProgramVersionIntoSettings()
-		UpdateActiveDevices("MAIN")
+		logInfo("MAIN", "Program running")
+		writeProgramVersionIntoSettings()
+		updateActiveDevices("MAIN")
 		if len(activeDevices) == 0 {
-			CreateDevicesAndWorkplaces()
+			createDevicesAndWorkplaces()
 		}
-		LogInfo("MAIN", "Active devices: "+strconv.Itoa(len(activeDevices))+", running devices: "+strconv.Itoa(len(runningDevices)))
+		logInfo("MAIN", "Active devices: "+strconv.Itoa(len(activeDevices))+", running devices: "+strconv.Itoa(len(runningDevices)))
 		for _, activeDevice := range activeDevices {
-			activeDeviceIsRunning := CheckDevice(activeDevice)
+			activeDeviceIsRunning := checkDevice(activeDevice)
 			if !activeDeviceIsRunning {
-				go RunDevice(activeDevice)
+				go runDevice(activeDevice)
 			}
 		}
 		if time.Since(start) < (downloadInSeconds * time.Second) {
 			sleeptime := downloadInSeconds*time.Second - time.Since(start)
-			LogInfo("MAIN", "Sleeping for "+sleeptime.String())
+			logInfo("MAIN", "Sleeping for "+sleeptime.String())
 			time.Sleep(sleeptime)
 		}
 	}
@@ -62,10 +62,10 @@ func (p *program) run() {
 func (p *program) Stop(s service.Service) error {
 	serviceRunning = false
 	for len(runningDevices) != 0 {
-		LogInfo("MAIN", "Stopping, still running devices: "+strconv.Itoa(len(runningDevices)))
+		logInfo("MAIN", "Stopping, still running devices: "+strconv.Itoa(len(runningDevices)))
 		time.Sleep(1 * time.Second)
 	}
-	LogInfo("MAIN", "Stopped on platform "+s.Platform())
+	logInfo("MAIN", "Stopped on platform "+s.Platform())
 	return nil
 }
 
@@ -78,31 +78,31 @@ func main() {
 	prg := &program{}
 	s, err := service.New(prg, serviceConfig)
 	if err != nil {
-		LogError("MAIN", err.Error())
+		logError("MAIN", err.Error())
 	}
 	err = s.Run()
 	if err != nil {
-		LogError("MAIN", "Problem starting "+serviceConfig.Name)
+		logError("MAIN", "Problem starting "+serviceConfig.Name)
 	}
 }
 
-func CreateDevicesAndWorkplaces() {
+func createDevicesAndWorkplaces() {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
-		LogError("MAIN", "Problem opening database: "+err.Error())
+		logError("MAIN", "Problem opening database: "+err.Error())
 		return
 	}
 	sqlDB, err := db.DB()
 	defer sqlDB.Close()
 	for i := 0; i < 20; i++ {
-		AddTestWorkplace("MAIN", "CNC "+strconv.Itoa(i), "192.168.0."+strconv.Itoa(i))
+		addTestWorkplace("MAIN", "CNC "+strconv.Itoa(i), "192.168.0."+strconv.Itoa(i))
 	}
 }
 
-func AddTestWorkplace(reference string, workplaceName string, ipAddress string) {
+func addTestWorkplace(reference string, workplaceName string, ipAddress string) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
-		LogError(reference, "Problem opening database: "+err.Error())
+		logError(reference, "Problem opening database: "+err.Error())
 		return
 	}
 	sqlDB, err := db.DB()
@@ -142,7 +142,7 @@ func AddTestWorkplace(reference string, workplaceName string, ipAddress string) 
 
 }
 
-func CheckDevice(device database.Device) bool {
+func checkDevice(device database.Device) bool {
 	for _, runningDevice := range runningDevices {
 		if runningDevice.Name == device.Name {
 			return true
@@ -151,61 +151,61 @@ func CheckDevice(device database.Device) bool {
 	return false
 }
 
-func RunDevice(device database.Device) {
-	LogInfo(device.Name, "Device started running")
+func runDevice(device database.Device) {
+	logInfo(device.Name, "Device started running")
 	deviceSync.Lock()
 	runningDevices = append(runningDevices, device)
 	deviceSync.Unlock()
 	deviceIsActive := true
-	CreateDirectoryIfNotExists(device)
+	createDirectoryIfNotExists(device)
 	actualCycle := 0
 	totalCycles := 0
 	actualState := "poweroff"
 	for deviceIsActive && serviceRunning {
 		start := time.Now()
 		if actualCycle >= totalCycles {
-			actualCycle, actualState, totalCycles = GenerateNewState()
+			actualCycle, actualState, totalCycles = generateNewState()
 		}
 		switch actualState {
 		case "production":
-			LogInfo(device.Name, "Production -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
-			GenerateProductionData(device)
+			logInfo(device.Name, "Production -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
+			generateProductionData(device)
 		case "downtime":
-			LogInfo(device.Name, "Downtime -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
-			GenerateDowntimeData(device)
+			logInfo(device.Name, "Downtime -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
+			generateDowntimeData(device)
 		case "poweroff":
-			LogInfo(device.Name, "Poweroff -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
+			logInfo(device.Name, "Poweroff -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
 		}
-		LogInfo(device.Name, "Processing takes "+time.Since(start).String())
-		Sleep(device, start)
-		deviceIsActive = CheckActive(device)
+		logInfo(device.Name, "Processing takes "+time.Since(start).String())
+		sleep(device, start)
+		deviceIsActive = checkActive(device)
 		actualCycle++
 	}
-	RemoveDeviceFromRunningDevices(device)
-	LogInfo(device.Name, "Device not active, stopped running")
+	removeDeviceFromRunningDevices(device)
+	logInfo(device.Name, "Device not active, stopped running")
 
 }
 
-func Sleep(device database.Device, start time.Time) {
+func sleep(device database.Device, start time.Time) {
 	if time.Since(start) < (downloadInSeconds * time.Second) {
 		sleepTime := downloadInSeconds*time.Second - time.Since(start)
-		LogInfo(device.Name, "Sleeping for "+sleepTime.String())
+		logInfo(device.Name, "Sleeping for "+sleepTime.String())
 		time.Sleep(sleepTime)
 	}
 }
 
-func CheckActive(device database.Device) bool {
+func checkActive(device database.Device) bool {
 	for _, activeDevice := range activeDevices {
 		if activeDevice.Name == device.Name {
-			LogInfo(device.Name, "Device still active")
+			logInfo(device.Name, "Device still active")
 			return true
 		}
 	}
-	LogInfo(device.Name, "Device not active")
+	logInfo(device.Name, "Device not active")
 	return false
 }
 
-func RemoveDeviceFromRunningDevices(device database.Device) {
+func removeDeviceFromRunningDevices(device database.Device) {
 	deviceSync.Lock()
 	for idx, runningDevice := range runningDevices {
 		if device.Name == runningDevice.Name {
@@ -215,10 +215,10 @@ func RemoveDeviceFromRunningDevices(device database.Device) {
 	deviceSync.Unlock()
 }
 
-func UpdateActiveDevices(reference string) {
+func updateActiveDevices(reference string) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
-		LogError(reference, "Problem opening database: "+err.Error())
+		logError(reference, "Problem opening database: "+err.Error())
 		activeDevices = nil
 		return
 	}
@@ -227,13 +227,13 @@ func UpdateActiveDevices(reference string) {
 	var deviceType database.DeviceType
 	db.Where("name=?", "Zapsi").Find(&deviceType)
 	db.Where("device_type_id=?", deviceType.ID).Where("activated = ?", "1").Find(&activeDevices)
-	LogInfo("MAIN", "Zapsi device type id is "+strconv.Itoa(int(deviceType.ID)))
+	logInfo("MAIN", "Zapsi device type id is "+strconv.Itoa(int(deviceType.ID)))
 }
 
-func WriteProgramVersionIntoSettings() {
+func writeProgramVersionIntoSettings() {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
-		LogError("MAIN", "Problem opening  database: "+err.Error())
+		logError("MAIN", "Problem opening  database: "+err.Error())
 		return
 	}
 	sqlDB, err := db.DB()
@@ -243,5 +243,5 @@ func WriteProgramVersionIntoSettings() {
 	settings.Name = programName
 	settings.Value = version
 	db.Save(&settings)
-	LogInfo("MAIN", "Updated version in database for "+programName)
+	logInfo("MAIN", "Updated version in database for "+programName)
 }

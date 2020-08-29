@@ -21,11 +21,11 @@ require (
 	github.com/shopspring/decimal v1.2.0 // indirect
 	github.com/stretchr/testify v1.6.1 // indirect
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a // indirect
-	golang.org/x/sys v0.0.0-20200821140526-fda516888d29 // indirect
+	golang.org/x/sys v0.0.0-20200828194041-157a740278f4 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/yaml.v2 v2.3.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200615113413-eeeca48fe776 // indirect
-	gorm.io/driver/postgres v0.2.7
-	gorm.io/gorm v0.2.35
+	gorm.io/driver/postgres v1.0.0
+	gorm.io/gorm v1.9.19
 )

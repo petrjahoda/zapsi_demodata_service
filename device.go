@@ -11,27 +11,27 @@ import (
 	"time"
 )
 
-func CreateDirectoryIfNotExists(device database.Device) {
+func createDirectoryIfNotExists(device database.Device) {
 	deviceDirectory := filepath.Join(".", strconv.Itoa(int(device.ID))+"-"+device.Name)
 	if _, checkPathError := os.Stat(deviceDirectory); checkPathError == nil {
-		LogInfo(device.Name, "Device directory exists")
+		logInfo(device.Name, "Device directory exists")
 	} else if os.IsNotExist(checkPathError) {
-		LogInfo(device.Name, "Device directory not exist, creating")
+		logInfo(device.Name, "Device directory not exist, creating")
 		mkdirError := os.MkdirAll(deviceDirectory, 0777)
 		if mkdirError != nil {
-			LogError(device.Name, "Unable to create device directory: "+mkdirError.Error())
+			logError(device.Name, "Unable to create device directory: "+mkdirError.Error())
 		} else {
-			LogInfo(device.Name, "Device directory created")
+			logInfo(device.Name, "Device directory created")
 		}
 	} else {
-		LogError(device.Name, "Device directory does not exist")
+		logError(device.Name, "Device directory does not exist")
 	}
 }
 
-func GenerateDowntimeData(device database.Device) {
+func generateDowntimeData(device database.Device) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
-		LogError("MAIN", "Problem opening  database: "+err.Error())
+		logError("MAIN", "Problem opening  database: "+err.Error())
 		return
 	}
 	sqlDB, err := db.DB()
@@ -49,10 +49,10 @@ func GenerateDowntimeData(device database.Device) {
 	db.Create(&recordToInsert)
 }
 
-func GenerateProductionData(device database.Device) {
+func generateProductionData(device database.Device) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
-		LogError("MAIN", "Problem opening database: "+err.Error())
+		logError("MAIN", "Problem opening database: "+err.Error())
 		return
 	}
 	sqlDB, err := db.DB()
@@ -78,7 +78,7 @@ func GenerateProductionData(device database.Device) {
 	db.Create(&recordToInsert)
 }
 
-func GenerateNewState() (actualCycle int, actualState string, totalCycles int) {
+func generateNewState() (actualCycle int, actualState string, totalCycles int) {
 	min := 1
 	max := 4
 	randomNumber := rand.Intn(max-min) + min
