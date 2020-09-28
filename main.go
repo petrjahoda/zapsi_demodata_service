@@ -14,7 +14,7 @@ const version = "2020.3.3.28"
 const programName = "Zapsi Demodata Service"
 const programDescription = "Created demodata life it comes from Zapsi devices"
 const downloadInSeconds = 10
-const config = "user=postgres password=Zps05..... dbname=version3 host=database port=5432 sslmode=disable"
+const config = "user=postgres password=Zps05..... dbname=version3 host=localhost port=5432 sslmode=disable"
 
 var serviceRunning = false
 
@@ -43,6 +43,7 @@ func (p *program) run() {
 		updateActiveDevices("MAIN")
 		if len(activeDevices) == 0 {
 			createDevicesAndWorkplaces()
+			createTerminals()
 		}
 		logInfo("MAIN", "Active devices: "+strconv.Itoa(len(activeDevices))+", running devices: "+strconv.Itoa(len(runningDevices)))
 		for _, activeDevice := range activeDevices {
@@ -57,6 +58,39 @@ func (p *program) run() {
 			time.Sleep(sleeptime)
 		}
 	}
+
+}
+
+func createTerminals() {
+	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	if err != nil {
+		logError("MAIN", "Problem opening database: "+err.Error())
+		return
+	}
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
+	for i := 0; i < 20; i++ {
+		addTerminalWithWorkplace("MAIN", "CNC Terminal "+strconv.Itoa(i), "192.168.1."+strconv.Itoa(i), i)
+	}
+}
+
+func addTerminalWithWorkplace(reference string, workplaceName string, ipAddress string, i int) {
+	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	if err != nil {
+		logError(reference, "Problem opening database: "+err.Error())
+		return
+	}
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
+	var deviceType database.DeviceType
+	db.Where("name=?", "Zapsi Touch").Find(&deviceType)
+	newTerminal := database.Device{Name: workplaceName, DeviceTypeID: int(deviceType.ID), IpAddress: ipAddress, TypeName: "Zapsi Touch", Activated: true}
+	db.Create(&newTerminal)
+	newRecord := database.DeviceWorkplaceRecord{
+		DeviceID:    int(newTerminal.ID),
+		WorkplaceID: i,
+	}
+	db.Create(&newRecord)
 
 }
 func (p *program) Stop(s service.Service) error {
@@ -139,7 +173,6 @@ func addDeviceWithWorkplace(reference string, workplaceName string, ipAddress st
 	db.Where("name=?", "Poweroff").Find(&poweroffState)
 	analogPort := database.WorkplacePort{Name: "Amperage", DevicePortID: int(devicePortAnalog.ID), WorkplaceID: int(workplace.ID), StateID: int(poweroffState.ID)}
 	db.Create(&analogPort)
-
 }
 
 func checkDevice(device database.Device) bool {
@@ -226,7 +259,7 @@ func updateActiveDevices(reference string) {
 	defer sqlDB.Close()
 	var deviceType database.DeviceType
 	db.Where("name=?", "Zapsi").Find(&deviceType)
-	db.Where("device_type_id=?", deviceType.ID).Where("activated = ?", "1").Find(&activeDevices)
+	db.Where("activated = ?", "1").Find(&activeDevices)
 	logInfo("MAIN", "Zapsi device type id is "+strconv.Itoa(int(deviceType.ID)))
 }
 

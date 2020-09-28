@@ -20,6 +20,9 @@ adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html) rules.
 - updated readme.md
 - updated dockerfile
 
+### Added
+- creating terminals and link them with workplaces
+
 ## [2020.3.2.22] - 2020-08-29
 
 ### Changed
