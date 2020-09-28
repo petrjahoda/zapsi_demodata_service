@@ -109,7 +109,7 @@ func createTerminals(reference string) {
 	db.Where("device_type_id=?", deviceType.ID).Where("activated = ?", "1").Find(&activeTerminals)
 	if len(activeTerminals) == 0 {
 		logInfo("MAIN", "Creating terminals")
-		for i := 0; i < 20; i++ {
+		for i := 1; i <= 20; i++ {
 			addTerminalWithWorkplace("MAIN", "CNC Terminal "+strconv.Itoa(i), "192.168.1."+strconv.Itoa(i), i)
 		}
 	}
