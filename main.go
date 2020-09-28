@@ -42,6 +42,7 @@ func (p *program) run() {
 		writeProgramVersionIntoSettings()
 		createDevicesAndWorkplaces("MAIN")
 		createTerminals("MAIN")
+		createWorkshiftsForWorkplaces("MAIN")
 		logInfo("MAIN", "Active devices: "+strconv.Itoa(len(activeDevices))+", running devices: "+strconv.Itoa(len(runningDevices)))
 		for _, activeDevice := range activeDevices {
 			activeDeviceIsRunning := checkDevice(activeDevice)
@@ -58,7 +59,25 @@ func (p *program) run() {
 
 }
 
-func createTerminals(reference string) {
+func createWorkshiftsForWorkplaces(reference string) {
+	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	if err != nil {
+		logError(reference, "Problem opening database: "+err.Error())
+		return
+	}
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
+	var workplaceWorkShifts []database.WorkplaceWorkshift
+	db.Find(&workplaceWorkShifts)
+	if len(workplaceWorkShifts) == 0 {
+		logInfo("MAIN", "Creating workplace workshifts")
+		for i := 1; i <= 20; i++ {
+			createWorkshiftsForWorkplace(reference, i)
+		}
+	}
+}
+
+func createWorkshiftsForWorkplace(reference string, workplaceId int) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
 		logError(reference, "Problem opening database: "+err.Error())
@@ -67,12 +86,29 @@ func createTerminals(reference string) {
 	}
 	sqlDB, err := db.DB()
 	defer sqlDB.Close()
+	for i := 1; i <= 3; i++ {
+		newWorkplaceWorkshift := database.WorkplaceWorkshift{
+			WorkplaceID: workplaceId,
+			WorkshiftID: i,
+		}
+		db.Create(&newWorkplaceWorkshift)
+	}
+}
+
+func createTerminals(reference string) {
+	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	if err != nil {
+		logError(reference, "Problem opening database: "+err.Error())
+		return
+	}
+	sqlDB, err := db.DB()
+	defer sqlDB.Close()
 	var deviceType database.DeviceType
 	db.Where("name=?", "Zapsi Touch").Find(&deviceType)
 	var activeTerminals []database.Device
 	db.Where("device_type_id=?", deviceType.ID).Where("activated = ?", "1").Find(&activeTerminals)
-	logInfo("MAIN", "Zapsi device type id is "+strconv.Itoa(int(deviceType.ID)))
-	if len(activeTerminals) == 9 {
+	if len(activeTerminals) == 0 {
+		logInfo("MAIN", "Creating terminals")
 		for i := 0; i < 20; i++ {
 			addTerminalWithWorkplace("MAIN", "CNC Terminal "+strconv.Itoa(i), "192.168.1."+strconv.Itoa(i), i)
 		}
@@ -137,9 +173,9 @@ func createDevicesAndWorkplaces(reference string) {
 	var deviceType database.DeviceType
 	db.Where("name=?", "Zapsi").Find(&deviceType)
 	db.Where("device_type_id=?", deviceType.ID).Where("activated = ?", "1").Find(&activeDevices)
-	logInfo("MAIN", "Zapsi device type id is "+strconv.Itoa(int(deviceType.ID)))
 	defer sqlDB.Close()
 	if len(activeDevices) == 0 {
+		logInfo("MAIN", "Creating devices")
 		for i := 0; i < 20; i++ {
 			addDeviceWithWorkplace("MAIN", "CNC "+strconv.Itoa(i), "192.168.0."+strconv.Itoa(i))
 		}
