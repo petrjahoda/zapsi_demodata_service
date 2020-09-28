@@ -19,6 +19,7 @@ adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html) rules.
 ### Changed
 - updated readme.md
 - updated dockerfile
+- updated create.sh script
 
 ### Added
 - creating terminals and link them with workplaces
