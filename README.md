@@ -26,10 +26,20 @@ Zapsi_demodata_service has to be running.
 
 
 ## Additional information
-* creates 20 devices with device ports
-* creates 20 workplaces with workplace ports
-* creates 20 terminals and link them with workplaces
-* links workplaces with workshifts
+* creates 20 devices in ```device``` table
+* creates device ports for those devices in ```device_ports``` table
+* creates 20 workplaces in ```workplace``` table and link them with workshifts in ```workplace_workshifts``` table
+* creates workplace ports in ```workplace_ports``` tables and link them with device ports
+* creates 20 terminals ```device``` table and link them with workplaces in ```device_workplace``` table
 
+
+Devices example
+![Devices](devices.png)
+
+Device Workplaces example
+![DeviceWorkplaces](device_workplaces.png)
+
+Workplace Workshifts example
+![WorkplaceWorkshofts](workplace_workshifts.png)
 
 © 2020 Petr Jahoda

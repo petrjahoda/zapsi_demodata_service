@@ -24,6 +24,7 @@ adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html) rules.
 ### Added
 - creating terminals and link them with workplaces
 - creating proper workplace workshifts
+- screenshots
 
 ## [2020.3.2.22] - 2020-08-29
 
