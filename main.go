@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-const version = "2020.3.2.29"
+const version = "2020.3.3.28"
 const programName = "Zapsi Demodata Service"
 const programDescription = "Created demodata life it comes from Zapsi devices"
 const downloadInSeconds = 10
@@ -95,11 +95,11 @@ func createDevicesAndWorkplaces() {
 	sqlDB, err := db.DB()
 	defer sqlDB.Close()
 	for i := 0; i < 20; i++ {
-		addTestWorkplace("MAIN", "CNC "+strconv.Itoa(i), "192.168.0."+strconv.Itoa(i))
+		addDeviceWithWorkplace("MAIN", "CNC "+strconv.Itoa(i), "192.168.0."+strconv.Itoa(i))
 	}
 }
 
-func addTestWorkplace(reference string, workplaceName string, ipAddress string) {
+func addDeviceWithWorkplace(reference string, workplaceName string, ipAddress string) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
 	if err != nil {
 		logError(reference, "Problem opening database: "+err.Error())
