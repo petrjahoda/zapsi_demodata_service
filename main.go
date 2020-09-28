@@ -239,7 +239,6 @@ func runDevice(device database.Device) {
 	runningDevices = append(runningDevices, device)
 	deviceSync.Unlock()
 	deviceIsActive := true
-	createDirectoryIfNotExists(device)
 	actualCycle := 0
 	totalCycles := 0
 	actualState := "poweroff"
@@ -295,21 +294,6 @@ func removeDeviceFromRunningDevices(device database.Device) {
 		}
 	}
 	deviceSync.Unlock()
-}
-
-func updateActiveDevices(reference string) {
-	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
-	if err != nil {
-		logError(reference, "Problem opening database: "+err.Error())
-		activeDevices = nil
-		return
-	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
-	var deviceType database.DeviceType
-	db.Where("name=?", "Zapsi").Find(&deviceType)
-	db.Where("device_type_id=?", deviceType.ID).Where("activated = ?", "1").Find(&activeDevices)
-	logInfo("MAIN", "Zapsi device type id is "+strconv.Itoa(int(deviceType.ID)))
 }
 
 func writeProgramVersionIntoSettings() {

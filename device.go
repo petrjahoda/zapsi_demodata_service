@@ -5,28 +5,8 @@ import (
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"math/rand"
-	"os"
-	"path/filepath"
-	"strconv"
 	"time"
 )
-
-func createDirectoryIfNotExists(device database.Device) {
-	deviceDirectory := filepath.Join(".", strconv.Itoa(int(device.ID))+"-"+device.Name)
-	if _, checkPathError := os.Stat(deviceDirectory); checkPathError == nil {
-		logInfo(device.Name, "Device directory exists")
-	} else if os.IsNotExist(checkPathError) {
-		logInfo(device.Name, "Device directory not exist, creating")
-		mkdirError := os.MkdirAll(deviceDirectory, 0777)
-		if mkdirError != nil {
-			logError(device.Name, "Unable to create device directory: "+mkdirError.Error())
-		} else {
-			logInfo(device.Name, "Device directory created")
-		}
-	} else {
-		logError(device.Name, "Device directory does not exist")
-	}
-}
 
 func generateDowntimeData(device database.Device) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
@@ -63,14 +43,12 @@ func generateProductionData(device database.Device) {
 	db.Where("device_id=?", device.ID).Where("name=?", "Production").Find(&digitalPort)
 	var analogPort database.DevicePort
 	db.Where("device_id=?", device.ID).Where("name=?", "Amperage").Find(&analogPort)
-
 	timeToInsert := time.Now()
 	timeToInsertForZero := timeToInsert.Add(1 * time.Second)
 	recordToInsertOne := database.DevicePortDigitalRecord{DateTime: timeToInsert, Data: 1, DevicePortID: int(digitalPort.ID)}
 	db.Create(&recordToInsertOne)
 	recordToInsertZero := database.DevicePortDigitalRecord{DateTime: timeToInsertForZero, Data: 0, DevicePortID: int(digitalPort.ID)}
 	db.Create(&recordToInsertZero)
-
 	min := 80
 	max := 100
 	randomNumber := rand.Intn(max-min) + min
