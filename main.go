@@ -10,11 +10,12 @@ import (
 	"time"
 )
 
-const version = "2020.3.3.28"
+const version = "2020.4.1.1"
 const programName = "Zapsi Demodata Service"
 const programDescription = "Created demodata life it comes from Zapsi devices"
 const downloadInSeconds = 10
 const config = "user=postgres password=Zps05..... dbname=version3 host=database port=5432 sslmode=disable"
+const numberOfDevicesToCreate = 20
 
 var serviceRunning = false
 
@@ -71,7 +72,7 @@ func createWorkshiftsForWorkplaces(reference string) {
 	db.Find(&workplaceWorkShifts)
 	if len(workplaceWorkShifts) == 0 {
 		logInfo("MAIN", "Creating workplace workshifts")
-		for i := 1; i <= 20; i++ {
+		for i := 1; i <= numberOfDevicesToCreate; i++ {
 			createWorkshiftsForWorkplace(reference, i)
 		}
 	}
@@ -109,7 +110,7 @@ func createTerminals(reference string) {
 	db.Where("device_type_id=?", deviceType.ID).Where("activated = ?", "1").Find(&activeTerminals)
 	if len(activeTerminals) == 0 {
 		logInfo("MAIN", "Creating terminals")
-		for i := 1; i <= 20; i++ {
+		for i := 1; i <= numberOfDevicesToCreate; i++ {
 			addTerminalWithWorkplace("MAIN", "CNC Terminal "+strconv.Itoa(i), "192.168.1."+strconv.Itoa(i), i)
 		}
 	}
@@ -176,7 +177,7 @@ func createDevicesAndWorkplaces(reference string) {
 	defer sqlDB.Close()
 	if len(activeDevices) == 0 {
 		logInfo("MAIN", "Creating devices")
-		for i := 0; i < 20; i++ {
+		for i := 0; i < numberOfDevicesToCreate; i++ {
 			addDeviceWithWorkplace("MAIN", "CNC "+strconv.Itoa(i), "192.168.0."+strconv.Itoa(i))
 		}
 	}

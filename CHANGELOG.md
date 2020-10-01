@@ -14,6 +14,11 @@ adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html) rules.
 * ```Fixed``` for any bug fixes.
 * ```Security``` in case of vulnerabilities.
 
+## [2020.4.1.1] - 2020-10-1
+
+### Changed
+- constant number for creating devices and workplaces
+
 ## [2020.3.3.28] - 2020-09-28
 
 ### Changed
@@ -24,7 +29,6 @@ adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html) rules.
 ### Added
 - creating terminals and link them with workplaces
 - creating proper workplace workshifts
-- screenshots
 
 ## [2020.3.2.22] - 2020-08-29
 
