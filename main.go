@@ -10,7 +10,7 @@ import (
 	"time"
 )
 
-const version = "2020.4.1.1"
+const version = "2020.4.1.26"
 const programName = "Zapsi Demodata Service"
 const programDescription = "Created demodata life it comes from Zapsi devices"
 const downloadInSeconds = 10
@@ -62,12 +62,12 @@ func (p *program) run() {
 
 func createWorkshiftsForWorkplaces(reference string) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError(reference, "Problem opening database: "+err.Error())
 		return
 	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	var workplaceWorkShifts []database.WorkplaceWorkshift
 	db.Find(&workplaceWorkShifts)
 	if len(workplaceWorkShifts) == 0 {
@@ -80,13 +80,13 @@ func createWorkshiftsForWorkplaces(reference string) {
 
 func createWorkshiftsForWorkplace(reference string, workplaceId int) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError(reference, "Problem opening database: "+err.Error())
 		activeDevices = nil
 		return
 	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	for i := 1; i <= 3; i++ {
 		newWorkplaceWorkshift := database.WorkplaceWorkshift{
 			WorkplaceID: workplaceId,
@@ -98,12 +98,12 @@ func createWorkshiftsForWorkplace(reference string, workplaceId int) {
 
 func createTerminals(reference string) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError(reference, "Problem opening database: "+err.Error())
 		return
 	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	var deviceType database.DeviceType
 	db.Where("name=?", "Zapsi Touch").Find(&deviceType)
 	var activeTerminals []database.Device
@@ -118,12 +118,12 @@ func createTerminals(reference string) {
 
 func addTerminalWithWorkplace(reference string, workplaceName string, ipAddress string, i int) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError(reference, "Problem opening database: "+err.Error())
 		return
 	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	var deviceType database.DeviceType
 	db.Where("name=?", "Zapsi Touch").Find(&deviceType)
 	newTerminal := database.Device{Name: workplaceName, DeviceTypeID: int(deviceType.ID), IpAddress: ipAddress, TypeName: "Zapsi Touch", Activated: true}
@@ -164,13 +164,13 @@ func main() {
 
 func createDevicesAndWorkplaces(reference string) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError(reference, "Problem opening database: "+err.Error())
 		activeDevices = nil
 		return
 	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	var deviceType database.DeviceType
 	db.Where("name=?", "Zapsi").Find(&deviceType)
 	db.Where("device_type_id=?", deviceType.ID).Where("activated = ?", "1").Find(&activeDevices)
@@ -185,12 +185,12 @@ func createDevicesAndWorkplaces(reference string) {
 
 func addDeviceWithWorkplace(reference string, workplaceName string, ipAddress string) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError(reference, "Problem opening database: "+err.Error())
 		return
 	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	var deviceType database.DeviceType
 	db.Where("name=?", "Zapsi").Find(&deviceType)
 	newDevice := database.Device{Name: workplaceName, DeviceTypeID: int(deviceType.ID), IpAddress: ipAddress, TypeName: "Zapsi", Activated: true}
@@ -299,12 +299,12 @@ func removeDeviceFromRunningDevices(device database.Device) {
 
 func writeProgramVersionIntoSettings() {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError("MAIN", "Problem opening  database: "+err.Error())
 		return
 	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	var settings database.Setting
 	db.Where("name=?", programName).Find(&settings)
 	settings.Name = programName

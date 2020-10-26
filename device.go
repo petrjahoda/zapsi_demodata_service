@@ -10,12 +10,12 @@ import (
 
 func generateDowntimeData(device database.Device) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError("MAIN", "Problem opening  database: "+err.Error())
 		return
 	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	var deviceToReturn database.Device
 	db.Where("name=?", device.Name).Find(&deviceToReturn)
 	var analogPort database.DevicePort
@@ -31,12 +31,12 @@ func generateDowntimeData(device database.Device) {
 
 func generateProductionData(device database.Device) {
 	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
 	if err != nil {
 		logError("MAIN", "Problem opening database: "+err.Error())
 		return
 	}
-	sqlDB, err := db.DB()
-	defer sqlDB.Close()
 	var deviceToReturn database.Device
 	db.Where("name=?", device.Name).Find(&deviceToReturn)
 	var digitalPort database.DevicePort
