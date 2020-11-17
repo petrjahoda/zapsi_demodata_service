@@ -17,7 +17,7 @@ const version = "2020.4.2.17"
 const programName = "Zapsi Demodata Service"
 const programDescription = "Created demodata life it comes from Zapsi devices"
 const downloadInSeconds = 10
-const config = "user=postgres password=Zps05..... dbname=version3 host=localhost port=5432 sslmode=disable"
+const config = "user=postgres password=Zps05..... dbname=version3 host=database port=5432 sslmode=disable"
 const numberOfDevicesToCreate = 20
 
 var serviceRunning = false
