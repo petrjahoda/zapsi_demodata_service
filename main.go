@@ -248,7 +248,7 @@ func addAdditionalDowntimes() {
 		logError("MAIN", "Problem opening  database: "+err.Error())
 		return
 	}
-	var downtimeRecords []database.DowntimeRecord
+	var downtimeRecords []database.Downtime
 	db.Find(&downtimeRecords)
 	if len(downtimeRecords) == 1 {
 		var smoking database.Downtime
