@@ -13,7 +13,7 @@ import (
 	"time"
 )
 
-const version = "2020.4.2.17"
+const version = "2020.4.2.24"
 const programName = "Zapsi Demodata Service"
 const programDescription = "Created demodata life it comes from Zapsi devices"
 const downloadInSeconds = 10
@@ -40,6 +40,7 @@ func (p *program) Start(s service.Service) error {
 func (p *program) run() {
 	time.Sleep(2 * time.Second)
 	logInfo("MAIN", "Program version "+version+" started")
+
 	for {
 		start := time.Now()
 		logInfo("MAIN", "Program running")
@@ -58,9 +59,9 @@ func (p *program) run() {
 		addAdditionalProducts()
 		addAdditionalOrders()
 		addAdditionalUsers()
-		go updateDowntimeRecords()
-		go updateOrderRecords()
-		go updateUserRecords()
+		updateDowntimeRecords()
+		updateOrderRecords()
+		updateUserRecords()
 		if time.Since(start) < (downloadInSeconds * time.Second) {
 			sleeptime := downloadInSeconds*time.Second - time.Since(start)
 			logInfo("MAIN", "Sleeping for "+sleeptime.String())
