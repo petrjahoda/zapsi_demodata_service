@@ -13,11 +13,11 @@ import (
 	"time"
 )
 
-const version = "2020.4.3.14"
+const version = "2021.1.2.21"
 const programName = "Zapsi Demodata Service"
 const programDescription = "Created demodata life it comes from Zapsi devices"
 const downloadInSeconds = 10
-const config = "user=postgres password=Zps05..... dbname=version3 host=database port=5432 sslmode=disable"
+const config = "user=postgres password=pj79.. dbname=system host=database port=5432 sslmode=disable"
 const numberOfDevicesToCreate = 20
 
 var serviceRunning = false
