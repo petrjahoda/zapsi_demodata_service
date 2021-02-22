@@ -2,25 +2,12 @@ package main
 
 import (
 	"github.com/petrjahoda/database"
-	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"math/rand"
 	"time"
 )
 
-func generateDowntimeData(device database.Device) {
-	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
-	sqlDB, _ := db.DB()
-	defer sqlDB.Close()
-	if err != nil {
-		logError("MAIN", "Problem opening  database: "+err.Error())
-		return
-	}
-	var deviceToReturn database.Device
-	db.Where("name=?", device.Name).Find(&deviceToReturn)
-	var analogPort database.DevicePort
-	db.Where("device_id=?", device.ID).Where("name=?", "Amperage").Find(&analogPort)
-
+func generateDowntimeData(db *gorm.DB, analogPort database.DevicePort) {
 	timeToInsert := time.Now()
 	min := 80
 	max := 100
@@ -29,20 +16,7 @@ func generateDowntimeData(device database.Device) {
 	db.Create(&recordToInsert)
 }
 
-func generateProductionData(device database.Device) {
-	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
-	sqlDB, _ := db.DB()
-	defer sqlDB.Close()
-	if err != nil {
-		logError("MAIN", "Problem opening database: "+err.Error())
-		return
-	}
-	var deviceToReturn database.Device
-	db.Where("name=?", device.Name).Find(&deviceToReturn)
-	var digitalPort database.DevicePort
-	db.Where("device_id=?", device.ID).Where("name=?", "Production").Find(&digitalPort)
-	var analogPort database.DevicePort
-	db.Where("device_id=?", device.ID).Where("name=?", "Amperage").Find(&analogPort)
+func generateProductionData(db *gorm.DB, digitalPort database.DevicePort, analogPort database.DevicePort) {
 	timeToInsert := time.Now()
 	timeToInsertForZero := timeToInsert.Add(1 * time.Second)
 	recordToInsertOne := database.DevicePortDigitalRecord{DateTime: timeToInsert, Data: 1, DevicePortID: int(digitalPort.ID)}

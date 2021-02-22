@@ -13,7 +13,7 @@ import (
 	"time"
 )
 
-const version = "2021.1.2.21"
+const version = "2021.1.2.22"
 const programName = "Zapsi Demodata Service"
 const programDescription = "Created demodata life it comes from Zapsi devices"
 const downloadInSeconds = 10
@@ -40,14 +40,13 @@ func (p *program) Start(s service.Service) error {
 func (p *program) run() {
 	time.Sleep(2 * time.Second)
 	logInfo("MAIN", "Program version "+version+" started")
-
+	writeProgramVersionIntoSettings()
+	createDevicesAndWorkplaces("MAIN")
+	createTerminals("MAIN")
+	createWorkshiftsForWorkplaces("MAIN")
 	for {
 		start := time.Now()
 		logInfo("MAIN", "Program running")
-		writeProgramVersionIntoSettings()
-		createDevicesAndWorkplaces("MAIN")
-		createTerminals("MAIN")
-		createWorkshiftsForWorkplaces("MAIN")
 		logInfo("MAIN", "Active devices: "+strconv.Itoa(len(activeDevices))+", running devices: "+strconv.Itoa(len(runningDevices)))
 		for _, activeDevice := range activeDevices {
 			activeDeviceIsRunning := checkDevice(activeDevice)
@@ -55,13 +54,13 @@ func (p *program) run() {
 				go runDevice(activeDevice)
 			}
 		}
-		addAdditionalDowntimes()
-		addAdditionalProducts()
-		addAdditionalOrders()
-		addAdditionalUsers()
-		updateDowntimeRecords()
-		updateOrderRecords()
-		updateUserRecords()
+		//addAdditionalDowntimes()
+		//addAdditionalProducts()
+		//addAdditionalOrders()
+		//addAdditionalUsers()
+		//updateDowntimeRecords()
+		//updateOrderRecords()
+		//updateUserRecords()
 		if time.Since(start) < (downloadInSeconds * time.Second) {
 			sleeptime := downloadInSeconds*time.Second - time.Since(start)
 			logInfo("MAIN", "Sleeping for "+sleeptime.String())
@@ -474,6 +473,16 @@ func runDevice(device database.Device) {
 	actualCycle := 0
 	totalCycles := 0
 	actualState := "poweroff"
+	db, err := gorm.Open(postgres.Open(config), &gorm.Config{})
+	sqlDB, _ := db.DB()
+	defer sqlDB.Close()
+	if err != nil {
+		logError("MAIN", "Problem opening database: "+err.Error())
+	}
+	var digitalPort database.DevicePort
+	db.Where("device_id=?", device.ID).Where("name=?", "Production").Find(&digitalPort)
+	var analogPort database.DevicePort
+	db.Where("device_id=?", device.ID).Where("name=?", "Amperage").Find(&analogPort)
 	for deviceIsActive && serviceRunning {
 		start := time.Now()
 		if actualCycle >= totalCycles {
@@ -482,10 +491,10 @@ func runDevice(device database.Device) {
 		switch actualState {
 		case "production":
 			logInfo(device.Name, "Production -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
-			generateProductionData(device)
+			generateProductionData(db, digitalPort, analogPort)
 		case "downtime":
 			logInfo(device.Name, "Downtime -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
-			generateDowntimeData(device)
+			generateDowntimeData(db, analogPort)
 		case "poweroff":
 			logInfo(device.Name, "Poweroff -> "+strconv.Itoa(actualCycle)+" of "+strconv.Itoa(totalCycles))
 		}
